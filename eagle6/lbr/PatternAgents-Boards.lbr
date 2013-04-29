@@ -2749,7 +2749,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="34.417" y="52.324" size="1.016" layer="21" font="vector" ratio="12" rot="R90">B</text>
 <text x="31.877" y="52.324" size="1.016" layer="21" font="vector" ratio="12" rot="R90">C</text>
 <text x="29.337" y="52.324" size="1.016" layer="21" font="vector" ratio="12" rot="R90">D</text>
-<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
+<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RST</text>
 <text x="36.068" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">3V3</text>
 <text x="38.608" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">5V0</text>
 <text x="41.148" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">GND</text>
@@ -2829,7 +2829,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="IOREF" x="30.48" y="2.54" drill="1.016" rot="R90"/>
 <rectangle x1="30.226" y1="2.286" x2="30.734" y2="2.794" layer="51"/>
 <rectangle x1="27.686" y1="2.286" x2="28.194" y2="2.794" layer="51"/>
-<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOREF</text>
+<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOR</text>
 <text x="28.448" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RFU</text>
 <wire x1="68.58" y1="37.846" x2="68.58" y2="5.08" width="0.254" layer="20"/>
 <wire x1="1.27" y1="0" x2="65.024" y2="0" width="0.254" layer="20"/>
@@ -4669,7 +4669,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="58.928" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">A9</text>
 <text x="61.468" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">AA</text>
 <text x="63.881" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">AB</text>
-<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
+<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RST</text>
 <text x="36.068" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">3V3</text>
 <text x="38.608" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">5V0</text>
 <text x="41.148" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">GND</text>
@@ -4749,7 +4749,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="IOREF" x="30.48" y="2.54" drill="1.016" rot="R90"/>
 <rectangle x1="30.226" y1="2.286" x2="30.734" y2="2.794" layer="51"/>
 <rectangle x1="27.686" y1="2.286" x2="28.194" y2="2.794" layer="51"/>
-<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOREF</text>
+<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOR</text>
 <text x="28.448" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RFU</text>
 <wire x1="0" y1="52.07" x2="0" y2="1.27" width="0.254" layer="20"/>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="20" curve="-90"/>
@@ -5223,7 +5223,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="58.928" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">A9</text>
 <text x="61.468" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">AA</text>
 <text x="63.881" y="6.6294" size="1.016" layer="21" font="vector" ratio="12" rot="R90">AB</text>
-<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
+<text x="33.528" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RST</text>
 <text x="36.068" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">3V3</text>
 <text x="38.608" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">5V0</text>
 <text x="41.148" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">GND</text>
@@ -5303,7 +5303,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="IOREF" x="30.48" y="2.54" drill="1.016" rot="R90"/>
 <rectangle x1="30.226" y1="2.286" x2="30.734" y2="2.794" layer="51"/>
 <rectangle x1="27.686" y1="2.286" x2="28.194" y2="2.794" layer="51"/>
-<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOREF</text>
+<text x="30.988" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOR</text>
 <text x="28.448" y="4.0894" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RFU</text>
 <wire x1="0" y1="52.07" x2="0" y2="1.27" width="0.254" layer="20"/>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="20" curve="-90"/>
