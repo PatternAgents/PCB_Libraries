@@ -3,7 +3,7 @@ PCB_Libraries
 
 PatternAgents PCB Layout Libraries
 
-[![PatternAgents PCB Layout Libraries](http://www.patternagents.com/images/logos/logo128x128.png)  
+[![PatternAgents PCB Layout Libraries](http://www.patternagents.com/img/logos/pa_logo_trans.png)  
 *PatternAgents PCB Layout Libraries*](http://www.patternagents.com)
 
 PatternAgents PCB layout libraries and component footprints for various PCB layout Packages.
@@ -38,7 +38,7 @@ All PatternAgents commercial licenses expressly supersede the GPLv3 open source 
 This means that when you license the PatternAgents software under a commercial license, 
 you specifically do not use the software under the open source license and therefore you are not subject to any of its terms.
         
-If you would like to use our designs for your own personal or educational use, have at at! 
+If you would like to use our designs for your own personal or educational use, have at it! 
 
 Our public design repository is available at <a href="https://github.com/patternagents">Github</a>.
 
