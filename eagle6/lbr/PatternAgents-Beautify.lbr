@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -171,10 +171,10 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="DGND" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.635" y="0" size="0.8128" layer="94">DGND</text>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0.635" y="-1.905" size="0.8128" layer="94">DGND</text>
 </symbol>
 <symbol name="FRAME_ASIZE_LANDSCAPE">
 <description>&lt;B&gt;Schematic  Frame : A Size , 8 1/2 x 11 inch, Landscape&lt;/B&gt;
@@ -251,11 +251,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">1.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">1.0V</text>
 </symbol>
 <symbol name="N12V0">
 <description>&lt;B&gt;Negative 12.0V Power Supply Symbol&lt;/B&gt;
@@ -272,11 +272,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N12V0" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-12.0V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N12V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-12.0V</text>
 </symbol>
 <symbol name="EGND">
 <description>&lt;B&gt;Earth Ground Power Supply Symbol&lt;/B&gt;
@@ -293,12 +293,12 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.27" y1="-1.397" x2="1.27" y2="-1.397" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-2.159" x2="0.635" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
-<text x="-4.445" y="-5.334" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="EGND" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.635" y="0" size="0.8128" layer="94">EGND</text>
+<wire x1="-1.27" y1="-3.302" x2="1.27" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-4.064" x2="0.635" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<text x="-4.445" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="EGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0.635" y="-1.905" size="0.8128" layer="94">EGND</text>
 </symbol>
 <symbol name="AGND">
 <description>&lt;B&gt;Analog Ground Power Supply Symbol&lt;/B&gt;
@@ -315,12 +315,12 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.27" y1="-0.635" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.905" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.667" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="AGND" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.635" y="0" size="0.8128" layer="94">AGND</text>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<text x="-2.667" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0.635" y="-1.905" size="0.8128" layer="94">AGND</text>
 </symbol>
 <symbol name="VSS">
 <description>&lt;B&gt;VSS Symbol&lt;/B&gt;
@@ -337,13 +337,13 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.27" y1="1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.905" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VSS" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.905" y="0" size="0.8128" layer="94">VSS</text>
+<wire x1="-1.27" y1="-0.635" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VSS" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.905" y="-2.54" size="0.8128" layer="94">VSS</text>
 </symbol>
 <symbol name="VDD">
 <description>&lt;B&gt;VDD Symbol&lt;/B&gt;
@@ -360,13 +360,13 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">VDD</text>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="2.54" size="0.8128" layer="94">VDD</text>
 </symbol>
 <symbol name="CGND">
 <description>&lt;B&gt;Chassis Ground Power Supply Symbol&lt;/B&gt;
@@ -383,16 +383,16 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.905" y1="-0.635" x2="-0.762" y2="-0.635" width="0.254" layer="94"/>
-<text x="-4.445" y="-5.334" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CGND" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<wire x1="-0.762" y1="-0.635" x2="0.762" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-0.635" x2="-0.508" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="2.032" y1="-0.635" x2="3.556" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.635" x2="0.762" y2="-2.159" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="2.286" y2="-2.159" width="0.254" layer="94"/>
-<text x="0.635" y="0" size="0.8128" layer="94">CGND</text>
+<wire x1="-1.905" y1="-2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<text x="-4.445" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-2.54" x2="-0.508" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.54" x2="3.556" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="2.286" y2="-4.064" width="0.254" layer="94"/>
+<text x="0.635" y="-1.905" size="0.8128" layer="94">CGND</text>
 </symbol>
 <symbol name="GND">
 <description>&lt;B&gt;Ground Symbol&lt;/B&gt;
@@ -409,10 +409,10 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.635" y="0.635" size="0.8128" layer="94">GND</text>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0.635" y="-1.905" size="0.8128" layer="94">GND</text>
 </symbol>
 <symbol name="VCC">
 <description>&lt;B&gt;VCC Symbol&lt;/B&gt;
@@ -429,13 +429,13 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">VCC</text>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="2.54" size="0.8128" layer="94">VCC</text>
 </symbol>
 <symbol name="VPP">
 <description>&lt;B&gt;VPP Symbol&lt;/B&gt;
@@ -452,10 +452,10 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VPP" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="2.54" y="0" size="0.8128" layer="94">VPP</text>
+<circle x="0" y="3.81" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="5.715" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VPP" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="2.54" y="2.54" size="0.8128" layer="94">VPP</text>
 </symbol>
 <symbol name="VCCIO">
 <description>&lt;B&gt;VCCIO Symbol&lt;/B&gt;
@@ -472,13 +472,13 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCCIO" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
-<text x="1.27" y="0" size="0.8128" layer="94">VCCIO</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCCIO" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="1.27" y="2.54" size="0.8128" layer="94">VCCIO</text>
 </symbol>
 <symbol name="THERMAL">
 <description>&lt;B&gt;Thermal Symbol&lt;/B&gt;
@@ -495,13 +495,13 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="THERMAL" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<wire x1="-1.905" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.905" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="THERMAL" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="GNDIO">
 <description>&lt;B&gt;GNDIO Symbol&lt;/B&gt;
@@ -518,10 +518,10 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-1.905" y1="-0.254" x2="1.905" y2="0.254" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GNDIO" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.635" y="1.27" size="0.6096" layer="94">GNDIO</text>
+<wire x1="-1.905" y1="-2.794" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GNDIO" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0.635" y="-1.27" size="0.6096" layer="94">GNDIO</text>
 </symbol>
 <symbol name="N5V0">
 <description>&lt;B&gt;Negative 5.0V Power Supply Symbol&lt;/B&gt;
@@ -538,11 +538,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N5V0" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-5.0V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N5V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-5.0V</text>
 </symbol>
 <symbol name="N15V0">
 <description>&lt;B&gt;Negative 15.0V Power Supply Symbol&lt;/B&gt;
@@ -559,11 +559,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N15V0" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-15.0V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N15V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-15.0V</text>
 </symbol>
 <symbol name="N1V25">
 <description>&lt;B&gt;Negative 1.25V Power Supply Symbol&lt;/B&gt;
@@ -580,11 +580,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N1V25" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-1.25V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N1V25" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-1.25V</text>
 </symbol>
 <symbol name="1V25">
 <description>&lt;B&gt;1.25V Power Supply Symbol&lt;/B&gt;
@@ -601,11 +601,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1V25" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">1.25V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1V25" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">1.25V</text>
 </symbol>
 <symbol name="1V5">
 <description>&lt;B&gt;1.5V Power Supply Symbol&lt;/B&gt;
@@ -622,11 +622,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1V5" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">1.5V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1V5" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">1.5V</text>
 </symbol>
 <symbol name="1V8">
 <description>&lt;B&gt;1.8V Power Supply Symbol&lt;/B&gt;
@@ -643,11 +643,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1V8" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">1.8V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1V8" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">1.8V</text>
 </symbol>
 <symbol name="2V5">
 <description>&lt;B&gt;2.5V Power Supply Symbol&lt;/B&gt;
@@ -664,11 +664,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2V5" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">2.5V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2V5" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">2.5V</text>
 </symbol>
 <symbol name="3V0">
 <description>&lt;B&gt;3.0V Power Supply Symbol&lt;/B&gt;
@@ -685,11 +685,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">3.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">3.0V</text>
 </symbol>
 <symbol name="3V3">
 <description>&lt;B&gt;3.3V Power Supply Symbol&lt;/B&gt;
@@ -706,11 +706,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3V3" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">3.3V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">3.3V</text>
 </symbol>
 <symbol name="5V0">
 <description>&lt;B&gt;5.0V Power Supply Symbol&lt;/B&gt;
@@ -727,11 +727,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">5.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="5V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">5.0V</text>
 </symbol>
 <symbol name="FRAME_BSIZE_LANDSCAPE">
 <frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
@@ -760,11 +760,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="9V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">9.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="9V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">9.0V</text>
 </symbol>
 <symbol name="12V0">
 <description>&lt;B&gt;12.0V Power Supply Symbol&lt;/B&gt;
@@ -781,11 +781,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="12V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">12.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="12V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">12.0V</text>
 </symbol>
 <symbol name="15V0">
 <description>&lt;B&gt;15.0V Power Supply Symbol&lt;/B&gt;
@@ -802,11 +802,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="15V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">15.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="15V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">15.0V</text>
 </symbol>
 <symbol name="24V0">
 <description>&lt;B&gt;24.0V Power Supply Symbol&lt;/B&gt;
@@ -823,11 +823,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="24V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">24.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="24V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">24.0V</text>
 </symbol>
 <symbol name="48V0">
 <description>&lt;B&gt;48.0V Power Supply Symbol&lt;/B&gt;
@@ -844,11 +844,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="48V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">48.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="48V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">48.0V</text>
 </symbol>
 <symbol name="N48V0">
 <description>&lt;B&gt;Negative 48.0V Power Supply Symbol&lt;/B&gt;
@@ -865,11 +865,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N48V0" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-48.0V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N48V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-48.0V</text>
 </symbol>
 <symbol name="N18V0">
 <description>&lt;B&gt;Negative 18.0V Power Supply Symbol&lt;/B&gt;
@@ -886,11 +886,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="-0.762" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="N18V0" x="0" y="1.905" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="1.27" y="-0.635" size="0.8128" layer="94">-18.0V</text>
+<wire x1="0.762" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N18V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="94">-18.0V</text>
 </symbol>
 <symbol name="18V0">
 <description>&lt;B&gt;18.0V Power Supply Symbol&lt;/B&gt;
@@ -907,11 +907,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="18V0" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">18.0V</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="18V0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">18.0V</text>
 </symbol>
 <symbol name="USB_VBUS">
 <description>&lt;B&gt;USB_VBUS (5.0V) Power Supply Symbol&lt;/B&gt;
@@ -928,11 +928,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="USB_VBUS" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">USB_VBUS</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="USB_VBUS" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">USB_VBUS</text>
 </symbol>
 <symbol name="VIN">
 <description>&lt;B&gt;VIN (9-16V) Power Supply Symbol&lt;/B&gt;
@@ -949,11 +949,11 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0.762" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VIN" x="0" y="-1.27" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="0" size="0.8128" layer="94">VIN</text>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.27" y="1.27" size="0.8128" layer="94">VIN</text>
 </symbol>
 <symbol name="NOTES">
 <description>&lt;B&gt;Schematic Notes Field&lt;/B&gt;
