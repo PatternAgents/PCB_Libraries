@@ -3,7 +3,7 @@ PCB_Libraries
 
 PatternAgents PCB Layout Libraries
 
-[![PatternAgents PCB Layout Libraries](http://www.patternagents.com/img/logos/site_logo.png)  
+[![PatternAgents PCB Layout Libraries](http://www.patternagents.com/img/logos/apple-touch-icon.png)  
 *PatternAgents PCB Layout Libraries*](http://www.patternagents.com)
 
 PatternAgents PCB layout libraries and component footprints for various PCB layout Packages.
