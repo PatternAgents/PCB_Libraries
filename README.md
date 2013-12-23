@@ -18,9 +18,37 @@ Organizing by (and ordering by) manufacturer specific part numbers will help
 to insure that you get exactly the part you were expecting.
 
 <P> 
-License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">PatternAgents EagleCad Libraries</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/PatternAgents" property="cc:attributionName" rel="cc:attributionURL">PatternAgents, LLC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/PatternAgents" rel="dct:source">https://github.com/PatternAgents</a>.
-<P> 
+
+[![Licensing CC BY-NC-SA 4.0](http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)  
+*Licensing CC BY-NC-SA 4.0*](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+PatternAgents uses the increasingly popular business model called "Dual Licensing" 
+in which both the open source software distribution mechanism and traditional commercial software distribution models are combined.
+
+Open Source Projects:        
+
+If you are developing and distributing open source applications under the Creative Commons CC BY-NC-SA 4.0, 
+as published by the Creative Commons Foundation, then you are free to use the PatternAgents hardware/software under the CC BY-NC-SA 4.0 license. 
+Please note that CC BY-NC-SA 4.0 requires that all modifications to the original code as well as all Derivative Works 
+must also be released under the terms of the CC BY-NC-SA 4.0 license.
+
+Closed Source Projects:
+
+If you are developing and distributing traditional closed source or commercial applications, 
+you must purchase a PatternAgents commercial use license, 
+which is specifically designed for users interested in retaining the proprietary status of their designs and code. 
+All PatternAgents commercial licenses expressly supersede the CC BY-NC-SA 4.0 license. 
+This means that when you license the PatternAgents software under a commercial license, 
+you specifically do not use the software under the CC BY-NC-SA 4.0 license and therefore you are not subject to any of its terms.
+        
+If you would like to use our designs for your own personal or educational use, have at it! 
+
+Our public design repository is available at <a href="https://github.com/patternagents">Github</a>.
+
+If you would like to produce our designs for commercial use, or as products for sale, 
+please contact us to arrange for a Commercial Use license. We have many other designs, 
+as well as options and extras that are not released publicly. 
+We will also customize designs, firmware, and software for a reasonable fee, just contact us to discuss your requirements.
 
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
