@@ -25,7 +25,7 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 
 It may be used for Educational, Personal, or Commercial Use, provided you keep these notices,
 attribution, and share-alike. When you apply these licenses to material you create, 
-it meets the Freedom Defined definition of a “Free Cultural Work.” 
+it meets the Freedom Defined definition of a "Free Cultural Work". 
 Free cultural works are the ones that can be most readily used, shared, 
 and remixed by others, and go furthest toward creating a commons of freely reusable materials.
 
