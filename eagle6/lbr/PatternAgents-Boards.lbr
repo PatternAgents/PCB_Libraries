@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -142,7 +142,7 @@ OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABIL
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;P&gt;</description>
 <packages>
-<package name="PA_DUE_PATTERN">
+<package name="PA_DUE">
 <description>&lt;b&gt;PatternAgents Due Shield Pattern&lt;/b&gt;
 &lt;br&gt;
 (Compatible with Arduino Due)
@@ -947,7 +947,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="ICSP_RESET" x="63.627" y="25.4" drill="1.016"/>
 <pad name="GND@5" x="66.167" y="25.4" drill="1.016"/>
 </package>
-<package name="PA_LEO_PATTERN">
+<package name="PA_LEO">
 <description>&lt;b&gt;PatternAgents Leo Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -1312,7 +1312,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="60.452" y="26.162" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 </package>
-<package name="PA_LIBERTA_PATTERN">
+<package name="PA_LIBERTA">
 <description>&lt;b&gt;PatternAgents Liberta' Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -1911,7 +1911,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="60.452" y="26.162" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 </package>
-<package name="PA_LIBERTA_MED_PATTERN">
+<package name="PA_LIBERTA_MED">
 <description>&lt;b&gt;PatternAgents Liberta' (Medium) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -2543,7 +2543,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="61.595" y="54.864" size="1.016" layer="21" font="vector" ratio="12" rot="R90">TX</text>
 <text x="64.135" y="54.864" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RD</text>
 </package>
-<package name="PA_DONA_PATTERN">
+<package name="PA_DONA">
 <description>&lt;b&gt;PatternAgents Dona Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -3091,7 +3091,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 <text x="28.321" y="0.254" size="1.016" layer="21" font="vector" ratio="12" rot="R90">U</text>
 </package>
-<package name="PA_LEO_MED_PATTERN">
+<package name="PA_LEO_MED">
 <description>&lt;b&gt;PatternAgents Leo (Medium) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -3456,7 +3456,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="62.992" y="26.162" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="68.199" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 </package>
-<package name="PA_LIBERTA_LRG_PATTERN">
+<package name="PA_LIBERTA_LRG">
 <description>&lt;b&gt;PatternAgents Liberta' (Large) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -4090,7 +4090,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <hole x="90.17" y="53.34" drill="3.2"/>
 <hole x="96.52" y="5.08" drill="3.2"/>
 </package>
-<package name="PA_LEO_LRG_PATTERN">
+<package name="PA_LEO_LRG">
 <description>&lt;b&gt;PatternAgents Leo (Large) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -4457,7 +4457,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="62.992" y="26.162" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="68.199" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 </package>
-<package name="PA_DONA_MED_PATTERN">
+<package name="PA_DONA_MED">
 <description>&lt;b&gt;PatternAgents Dona (Medium) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -5011,7 +5011,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 <text x="28.321" y="0.254" size="1.016" layer="21" font="vector" ratio="12" rot="R90">U</text>
 </package>
-<package name="PA_DONA_LRG_PATTERN">
+<package name="PA_DONA_LRG">
 <description>&lt;b&gt;PatternAgents Dona (Large) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -5567,7 +5567,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 <text x="28.321" y="0.254" size="1.016" layer="21" font="vector" ratio="12" rot="R90">U</text>
 </package>
-<package name="PA_LEO_MEDW_PATTERN">
+<package name="PA_LEO_MEDW">
 <description>&lt;b&gt;PatternAgents Leo (Medium/Wide) Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -5932,7 +5932,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="62.992" y="27.432" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="68.199" y="34.1376" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
 </package>
-<package name="PA_VIDERE_PATTERN">
+<package name="PA_VIDERE">
 <description>&lt;b&gt;PatternAgents Videre Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -7448,7 +7448,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <circle x="52.705" y="3.937" radius="1.942725" width="0.254" layer="21"/>
 <circle x="52.705" y="3.937" radius="1.92185625" width="0.254" layer="22"/>
 </package>
-<package name="PA_MIKROBUS_PATTERN">
+<package name="PA_MIKROBUS">
 <description>&lt;b&gt;PatternAgents Mikrobus Socket Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -8506,8 +8506,16 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="10.16" y1="-12.7" x2="-12.7" y2="-12.7" width="0.2032" layer="22"/>
 <wire x1="-12.7" y1="-12.7" x2="-12.7" y2="-10.16" width="0.2032" layer="22"/>
 <text x="-2.7178" y="-10.0838" size="1.27" layer="26" font="vector" ratio="10" rot="MR180">&gt;NAME</text>
+<wire x1="-13.97" y1="11.43" x2="-11.43" y2="14.605" width="0.2032" layer="20" curve="-98.057987"/>
+<wire x1="-13.97" y1="11.43" x2="-13.97" y2="-11.303" width="0.2032" layer="20"/>
+<wire x1="-11.43" y1="-13.97" x2="-13.97" y2="-11.303" width="0.2032" layer="20" curve="-92.862405"/>
+<wire x1="-11.43" y1="-13.97" x2="11.43" y2="-13.97" width="0.2032" layer="20"/>
+<wire x1="13.97" y1="-11.43" x2="11.43" y2="-13.97" width="0.2032" layer="20" curve="-84.547378"/>
+<wire x1="13.97" y1="11.303" x2="13.97" y2="-11.43" width="0.2032" layer="20"/>
+<wire x1="11.303" y1="14.605" x2="13.97" y2="11.303" width="0.2032" layer="20" curve="-92.461667"/>
+<wire x1="-11.43" y1="14.605" x2="11.303" y2="14.605" width="0.254" layer="20"/>
 </package>
-<package name="PA_LEO_PATTERN_NO_DIM">
+<package name="PA_LEO_NO_DIM">
 <description>&lt;b&gt;PatternAgents Leo Shield Pattern (No Dimension Layer)&lt;/b&gt;
 &lt;p&gt;
 Use this pattern when you want to embed an Arduino compatible shield pattern inside a larger board outline.
@@ -8864,7 +8872,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </package>
 </packages>
 <symbols>
-<symbol name="PA_DUE_PATTERN">
+<symbol name="PA_DUE">
 <description>&lt;b&gt;PatternAgents Due Shield Pattern&lt;/b&gt;
 &lt;br&gt;
 (Compatible with Arduino Due)
@@ -8981,7 +8989,7 @@ Due
 Shield
 Pattern</text>
 </symbol>
-<symbol name="PA_LEO_PATTERN">
+<symbol name="PA_LEO">
 <description>&lt;b&gt;PatternAgents Leo Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -9042,7 +9050,7 @@ Pattern</text>
 <pin name="ICSP_MISO" x="25.4" y="35.56" length="middle" rot="R180"/>
 <pin name="ICSP_MOSI" x="25.4" y="38.1" length="middle" rot="R180"/>
 </symbol>
-<symbol name="PA_LIBERTA_PATTERN">
+<symbol name="PA_LIBERTA">
 <description>&lt;b&gt;PatternAgents Liberta' Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -9139,7 +9147,7 @@ Pattern</text>
 <pin name="GND@2" x="25.4" y="58.42" length="middle" rot="R180"/>
 <pin name="VRF" x="25.4" y="86.36" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="PA_DONA_PATTERN">
+<symbol name="PA_DONA">
 <description>&lt;b&gt;PatternAgents Dona Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -9228,7 +9236,7 @@ Pattern</text>
 <text x="4.445" y="19.685" size="1.27" layer="94" font="vector" ratio="15">SCL1</text>
 <text x="4.445" y="17.145" size="1.27" layer="94" font="vector" ratio="15">SDA1</text>
 </symbol>
-<symbol name="PA_VIDERE_PATTERN">
+<symbol name="PA_VIDERE">
 <description>&lt;b&gt;PatternAgents Videre Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -9285,7 +9293,7 @@ Pattern</text>
 <pin name="A6" x="-25.4" y="-20.32" length="middle"/>
 <pin name="A7" x="-25.4" y="-22.86" length="middle"/>
 </symbol>
-<symbol name="PA_MINNOW_LURE_PATTERN">
+<symbol name="PA_MINNOW_LURE">
 <description>&lt;b&gt;PatternAgents Minnow Lure Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -9412,7 +9420,7 @@ Connector</text>
 <text x="-27.94" y="109.22" size="1.778" layer="95" font="vector" ratio="15">&gt;NAME</text>
 <text x="-20.32" y="102.87" size="1.778" layer="94" font="vector" ratio="15">http://www.minnowboard.org</text>
 </symbol>
-<symbol name="PA_MIKROBUS_PATTERN">
+<symbol name="PA_MIKROBUS">
 <description>&lt;b&gt;PatternAgents Mikrobus Socket Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10044,7 +10052,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PA_DUE_PATTERN" prefix="G">
+<deviceset name="PA_DUE_BRD" prefix="G">
 <description>&lt;b&gt;PatternAgents Due Shield Pattern&lt;/b&gt;
 &lt;br&gt;
 (Compatible with Arduino Due)
@@ -10059,10 +10067,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="G$1" symbol="PA_DUE_PATTERN" x="0" y="0"/>
+<gate name="G$1" symbol="PA_DUE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PA_DUE_PATTERN">
+<device name="" package="PA_DUE">
 <connects>
 <connect gate="G$1" pin="(CAN1_TX)53" pad="53"/>
 <connect gate="G$1" pin="(I2C0_SCL)21" pad="21"/>
@@ -10163,7 +10171,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_LEO_PATTERN" prefix="LEO">
+<deviceset name="PA_LEO_BRD" prefix="LEO">
 <description>&lt;b&gt;PatternAgents Leo Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10176,10 +10184,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="LEO" symbol="PA_LEO_PATTERN" x="0" y="0"/>
+<gate name="LEO" symbol="PA_LEO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PA_LEO_PATTERN">
+<device name="" package="PA_LEO">
 <connects>
 <connect gate="LEO" pin="(RX0)0" pad="0"/>
 <connect gate="LEO" pin="(TX0)1" pad="1"/>
@@ -10224,7 +10232,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="_MED" package="PA_LEO_MED_PATTERN">
+<device name="_MED" package="PA_LEO_MED">
 <connects>
 <connect gate="LEO" pin="(RX0)0" pad="0"/>
 <connect gate="LEO" pin="(TX0)1" pad="1"/>
@@ -10269,7 +10277,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="_LRG" package="PA_LEO_LRG_PATTERN">
+<device name="_LRG" package="PA_LEO_LRG">
 <connects>
 <connect gate="LEO" pin="(RX0)0" pad="0"/>
 <connect gate="LEO" pin="(TX0)1" pad="1"/>
@@ -10314,7 +10322,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="_MEDW" package="PA_LEO_MEDW_PATTERN">
+<device name="_MEDW" package="PA_LEO_MEDW">
 <connects>
 <connect gate="LEO" pin="(RX0)0" pad="0"/>
 <connect gate="LEO" pin="(TX0)1" pad="1"/>
@@ -10359,7 +10367,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="_NO_DIM" package="PA_LEO_PATTERN_NO_DIM">
+<device name="_NO_DIM" package="PA_LEO_NO_DIM">
 <connects>
 <connect gate="LEO" pin="(RX0)0" pad="0"/>
 <connect gate="LEO" pin="(TX0)1" pad="1"/>
@@ -10406,7 +10414,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_LIBERTA_PATTERN" uservalue="yes">
+<deviceset name="PA_LIBERTA_BRD" uservalue="yes">
 <description>&lt;b&gt;PatternAgents Liberta' Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10419,10 +10427,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="G$1" symbol="PA_LIBERTA_PATTERN" x="0" y="-30.48"/>
+<gate name="G$1" symbol="PA_LIBERTA" x="0" y="-30.48"/>
 </gates>
 <devices>
-<device name="MED" package="PA_LIBERTA_MED_PATTERN">
+<device name="MED" package="PA_LIBERTA_MED">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10499,7 +10507,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="PA_LIBERTA_PATTERN">
+<device name="" package="PA_LIBERTA">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10576,7 +10584,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="LRG" package="PA_LIBERTA_LRG_PATTERN">
+<device name="LRG" package="PA_LIBERTA_LRG">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10655,7 +10663,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_DONA_PATTERN">
+<deviceset name="PA_DONA_BRD">
 <description>&lt;b&gt;PatternAgents Dona Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10668,10 +10676,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="G$1" symbol="PA_DONA_PATTERN" x="0" y="0"/>
+<gate name="G$1" symbol="PA_DONA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PA_DONA_PATTERN">
+<device name="" package="PA_DONA">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10740,7 +10748,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="MED" package="PA_DONA_MED_PATTERN">
+<device name="MED" package="PA_DONA_MED">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10809,7 +10817,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="LRG" package="PA_DONA_LRG_PATTERN">
+<device name="LRG" package="PA_DONA_LRG">
 <connects>
 <connect gate="G$1" pin="3V3@0" pad="3V3"/>
 <connect gate="G$1" pin="5V0@0" pad="5V0@0"/>
@@ -10880,7 +10888,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_VIDERE_PATTERN" prefix="U">
+<deviceset name="PA_VIDERE_BRD" prefix="U">
 <description>&lt;b&gt;PatternAgents Videre Shield Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10893,10 +10901,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="G$1" symbol="PA_VIDERE_PATTERN" x="0" y="0"/>
+<gate name="G$1" symbol="PA_VIDERE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PA_VIDERE_PATTERN">
+<device name="" package="PA_VIDERE">
 <connects>
 <connect gate="G$1" pin="(RX0)0" pad="0"/>
 <connect gate="G$1" pin="(TX0)1" pad="1"/>
@@ -10939,7 +10947,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_MINNOW_LURE_PATTERN" prefix="J">
+<deviceset name="PA_MINNOW_LURE_BRD" prefix="LURE">
 <description>&lt;b&gt;PatternAgents Minnow Lure Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -10958,111 +10966,111 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="J1" symbol="PA_MINNOW_LURE_PATTERN" x="0" y="0"/>
+<gate name="LURE" symbol="PA_MINNOW_LURE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_TYPE_A" package="PA_LURE_TYPE_A">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91"/>
-<connect gate="J1" pin="CAN_RX" pad="30"/>
-<connect gate="J1" pin="CAN_TX" pad="28"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69"/>
-<connect gate="J1" pin="GND@11" pad="11"/>
-<connect gate="J1" pin="GND@14" pad="14"/>
-<connect gate="J1" pin="GND@17" pad="17"/>
-<connect gate="J1" pin="GND@20" pad="20"/>
-<connect gate="J1" pin="GND@23" pad="23"/>
-<connect gate="J1" pin="GND@26" pad="26"/>
-<connect gate="J1" pin="GND@29" pad="29"/>
-<connect gate="J1" pin="GND@32" pad="32"/>
-<connect gate="J1" pin="GND@35" pad="35"/>
-<connect gate="J1" pin="GND@38" pad="38"/>
-<connect gate="J1" pin="GND@41" pad="41"/>
-<connect gate="J1" pin="GND@44" pad="44"/>
-<connect gate="J1" pin="GND@49" pad="49"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GND@50" pad="50"/>
-<connect gate="J1" pin="GND@56" pad="56"/>
-<connect gate="J1" pin="GND@62" pad="62"/>
-<connect gate="J1" pin="GND@65" pad="65"/>
-<connect gate="J1" pin="GPIO0" pad="75"/>
-<connect gate="J1" pin="GPIO1" pad="77"/>
-<connect gate="J1" pin="GPIO2" pad="79"/>
-<connect gate="J1" pin="GPIO3" pad="81"/>
-<connect gate="J1" pin="GPIO4" pad="83"/>
-<connect gate="J1" pin="GPIO5" pad="85"/>
-<connect gate="J1" pin="GPIO6" pad="87"/>
-<connect gate="J1" pin="GPIO7" pad="89"/>
-<connect gate="J1" pin="HDA_CLK" pad="4"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12"/>
-<connect gate="J1" pin="HDA_SDO" pad="10"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9"/>
-<connect gate="J1" pin="PWROK" pad="3"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76"/>
-<connect gate="J1" pin="SDIO_WP" pad="78"/>
-<connect gate="J1" pin="SMB_CLK" pad="25"/>
-<connect gate="J1" pin="SMB_DAT" pad="27"/>
-<connect gate="J1" pin="UART1_RX" pad="55"/>
-<connect gate="J1" pin="UART1_TX" pad="53"/>
-<connect gate="J1" pin="UART2_RX" pad="59"/>
-<connect gate="J1" pin="UART2_TX" pad="57"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45"/>
-<connect gate="J1" pin="VBUS4" pad="47"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91"/>
+<connect gate="LURE" pin="CAN_RX" pad="30"/>
+<connect gate="LURE" pin="CAN_TX" pad="28"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69"/>
+<connect gate="LURE" pin="GND@11" pad="11"/>
+<connect gate="LURE" pin="GND@14" pad="14"/>
+<connect gate="LURE" pin="GND@17" pad="17"/>
+<connect gate="LURE" pin="GND@20" pad="20"/>
+<connect gate="LURE" pin="GND@23" pad="23"/>
+<connect gate="LURE" pin="GND@26" pad="26"/>
+<connect gate="LURE" pin="GND@29" pad="29"/>
+<connect gate="LURE" pin="GND@32" pad="32"/>
+<connect gate="LURE" pin="GND@35" pad="35"/>
+<connect gate="LURE" pin="GND@38" pad="38"/>
+<connect gate="LURE" pin="GND@41" pad="41"/>
+<connect gate="LURE" pin="GND@44" pad="44"/>
+<connect gate="LURE" pin="GND@49" pad="49"/>
+<connect gate="LURE" pin="GND@5" pad="5"/>
+<connect gate="LURE" pin="GND@50" pad="50"/>
+<connect gate="LURE" pin="GND@56" pad="56"/>
+<connect gate="LURE" pin="GND@62" pad="62"/>
+<connect gate="LURE" pin="GND@65" pad="65"/>
+<connect gate="LURE" pin="GPIO0" pad="75"/>
+<connect gate="LURE" pin="GPIO1" pad="77"/>
+<connect gate="LURE" pin="GPIO2" pad="79"/>
+<connect gate="LURE" pin="GPIO3" pad="81"/>
+<connect gate="LURE" pin="GPIO4" pad="83"/>
+<connect gate="LURE" pin="GPIO5" pad="85"/>
+<connect gate="LURE" pin="GPIO6" pad="87"/>
+<connect gate="LURE" pin="GPIO7" pad="89"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9"/>
+<connect gate="LURE" pin="PWROK" pad="3"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27"/>
+<connect gate="LURE" pin="UART1_RX" pad="55"/>
+<connect gate="LURE" pin="UART1_TX" pad="53"/>
+<connect gate="LURE" pin="UART2_RX" pad="59"/>
+<connect gate="LURE" pin="UART2_TX" pad="57"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45"/>
+<connect gate="LURE" pin="VBUS4" pad="47"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11070,106 +11078,106 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="_TYPE_A_ST" package="PA_LURE_TYPE_A_ST">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91 91T"/>
-<connect gate="J1" pin="CAN_RX" pad="30 30T"/>
-<connect gate="J1" pin="CAN_TX" pad="28 28T"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100 100T"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92 92T"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93 93T"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94 94T"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95 95T"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96 96T"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97 97T"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98 98T"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99 99T"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67 67T"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73 73T"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71 71T"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69 69T"/>
-<connect gate="J1" pin="GND@11" pad="11 11T"/>
-<connect gate="J1" pin="GND@14" pad="14 14T"/>
-<connect gate="J1" pin="GND@17" pad="17 17T"/>
-<connect gate="J1" pin="GND@20" pad="20 20T"/>
-<connect gate="J1" pin="GND@23" pad="23 23T"/>
-<connect gate="J1" pin="GND@26" pad="26 26T"/>
-<connect gate="J1" pin="GND@29" pad="29 29T"/>
-<connect gate="J1" pin="GND@32" pad="32 32T"/>
-<connect gate="J1" pin="GND@35" pad="35 35T"/>
-<connect gate="J1" pin="GND@38" pad="38 38T"/>
-<connect gate="J1" pin="GND@41" pad="41 41T"/>
-<connect gate="J1" pin="GND@44" pad="44 44T"/>
-<connect gate="J1" pin="GND@49" pad="49 49T"/>
-<connect gate="J1" pin="GND@5" pad="5 5T"/>
-<connect gate="J1" pin="GND@50" pad="50 50T"/>
-<connect gate="J1" pin="GND@56" pad="56 56T"/>
-<connect gate="J1" pin="GND@62" pad="62 62T"/>
-<connect gate="J1" pin="GND@65" pad="65 65T"/>
-<connect gate="J1" pin="GPIO0" pad="75 75T"/>
-<connect gate="J1" pin="GPIO1" pad="77 77T"/>
-<connect gate="J1" pin="GPIO2" pad="79 79T"/>
-<connect gate="J1" pin="GPIO3" pad="81 81T"/>
-<connect gate="J1" pin="GPIO4" pad="83 83T"/>
-<connect gate="J1" pin="GPIO5" pad="85 85T"/>
-<connect gate="J1" pin="GPIO6" pad="87 87T"/>
-<connect gate="J1" pin="GPIO7" pad="89 89T"/>
-<connect gate="J1" pin="HDA_CLK" pad="4 4T"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6 6T"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12 12T"/>
-<connect gate="J1" pin="HDA_SDO" pad="10 10T"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8 8T"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61 61T"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63 63T"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72 72T"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66 66T"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52 52T"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54 54T"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34 34T"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36 36T"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40 40T"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42 42T"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46 46T"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48 48T"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58 58T"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60 60T"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68 68T"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70 70T"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74 74T"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64 64T"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1 1T"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13 13T"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15 15T"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19 19T"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21 21T"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2 2T"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16 16T"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18 18T"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22 22T"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24 24T"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7 7T"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9 9T"/>
-<connect gate="J1" pin="PWROK" pad="3 3T"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31 31T"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33 33T"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37 37T"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39 39T"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80 80T"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82 82T"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84 84T"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86 86T"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88 88T"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90 90T"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76 76T"/>
-<connect gate="J1" pin="SDIO_WP" pad="78 78T"/>
-<connect gate="J1" pin="SMB_CLK" pad="25 25T"/>
-<connect gate="J1" pin="SMB_DAT" pad="27 27T"/>
-<connect gate="J1" pin="UART1_RX" pad="55 55T"/>
-<connect gate="J1" pin="UART1_TX" pad="53 53T"/>
-<connect gate="J1" pin="UART2_RX" pad="59 59T"/>
-<connect gate="J1" pin="UART2_TX" pad="57 57T"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43 43T"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45 45T"/>
-<connect gate="J1" pin="VBUS4" pad="47 47T"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51 51T"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91 91T"/>
+<connect gate="LURE" pin="CAN_RX" pad="30 30T"/>
+<connect gate="LURE" pin="CAN_TX" pad="28 28T"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100 100T"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92 92T"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93 93T"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94 94T"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95 95T"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96 96T"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97 97T"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98 98T"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99 99T"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67 67T"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73 73T"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71 71T"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69 69T"/>
+<connect gate="LURE" pin="GND@11" pad="11 11T"/>
+<connect gate="LURE" pin="GND@14" pad="14 14T"/>
+<connect gate="LURE" pin="GND@17" pad="17 17T"/>
+<connect gate="LURE" pin="GND@20" pad="20 20T"/>
+<connect gate="LURE" pin="GND@23" pad="23 23T"/>
+<connect gate="LURE" pin="GND@26" pad="26 26T"/>
+<connect gate="LURE" pin="GND@29" pad="29 29T"/>
+<connect gate="LURE" pin="GND@32" pad="32 32T"/>
+<connect gate="LURE" pin="GND@35" pad="35 35T"/>
+<connect gate="LURE" pin="GND@38" pad="38 38T"/>
+<connect gate="LURE" pin="GND@41" pad="41 41T"/>
+<connect gate="LURE" pin="GND@44" pad="44 44T"/>
+<connect gate="LURE" pin="GND@49" pad="49 49T"/>
+<connect gate="LURE" pin="GND@5" pad="5 5T"/>
+<connect gate="LURE" pin="GND@50" pad="50 50T"/>
+<connect gate="LURE" pin="GND@56" pad="56 56T"/>
+<connect gate="LURE" pin="GND@62" pad="62 62T"/>
+<connect gate="LURE" pin="GND@65" pad="65 65T"/>
+<connect gate="LURE" pin="GPIO0" pad="75 75T"/>
+<connect gate="LURE" pin="GPIO1" pad="77 77T"/>
+<connect gate="LURE" pin="GPIO2" pad="79 79T"/>
+<connect gate="LURE" pin="GPIO3" pad="81 81T"/>
+<connect gate="LURE" pin="GPIO4" pad="83 83T"/>
+<connect gate="LURE" pin="GPIO5" pad="85 85T"/>
+<connect gate="LURE" pin="GPIO6" pad="87 87T"/>
+<connect gate="LURE" pin="GPIO7" pad="89 89T"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4 4T"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6 6T"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12 12T"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10 10T"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8 8T"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61 61T"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63 63T"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72 72T"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66 66T"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52 52T"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54 54T"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34 34T"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36 36T"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40 40T"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42 42T"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46 46T"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48 48T"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58 58T"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60 60T"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68 68T"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70 70T"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74 74T"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64 64T"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1 1T"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13 13T"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15 15T"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19 19T"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21 21T"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2 2T"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16 16T"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18 18T"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22 22T"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24 24T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7 7T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9 9T"/>
+<connect gate="LURE" pin="PWROK" pad="3 3T"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31 31T"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33 33T"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37 37T"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39 39T"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80 80T"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82 82T"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84 84T"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86 86T"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88 88T"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90 90T"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76 76T"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78 78T"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25 25T"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27 27T"/>
+<connect gate="LURE" pin="UART1_RX" pad="55 55T"/>
+<connect gate="LURE" pin="UART1_TX" pad="53 53T"/>
+<connect gate="LURE" pin="UART2_RX" pad="59 59T"/>
+<connect gate="LURE" pin="UART2_TX" pad="57 57T"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43 43T"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45 45T"/>
+<connect gate="LURE" pin="VBUS4" pad="47 47T"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51 51T"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11177,106 +11185,106 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="_TYPE_B" package="PA_LURE_TYPE_B">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91"/>
-<connect gate="J1" pin="CAN_RX" pad="30"/>
-<connect gate="J1" pin="CAN_TX" pad="28"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69"/>
-<connect gate="J1" pin="GND@11" pad="11"/>
-<connect gate="J1" pin="GND@14" pad="14"/>
-<connect gate="J1" pin="GND@17" pad="17"/>
-<connect gate="J1" pin="GND@20" pad="20"/>
-<connect gate="J1" pin="GND@23" pad="23"/>
-<connect gate="J1" pin="GND@26" pad="26"/>
-<connect gate="J1" pin="GND@29" pad="29"/>
-<connect gate="J1" pin="GND@32" pad="32"/>
-<connect gate="J1" pin="GND@35" pad="35"/>
-<connect gate="J1" pin="GND@38" pad="38"/>
-<connect gate="J1" pin="GND@41" pad="41"/>
-<connect gate="J1" pin="GND@44" pad="44"/>
-<connect gate="J1" pin="GND@49" pad="49"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GND@50" pad="50"/>
-<connect gate="J1" pin="GND@56" pad="56"/>
-<connect gate="J1" pin="GND@62" pad="62"/>
-<connect gate="J1" pin="GND@65" pad="65"/>
-<connect gate="J1" pin="GPIO0" pad="75"/>
-<connect gate="J1" pin="GPIO1" pad="77"/>
-<connect gate="J1" pin="GPIO2" pad="79"/>
-<connect gate="J1" pin="GPIO3" pad="81"/>
-<connect gate="J1" pin="GPIO4" pad="83"/>
-<connect gate="J1" pin="GPIO5" pad="85"/>
-<connect gate="J1" pin="GPIO6" pad="87"/>
-<connect gate="J1" pin="GPIO7" pad="89"/>
-<connect gate="J1" pin="HDA_CLK" pad="4"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12"/>
-<connect gate="J1" pin="HDA_SDO" pad="10"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9"/>
-<connect gate="J1" pin="PWROK" pad="3"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76"/>
-<connect gate="J1" pin="SDIO_WP" pad="78"/>
-<connect gate="J1" pin="SMB_CLK" pad="25"/>
-<connect gate="J1" pin="SMB_DAT" pad="27"/>
-<connect gate="J1" pin="UART1_RX" pad="55"/>
-<connect gate="J1" pin="UART1_TX" pad="53"/>
-<connect gate="J1" pin="UART2_RX" pad="59"/>
-<connect gate="J1" pin="UART2_TX" pad="57"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45"/>
-<connect gate="J1" pin="VBUS4" pad="47"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91"/>
+<connect gate="LURE" pin="CAN_RX" pad="30"/>
+<connect gate="LURE" pin="CAN_TX" pad="28"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69"/>
+<connect gate="LURE" pin="GND@11" pad="11"/>
+<connect gate="LURE" pin="GND@14" pad="14"/>
+<connect gate="LURE" pin="GND@17" pad="17"/>
+<connect gate="LURE" pin="GND@20" pad="20"/>
+<connect gate="LURE" pin="GND@23" pad="23"/>
+<connect gate="LURE" pin="GND@26" pad="26"/>
+<connect gate="LURE" pin="GND@29" pad="29"/>
+<connect gate="LURE" pin="GND@32" pad="32"/>
+<connect gate="LURE" pin="GND@35" pad="35"/>
+<connect gate="LURE" pin="GND@38" pad="38"/>
+<connect gate="LURE" pin="GND@41" pad="41"/>
+<connect gate="LURE" pin="GND@44" pad="44"/>
+<connect gate="LURE" pin="GND@49" pad="49"/>
+<connect gate="LURE" pin="GND@5" pad="5"/>
+<connect gate="LURE" pin="GND@50" pad="50"/>
+<connect gate="LURE" pin="GND@56" pad="56"/>
+<connect gate="LURE" pin="GND@62" pad="62"/>
+<connect gate="LURE" pin="GND@65" pad="65"/>
+<connect gate="LURE" pin="GPIO0" pad="75"/>
+<connect gate="LURE" pin="GPIO1" pad="77"/>
+<connect gate="LURE" pin="GPIO2" pad="79"/>
+<connect gate="LURE" pin="GPIO3" pad="81"/>
+<connect gate="LURE" pin="GPIO4" pad="83"/>
+<connect gate="LURE" pin="GPIO5" pad="85"/>
+<connect gate="LURE" pin="GPIO6" pad="87"/>
+<connect gate="LURE" pin="GPIO7" pad="89"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9"/>
+<connect gate="LURE" pin="PWROK" pad="3"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27"/>
+<connect gate="LURE" pin="UART1_RX" pad="55"/>
+<connect gate="LURE" pin="UART1_TX" pad="53"/>
+<connect gate="LURE" pin="UART2_RX" pad="59"/>
+<connect gate="LURE" pin="UART2_TX" pad="57"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45"/>
+<connect gate="LURE" pin="VBUS4" pad="47"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11284,106 +11292,106 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="_TYPE_B_ST" package="PA_LURE_TYPE_B_ST">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91 91T"/>
-<connect gate="J1" pin="CAN_RX" pad="30 30T"/>
-<connect gate="J1" pin="CAN_TX" pad="28 28T"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100 100T"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92 92T"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93 93T"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94 94T"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95 95T"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96 96T"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97 97T"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98 98T"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99 99T"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67 67T"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73 73T"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71 71T"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69 69T"/>
-<connect gate="J1" pin="GND@11" pad="11 11T"/>
-<connect gate="J1" pin="GND@14" pad="14 14T"/>
-<connect gate="J1" pin="GND@17" pad="17 17T"/>
-<connect gate="J1" pin="GND@20" pad="20 20T"/>
-<connect gate="J1" pin="GND@23" pad="23 23T"/>
-<connect gate="J1" pin="GND@26" pad="26 26T"/>
-<connect gate="J1" pin="GND@29" pad="29 29T"/>
-<connect gate="J1" pin="GND@32" pad="32 32T"/>
-<connect gate="J1" pin="GND@35" pad="35 35T"/>
-<connect gate="J1" pin="GND@38" pad="38 38T"/>
-<connect gate="J1" pin="GND@41" pad="41 41T"/>
-<connect gate="J1" pin="GND@44" pad="44 44T"/>
-<connect gate="J1" pin="GND@49" pad="49 49T"/>
-<connect gate="J1" pin="GND@5" pad="5 5T"/>
-<connect gate="J1" pin="GND@50" pad="50 50T"/>
-<connect gate="J1" pin="GND@56" pad="56 56T"/>
-<connect gate="J1" pin="GND@62" pad="62 62T"/>
-<connect gate="J1" pin="GND@65" pad="65 65T"/>
-<connect gate="J1" pin="GPIO0" pad="75 75T"/>
-<connect gate="J1" pin="GPIO1" pad="77 77T"/>
-<connect gate="J1" pin="GPIO2" pad="79 79T"/>
-<connect gate="J1" pin="GPIO3" pad="81 81T"/>
-<connect gate="J1" pin="GPIO4" pad="83 83T"/>
-<connect gate="J1" pin="GPIO5" pad="85 85T"/>
-<connect gate="J1" pin="GPIO6" pad="87 87T"/>
-<connect gate="J1" pin="GPIO7" pad="89 89T"/>
-<connect gate="J1" pin="HDA_CLK" pad="4 4T"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6 6T"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12 12T"/>
-<connect gate="J1" pin="HDA_SDO" pad="10 10T"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8 8T"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61 61T"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63 63T"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72 72T"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66 66T"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52 52T"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54 54T"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34 34T"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36 36T"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40 40T"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42 42T"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46 46T"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48 48T"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58 58T"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60 60T"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68 68T"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70 70T"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74 74T"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64 64T"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1 1T"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13 13T"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15 15T"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19 19T"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21 21T"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2 2T"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16 16T"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18 18T"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22 22T"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24 24T"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7 7T"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9 9T"/>
-<connect gate="J1" pin="PWROK" pad="3 3T"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31 31T"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33 33T"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37 37T"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39 39T"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80 80T"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82 82T"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84 84T"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86 86T"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88 88T"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90 90T"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76 76T"/>
-<connect gate="J1" pin="SDIO_WP" pad="78 78T"/>
-<connect gate="J1" pin="SMB_CLK" pad="25 25T"/>
-<connect gate="J1" pin="SMB_DAT" pad="27 27T"/>
-<connect gate="J1" pin="UART1_RX" pad="55 55T"/>
-<connect gate="J1" pin="UART1_TX" pad="53 53T"/>
-<connect gate="J1" pin="UART2_RX" pad="59 59T"/>
-<connect gate="J1" pin="UART2_TX" pad="57 57T"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43 43T"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45 45T"/>
-<connect gate="J1" pin="VBUS4" pad="47 47T"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51 51T"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91 91T"/>
+<connect gate="LURE" pin="CAN_RX" pad="30 30T"/>
+<connect gate="LURE" pin="CAN_TX" pad="28 28T"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100 100T"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92 92T"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93 93T"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94 94T"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95 95T"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96 96T"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97 97T"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98 98T"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99 99T"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67 67T"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73 73T"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71 71T"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69 69T"/>
+<connect gate="LURE" pin="GND@11" pad="11 11T"/>
+<connect gate="LURE" pin="GND@14" pad="14 14T"/>
+<connect gate="LURE" pin="GND@17" pad="17 17T"/>
+<connect gate="LURE" pin="GND@20" pad="20 20T"/>
+<connect gate="LURE" pin="GND@23" pad="23 23T"/>
+<connect gate="LURE" pin="GND@26" pad="26 26T"/>
+<connect gate="LURE" pin="GND@29" pad="29 29T"/>
+<connect gate="LURE" pin="GND@32" pad="32 32T"/>
+<connect gate="LURE" pin="GND@35" pad="35 35T"/>
+<connect gate="LURE" pin="GND@38" pad="38 38T"/>
+<connect gate="LURE" pin="GND@41" pad="41 41T"/>
+<connect gate="LURE" pin="GND@44" pad="44 44T"/>
+<connect gate="LURE" pin="GND@49" pad="49 49T"/>
+<connect gate="LURE" pin="GND@5" pad="5 5T"/>
+<connect gate="LURE" pin="GND@50" pad="50 50T"/>
+<connect gate="LURE" pin="GND@56" pad="56 56T"/>
+<connect gate="LURE" pin="GND@62" pad="62 62T"/>
+<connect gate="LURE" pin="GND@65" pad="65 65T"/>
+<connect gate="LURE" pin="GPIO0" pad="75 75T"/>
+<connect gate="LURE" pin="GPIO1" pad="77 77T"/>
+<connect gate="LURE" pin="GPIO2" pad="79 79T"/>
+<connect gate="LURE" pin="GPIO3" pad="81 81T"/>
+<connect gate="LURE" pin="GPIO4" pad="83 83T"/>
+<connect gate="LURE" pin="GPIO5" pad="85 85T"/>
+<connect gate="LURE" pin="GPIO6" pad="87 87T"/>
+<connect gate="LURE" pin="GPIO7" pad="89 89T"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4 4T"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6 6T"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12 12T"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10 10T"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8 8T"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61 61T"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63 63T"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72 72T"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66 66T"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52 52T"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54 54T"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34 34T"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36 36T"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40 40T"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42 42T"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46 46T"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48 48T"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58 58T"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60 60T"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68 68T"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70 70T"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74 74T"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64 64T"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1 1T"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13 13T"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15 15T"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19 19T"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21 21T"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2 2T"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16 16T"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18 18T"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22 22T"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24 24T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7 7T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9 9T"/>
+<connect gate="LURE" pin="PWROK" pad="3 3T"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31 31T"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33 33T"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37 37T"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39 39T"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80 80T"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82 82T"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84 84T"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86 86T"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88 88T"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90 90T"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76 76T"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78 78T"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25 25T"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27 27T"/>
+<connect gate="LURE" pin="UART1_RX" pad="55 55T"/>
+<connect gate="LURE" pin="UART1_TX" pad="53 53T"/>
+<connect gate="LURE" pin="UART2_RX" pad="59 59T"/>
+<connect gate="LURE" pin="UART2_TX" pad="57 57T"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43 43T"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45 45T"/>
+<connect gate="LURE" pin="VBUS4" pad="47 47T"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51 51T"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11391,106 +11399,106 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="_TYPE_C" package="PA_LURE_TYPE_C">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91"/>
-<connect gate="J1" pin="CAN_RX" pad="30"/>
-<connect gate="J1" pin="CAN_TX" pad="28"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69"/>
-<connect gate="J1" pin="GND@11" pad="11"/>
-<connect gate="J1" pin="GND@14" pad="14"/>
-<connect gate="J1" pin="GND@17" pad="17"/>
-<connect gate="J1" pin="GND@20" pad="20"/>
-<connect gate="J1" pin="GND@23" pad="23"/>
-<connect gate="J1" pin="GND@26" pad="26"/>
-<connect gate="J1" pin="GND@29" pad="29"/>
-<connect gate="J1" pin="GND@32" pad="32"/>
-<connect gate="J1" pin="GND@35" pad="35"/>
-<connect gate="J1" pin="GND@38" pad="38"/>
-<connect gate="J1" pin="GND@41" pad="41"/>
-<connect gate="J1" pin="GND@44" pad="44"/>
-<connect gate="J1" pin="GND@49" pad="49"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GND@50" pad="50"/>
-<connect gate="J1" pin="GND@56" pad="56"/>
-<connect gate="J1" pin="GND@62" pad="62"/>
-<connect gate="J1" pin="GND@65" pad="65"/>
-<connect gate="J1" pin="GPIO0" pad="75"/>
-<connect gate="J1" pin="GPIO1" pad="77"/>
-<connect gate="J1" pin="GPIO2" pad="79"/>
-<connect gate="J1" pin="GPIO3" pad="81"/>
-<connect gate="J1" pin="GPIO4" pad="83"/>
-<connect gate="J1" pin="GPIO5" pad="85"/>
-<connect gate="J1" pin="GPIO6" pad="87"/>
-<connect gate="J1" pin="GPIO7" pad="89"/>
-<connect gate="J1" pin="HDA_CLK" pad="4"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12"/>
-<connect gate="J1" pin="HDA_SDO" pad="10"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9"/>
-<connect gate="J1" pin="PWROK" pad="3"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76"/>
-<connect gate="J1" pin="SDIO_WP" pad="78"/>
-<connect gate="J1" pin="SMB_CLK" pad="25"/>
-<connect gate="J1" pin="SMB_DAT" pad="27"/>
-<connect gate="J1" pin="UART1_RX" pad="55"/>
-<connect gate="J1" pin="UART1_TX" pad="53"/>
-<connect gate="J1" pin="UART2_RX" pad="59"/>
-<connect gate="J1" pin="UART2_TX" pad="57"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45"/>
-<connect gate="J1" pin="VBUS4" pad="47"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91"/>
+<connect gate="LURE" pin="CAN_RX" pad="30"/>
+<connect gate="LURE" pin="CAN_TX" pad="28"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69"/>
+<connect gate="LURE" pin="GND@11" pad="11"/>
+<connect gate="LURE" pin="GND@14" pad="14"/>
+<connect gate="LURE" pin="GND@17" pad="17"/>
+<connect gate="LURE" pin="GND@20" pad="20"/>
+<connect gate="LURE" pin="GND@23" pad="23"/>
+<connect gate="LURE" pin="GND@26" pad="26"/>
+<connect gate="LURE" pin="GND@29" pad="29"/>
+<connect gate="LURE" pin="GND@32" pad="32"/>
+<connect gate="LURE" pin="GND@35" pad="35"/>
+<connect gate="LURE" pin="GND@38" pad="38"/>
+<connect gate="LURE" pin="GND@41" pad="41"/>
+<connect gate="LURE" pin="GND@44" pad="44"/>
+<connect gate="LURE" pin="GND@49" pad="49"/>
+<connect gate="LURE" pin="GND@5" pad="5"/>
+<connect gate="LURE" pin="GND@50" pad="50"/>
+<connect gate="LURE" pin="GND@56" pad="56"/>
+<connect gate="LURE" pin="GND@62" pad="62"/>
+<connect gate="LURE" pin="GND@65" pad="65"/>
+<connect gate="LURE" pin="GPIO0" pad="75"/>
+<connect gate="LURE" pin="GPIO1" pad="77"/>
+<connect gate="LURE" pin="GPIO2" pad="79"/>
+<connect gate="LURE" pin="GPIO3" pad="81"/>
+<connect gate="LURE" pin="GPIO4" pad="83"/>
+<connect gate="LURE" pin="GPIO5" pad="85"/>
+<connect gate="LURE" pin="GPIO6" pad="87"/>
+<connect gate="LURE" pin="GPIO7" pad="89"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9"/>
+<connect gate="LURE" pin="PWROK" pad="3"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27"/>
+<connect gate="LURE" pin="UART1_RX" pad="55"/>
+<connect gate="LURE" pin="UART1_TX" pad="53"/>
+<connect gate="LURE" pin="UART2_RX" pad="59"/>
+<connect gate="LURE" pin="UART2_TX" pad="57"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45"/>
+<connect gate="LURE" pin="VBUS4" pad="47"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11498,106 +11506,106 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="_TYPE_C_ST" package="PA_LURE_TYPE_C_ST">
 <connects>
-<connect gate="J1" pin="3V3_CTRL" pad="91 91T"/>
-<connect gate="J1" pin="CAN_RX" pad="30 30T"/>
-<connect gate="J1" pin="CAN_TX" pad="28 28T"/>
-<connect gate="J1" pin="DC_IN_5V@100" pad="100 100T"/>
-<connect gate="J1" pin="DC_IN_5V@92" pad="92 92T"/>
-<connect gate="J1" pin="DC_IN_5V@93" pad="93 93T"/>
-<connect gate="J1" pin="DC_IN_5V@94" pad="94 94T"/>
-<connect gate="J1" pin="DC_IN_5V@95" pad="95 95T"/>
-<connect gate="J1" pin="DC_IN_5V@96" pad="96 96T"/>
-<connect gate="J1" pin="DC_IN_5V@97" pad="97 97T"/>
-<connect gate="J1" pin="DC_IN_5V@98" pad="98 98T"/>
-<connect gate="J1" pin="DC_IN_5V@99" pad="99 99T"/>
-<connect gate="J1" pin="EG20T_SPI_CLK" pad="67 67T"/>
-<connect gate="J1" pin="EG20T_SPI_MISO" pad="73 73T"/>
-<connect gate="J1" pin="EG20T_SPI_MOSI" pad="71 71T"/>
-<connect gate="J1" pin="EG20T_SPI_NCS" pad="69 69T"/>
-<connect gate="J1" pin="GND@11" pad="11 11T"/>
-<connect gate="J1" pin="GND@14" pad="14 14T"/>
-<connect gate="J1" pin="GND@17" pad="17 17T"/>
-<connect gate="J1" pin="GND@20" pad="20 20T"/>
-<connect gate="J1" pin="GND@23" pad="23 23T"/>
-<connect gate="J1" pin="GND@26" pad="26 26T"/>
-<connect gate="J1" pin="GND@29" pad="29 29T"/>
-<connect gate="J1" pin="GND@32" pad="32 32T"/>
-<connect gate="J1" pin="GND@35" pad="35 35T"/>
-<connect gate="J1" pin="GND@38" pad="38 38T"/>
-<connect gate="J1" pin="GND@41" pad="41 41T"/>
-<connect gate="J1" pin="GND@44" pad="44 44T"/>
-<connect gate="J1" pin="GND@49" pad="49 49T"/>
-<connect gate="J1" pin="GND@5" pad="5 5T"/>
-<connect gate="J1" pin="GND@50" pad="50 50T"/>
-<connect gate="J1" pin="GND@56" pad="56 56T"/>
-<connect gate="J1" pin="GND@62" pad="62 62T"/>
-<connect gate="J1" pin="GND@65" pad="65 65T"/>
-<connect gate="J1" pin="GPIO0" pad="75 75T"/>
-<connect gate="J1" pin="GPIO1" pad="77 77T"/>
-<connect gate="J1" pin="GPIO2" pad="79 79T"/>
-<connect gate="J1" pin="GPIO3" pad="81 81T"/>
-<connect gate="J1" pin="GPIO4" pad="83 83T"/>
-<connect gate="J1" pin="GPIO5" pad="85 85T"/>
-<connect gate="J1" pin="GPIO6" pad="87 87T"/>
-<connect gate="J1" pin="GPIO7" pad="89 89T"/>
-<connect gate="J1" pin="HDA_CLK" pad="4 4T"/>
-<connect gate="J1" pin="HDA_RST_N" pad="6 6T"/>
-<connect gate="J1" pin="HDA_SDI1" pad="12 12T"/>
-<connect gate="J1" pin="HDA_SDO" pad="10 10T"/>
-<connect gate="J1" pin="HDA_SYNC" pad="8 8T"/>
-<connect gate="J1" pin="I2C0_SCL" pad="61 61T"/>
-<connect gate="J1" pin="I2C0_SDA" pad="63 63T"/>
-<connect gate="J1" pin="LVDS_BLK_CTRL" pad="72 72T"/>
-<connect gate="J1" pin="LVDS_BLK_EN" pad="66 66T"/>
-<connect gate="J1" pin="LVDS_CLK_N" pad="52 52T"/>
-<connect gate="J1" pin="LVDS_CLK_P" pad="54 54T"/>
-<connect gate="J1" pin="LVDS_DAT0_N" pad="34 34T"/>
-<connect gate="J1" pin="LVDS_DAT0_P" pad="36 36T"/>
-<connect gate="J1" pin="LVDS_DAT1_N" pad="40 40T"/>
-<connect gate="J1" pin="LVDS_DAT1_P" pad="42 42T"/>
-<connect gate="J1" pin="LVDS_DAT2_N" pad="46 46T"/>
-<connect gate="J1" pin="LVDS_DAT2_P" pad="48 48T"/>
-<connect gate="J1" pin="LVDS_DAT3_N" pad="58 58T"/>
-<connect gate="J1" pin="LVDS_DAT3_P" pad="60 60T"/>
-<connect gate="J1" pin="LVDS_DDC_CLK" pad="68 68T"/>
-<connect gate="J1" pin="LVDS_DDC_DAT" pad="70 70T"/>
-<connect gate="J1" pin="LVDS_DETECT" pad="74 74T"/>
-<connect gate="J1" pin="LVDS_VDD_EN" pad="64 64T"/>
-<connect gate="J1" pin="PCIE1_CLK_REQ" pad="1 1T"/>
-<connect gate="J1" pin="PCIE1_RX_N" pad="13 13T"/>
-<connect gate="J1" pin="PCIE1_RX_P" pad="15 15T"/>
-<connect gate="J1" pin="PCIE1_TX_N" pad="19 19T"/>
-<connect gate="J1" pin="PCIE1_TX_P" pad="21 21T"/>
-<connect gate="J1" pin="PCIE2_CLK_REQ" pad="2 2T"/>
-<connect gate="J1" pin="PCIE2_RX_N" pad="16 16T"/>
-<connect gate="J1" pin="PCIE2_RX_P" pad="18 18T"/>
-<connect gate="J1" pin="PCIE2_TX_N" pad="22 22T"/>
-<connect gate="J1" pin="PCIE2_TX_P" pad="24 24T"/>
-<connect gate="J1" pin="PCIE_REFCLK_N" pad="7 7T"/>
-<connect gate="J1" pin="PCIE_REFCLK_P" pad="9 9T"/>
-<connect gate="J1" pin="PWROK" pad="3 3T"/>
-<connect gate="J1" pin="SATA1_RX_N" pad="31 31T"/>
-<connect gate="J1" pin="SATA1_RX_P" pad="33 33T"/>
-<connect gate="J1" pin="SATA1_TX_N" pad="37 37T"/>
-<connect gate="J1" pin="SATA1_TX_P" pad="39 39T"/>
-<connect gate="J1" pin="SDIO_CLK" pad="80 80T"/>
-<connect gate="J1" pin="SDIO_CMD" pad="82 82T"/>
-<connect gate="J1" pin="SDIO_DAT0" pad="84 84T"/>
-<connect gate="J1" pin="SDIO_DAT1" pad="86 86T"/>
-<connect gate="J1" pin="SDIO_DAT2" pad="88 88T"/>
-<connect gate="J1" pin="SDIO_DAT3" pad="90 90T"/>
-<connect gate="J1" pin="SDIO_NCD" pad="76 76T"/>
-<connect gate="J1" pin="SDIO_WP" pad="78 78T"/>
-<connect gate="J1" pin="SMB_CLK" pad="25 25T"/>
-<connect gate="J1" pin="SMB_DAT" pad="27 27T"/>
-<connect gate="J1" pin="UART1_RX" pad="55 55T"/>
-<connect gate="J1" pin="UART1_TX" pad="53 53T"/>
-<connect gate="J1" pin="UART2_RX" pad="59 59T"/>
-<connect gate="J1" pin="UART2_TX" pad="57 57T"/>
-<connect gate="J1" pin="USB_HOST_DM4" pad="43 43T"/>
-<connect gate="J1" pin="USB_HOST_DP4" pad="45 45T"/>
-<connect gate="J1" pin="VBUS4" pad="47 47T"/>
-<connect gate="J1" pin="WAKE_EXP_N" pad="51 51T"/>
+<connect gate="LURE" pin="3V3_CTRL" pad="91 91T"/>
+<connect gate="LURE" pin="CAN_RX" pad="30 30T"/>
+<connect gate="LURE" pin="CAN_TX" pad="28 28T"/>
+<connect gate="LURE" pin="DC_IN_5V@100" pad="100 100T"/>
+<connect gate="LURE" pin="DC_IN_5V@92" pad="92 92T"/>
+<connect gate="LURE" pin="DC_IN_5V@93" pad="93 93T"/>
+<connect gate="LURE" pin="DC_IN_5V@94" pad="94 94T"/>
+<connect gate="LURE" pin="DC_IN_5V@95" pad="95 95T"/>
+<connect gate="LURE" pin="DC_IN_5V@96" pad="96 96T"/>
+<connect gate="LURE" pin="DC_IN_5V@97" pad="97 97T"/>
+<connect gate="LURE" pin="DC_IN_5V@98" pad="98 98T"/>
+<connect gate="LURE" pin="DC_IN_5V@99" pad="99 99T"/>
+<connect gate="LURE" pin="EG20T_SPI_CLK" pad="67 67T"/>
+<connect gate="LURE" pin="EG20T_SPI_MISO" pad="73 73T"/>
+<connect gate="LURE" pin="EG20T_SPI_MOSI" pad="71 71T"/>
+<connect gate="LURE" pin="EG20T_SPI_NCS" pad="69 69T"/>
+<connect gate="LURE" pin="GND@11" pad="11 11T"/>
+<connect gate="LURE" pin="GND@14" pad="14 14T"/>
+<connect gate="LURE" pin="GND@17" pad="17 17T"/>
+<connect gate="LURE" pin="GND@20" pad="20 20T"/>
+<connect gate="LURE" pin="GND@23" pad="23 23T"/>
+<connect gate="LURE" pin="GND@26" pad="26 26T"/>
+<connect gate="LURE" pin="GND@29" pad="29 29T"/>
+<connect gate="LURE" pin="GND@32" pad="32 32T"/>
+<connect gate="LURE" pin="GND@35" pad="35 35T"/>
+<connect gate="LURE" pin="GND@38" pad="38 38T"/>
+<connect gate="LURE" pin="GND@41" pad="41 41T"/>
+<connect gate="LURE" pin="GND@44" pad="44 44T"/>
+<connect gate="LURE" pin="GND@49" pad="49 49T"/>
+<connect gate="LURE" pin="GND@5" pad="5 5T"/>
+<connect gate="LURE" pin="GND@50" pad="50 50T"/>
+<connect gate="LURE" pin="GND@56" pad="56 56T"/>
+<connect gate="LURE" pin="GND@62" pad="62 62T"/>
+<connect gate="LURE" pin="GND@65" pad="65 65T"/>
+<connect gate="LURE" pin="GPIO0" pad="75 75T"/>
+<connect gate="LURE" pin="GPIO1" pad="77 77T"/>
+<connect gate="LURE" pin="GPIO2" pad="79 79T"/>
+<connect gate="LURE" pin="GPIO3" pad="81 81T"/>
+<connect gate="LURE" pin="GPIO4" pad="83 83T"/>
+<connect gate="LURE" pin="GPIO5" pad="85 85T"/>
+<connect gate="LURE" pin="GPIO6" pad="87 87T"/>
+<connect gate="LURE" pin="GPIO7" pad="89 89T"/>
+<connect gate="LURE" pin="HDA_CLK" pad="4 4T"/>
+<connect gate="LURE" pin="HDA_RST_N" pad="6 6T"/>
+<connect gate="LURE" pin="HDA_SDI1" pad="12 12T"/>
+<connect gate="LURE" pin="HDA_SDO" pad="10 10T"/>
+<connect gate="LURE" pin="HDA_SYNC" pad="8 8T"/>
+<connect gate="LURE" pin="I2C0_SCL" pad="61 61T"/>
+<connect gate="LURE" pin="I2C0_SDA" pad="63 63T"/>
+<connect gate="LURE" pin="LVDS_BLK_CTRL" pad="72 72T"/>
+<connect gate="LURE" pin="LVDS_BLK_EN" pad="66 66T"/>
+<connect gate="LURE" pin="LVDS_CLK_N" pad="52 52T"/>
+<connect gate="LURE" pin="LVDS_CLK_P" pad="54 54T"/>
+<connect gate="LURE" pin="LVDS_DAT0_N" pad="34 34T"/>
+<connect gate="LURE" pin="LVDS_DAT0_P" pad="36 36T"/>
+<connect gate="LURE" pin="LVDS_DAT1_N" pad="40 40T"/>
+<connect gate="LURE" pin="LVDS_DAT1_P" pad="42 42T"/>
+<connect gate="LURE" pin="LVDS_DAT2_N" pad="46 46T"/>
+<connect gate="LURE" pin="LVDS_DAT2_P" pad="48 48T"/>
+<connect gate="LURE" pin="LVDS_DAT3_N" pad="58 58T"/>
+<connect gate="LURE" pin="LVDS_DAT3_P" pad="60 60T"/>
+<connect gate="LURE" pin="LVDS_DDC_CLK" pad="68 68T"/>
+<connect gate="LURE" pin="LVDS_DDC_DAT" pad="70 70T"/>
+<connect gate="LURE" pin="LVDS_DETECT" pad="74 74T"/>
+<connect gate="LURE" pin="LVDS_VDD_EN" pad="64 64T"/>
+<connect gate="LURE" pin="PCIE1_CLK_REQ" pad="1 1T"/>
+<connect gate="LURE" pin="PCIE1_RX_N" pad="13 13T"/>
+<connect gate="LURE" pin="PCIE1_RX_P" pad="15 15T"/>
+<connect gate="LURE" pin="PCIE1_TX_N" pad="19 19T"/>
+<connect gate="LURE" pin="PCIE1_TX_P" pad="21 21T"/>
+<connect gate="LURE" pin="PCIE2_CLK_REQ" pad="2 2T"/>
+<connect gate="LURE" pin="PCIE2_RX_N" pad="16 16T"/>
+<connect gate="LURE" pin="PCIE2_RX_P" pad="18 18T"/>
+<connect gate="LURE" pin="PCIE2_TX_N" pad="22 22T"/>
+<connect gate="LURE" pin="PCIE2_TX_P" pad="24 24T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_N" pad="7 7T"/>
+<connect gate="LURE" pin="PCIE_REFCLK_P" pad="9 9T"/>
+<connect gate="LURE" pin="PWROK" pad="3 3T"/>
+<connect gate="LURE" pin="SATA1_RX_N" pad="31 31T"/>
+<connect gate="LURE" pin="SATA1_RX_P" pad="33 33T"/>
+<connect gate="LURE" pin="SATA1_TX_N" pad="37 37T"/>
+<connect gate="LURE" pin="SATA1_TX_P" pad="39 39T"/>
+<connect gate="LURE" pin="SDIO_CLK" pad="80 80T"/>
+<connect gate="LURE" pin="SDIO_CMD" pad="82 82T"/>
+<connect gate="LURE" pin="SDIO_DAT0" pad="84 84T"/>
+<connect gate="LURE" pin="SDIO_DAT1" pad="86 86T"/>
+<connect gate="LURE" pin="SDIO_DAT2" pad="88 88T"/>
+<connect gate="LURE" pin="SDIO_DAT3" pad="90 90T"/>
+<connect gate="LURE" pin="SDIO_NCD" pad="76 76T"/>
+<connect gate="LURE" pin="SDIO_WP" pad="78 78T"/>
+<connect gate="LURE" pin="SMB_CLK" pad="25 25T"/>
+<connect gate="LURE" pin="SMB_DAT" pad="27 27T"/>
+<connect gate="LURE" pin="UART1_RX" pad="55 55T"/>
+<connect gate="LURE" pin="UART1_TX" pad="53 53T"/>
+<connect gate="LURE" pin="UART2_RX" pad="59 59T"/>
+<connect gate="LURE" pin="UART2_TX" pad="57 57T"/>
+<connect gate="LURE" pin="USB_HOST_DM4" pad="43 43T"/>
+<connect gate="LURE" pin="USB_HOST_DP4" pad="45 45T"/>
+<connect gate="LURE" pin="VBUS4" pad="47 47T"/>
+<connect gate="LURE" pin="WAKE_EXP_N" pad="51 51T"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11605,8 +11613,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_MIKROBUS_PATTERN" prefix="U">
-<description>&lt;b&gt;PatternAgents Mikrobus Socket Pattern&lt;/b&gt;
+<deviceset name="PA_MIKROBUS_BRD" prefix="MB">
+<description>&lt;b&gt;PatternAgents Mikrobus Mini-Board Pattern&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
 &lt;br&gt;
@@ -11620,10 +11628,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <gates>
-<gate name="MB1" symbol="PA_MIKROBUS_PATTERN" x="10.16" y="15.24"/>
+<gate name="MB1" symbol="PA_MIKROBUS" x="10.16" y="15.24"/>
 </gates>
 <devices>
-<device name="" package="PA_MIKROBUS_PATTERN">
+<device name="" package="PA_MIKROBUS">
 <connects>
 <connect gate="MB1" pin="3.3V" pad="7"/>
 <connect gate="MB1" pin="5.0V" pad="10"/>
