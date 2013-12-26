@@ -17,8 +17,6 @@ The reason for this is that not all "cross-reference" parts are identical.
 Organizing by (and ordering by) manufacturer specific part numbers will help
 to insure that you get exactly the part you were expecting.
 
-<P> 
-
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
 [![Licensing CC BY-SA 4.0](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)  
 *Licensing CC BY-SA 4.0*](http://creativecommons.org/licenses/by-sa/4.0/)
