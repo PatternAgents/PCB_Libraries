@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -53,6 +53,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -61,6 +62,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -74,6 +76,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -86,8 +89,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -8869,6 +8876,117 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="60.452" y="28.702" size="0.6096" layer="21" font="vector" ratio="15">SCK</text>
 <text x="60.452" y="26.162" size="0.6096" layer="21" font="vector" ratio="15">RST</text>
 <text x="65.659" y="32.8676" size="1.016" layer="21" font="vector" ratio="12" rot="R180">SPI</text>
+</package>
+<package name="PA_THINGSOC_PTH">
+<description>&lt;b&gt;PatternAgents thingSoC Pin-Thru Hole Pattern&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="0.508" x2="0" y2="29.972" width="0.127" layer="20"/>
+<wire x1="0" y1="29.972" x2="0.508" y2="30.48" width="0.127" layer="20"/>
+<wire x1="0.508" y1="30.48" x2="32.512" y2="30.48" width="0.127" layer="20"/>
+<wire x1="32.512" y1="30.48" x2="33.02" y2="29.972" width="0.127" layer="20"/>
+<wire x1="33.02" y1="29.972" x2="33.02" y2="0.508" width="0.127" layer="20"/>
+<wire x1="33.02" y1="0.508" x2="32.512" y2="0" width="0.127" layer="20"/>
+<wire x1="32.512" y1="0" x2="0.508" y2="0" width="0.127" layer="20"/>
+<wire x1="0.508" y1="0" x2="0" y2="0.508" width="0.127" layer="20"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<hole x="2.54" y="27.94" drill="3.2"/>
+<hole x="30.48" y="27.94" drill="3.2"/>
+<hole x="30.48" y="2.54" drill="3.2"/>
+<wire x1="0.086" y1="10.24" x2="0.086" y2="20.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="2.99" x2="0.086" y2="10.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="27.49" x2="0.086" y2="20.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="24.99" x2="6.436" y2="27.49" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="27.49" x2="26.936" y2="27.49" width="0.2032" layer="21"/>
+<wire x1="26.936" y1="27.49" x2="26.936" y2="24.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="24.99" x2="26.936" y2="24.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="5.49" x2="6.436" y2="2.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="2.99" x2="26.936" y2="2.99" width="0.2032" layer="21"/>
+<wire x1="26.936" y1="2.99" x2="26.936" y2="5.49" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="5.49" x2="26.936" y2="5.49" width="0.2032" layer="21"/>
+<pad name="10" x="25.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="9" x="23.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="8" x="21.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="7" x="19.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="6" x="17.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="5" x="15.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="4" x="13.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="3" x="11.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="2" x="9.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="1" x="7.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="11" x="25.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="12" x="23.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="13" x="21.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="14" x="19.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="15" x="17.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="16" x="15.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="17" x="13.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="18" x="11.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="19" x="9.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="20" x="7.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<smd name="GND@0" x="2.286" y="12.7" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="SIG" x="2.286" y="15.24" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="GND@1" x="2.286" y="17.78" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="GND@2" x="2.286" y="12.7" dx="1.524" dy="4.064" layer="16" rot="R90"/>
+<smd name="GND@3" x="2.286" y="17.78" dx="1.524" dy="4.064" layer="16" rot="R90"/>
+</package>
+<package name="PA_THINGSOC_PTH_SMA">
+<wire x1="0" y1="0.508" x2="0" y2="29.972" width="0.127" layer="20"/>
+<wire x1="0" y1="29.972" x2="0.508" y2="30.48" width="0.127" layer="20"/>
+<wire x1="0.508" y1="30.48" x2="32.512" y2="30.48" width="0.127" layer="20"/>
+<wire x1="32.512" y1="30.48" x2="33.02" y2="29.972" width="0.127" layer="20"/>
+<wire x1="33.02" y1="29.972" x2="33.02" y2="0.508" width="0.127" layer="20"/>
+<wire x1="33.02" y1="0.508" x2="32.512" y2="0" width="0.127" layer="20"/>
+<wire x1="32.512" y1="0" x2="0.508" y2="0" width="0.127" layer="20"/>
+<wire x1="0.508" y1="0" x2="0" y2="0.508" width="0.127" layer="20"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<hole x="2.54" y="27.94" drill="3.2"/>
+<hole x="30.48" y="27.94" drill="3.2"/>
+<hole x="30.48" y="2.54" drill="3.2"/>
+<wire x1="0.086" y1="10.24" x2="0.086" y2="20.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="2.99" x2="0.086" y2="10.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="27.49" x2="0.086" y2="20.24" width="0.2032" layer="51"/>
+<wire x1="6.436" y1="24.99" x2="6.436" y2="27.49" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="27.49" x2="26.936" y2="27.49" width="0.2032" layer="21"/>
+<wire x1="26.936" y1="27.49" x2="26.936" y2="24.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="24.99" x2="26.936" y2="24.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="5.49" x2="6.436" y2="2.99" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="2.99" x2="26.936" y2="2.99" width="0.2032" layer="21"/>
+<wire x1="26.936" y1="2.99" x2="26.936" y2="5.49" width="0.2032" layer="21"/>
+<wire x1="6.436" y1="5.49" x2="26.936" y2="5.49" width="0.2032" layer="21"/>
+<pad name="10" x="25.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="9" x="23.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="8" x="21.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="7" x="19.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="6" x="17.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="5" x="15.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="4" x="13.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="3" x="11.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="2" x="9.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="1" x="7.686" y="4.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="11" x="25.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="12" x="23.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="13" x="21.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="14" x="19.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="15" x="17.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="16" x="15.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="17" x="13.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="18" x="11.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="19" x="9.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<pad name="20" x="7.686" y="26.24" drill="0.8" diameter="1.524" rot="R90"/>
+<smd name="GND@0" x="2.286" y="12.7" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="SIG" x="2.286" y="15.24" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="GND@1" x="2.286" y="17.78" dx="1.524" dy="4.064" layer="1" rot="R90" cream="no"/>
+<smd name="GND@2" x="2.286" y="12.7" dx="1.524" dy="4.064" layer="16" rot="R90"/>
+<smd name="GND@3" x="2.286" y="17.78" dx="1.524" dy="4.064" layer="16" rot="R90"/>
 </package>
 </packages>
 <symbols>
