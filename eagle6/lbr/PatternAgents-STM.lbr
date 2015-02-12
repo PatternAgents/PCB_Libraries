@@ -69,8 +69,39 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;B&gt;PatternAgents ST Microelectronics Library&lt;/B&gt;
+&lt;P&gt;
+Symbols and Footprints for ST Microelectronics Components and Devices.
+&lt;BR&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;P&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source : http://www.cypress.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
 <packages>
 <package name="QFP50P1200X1200X160-64N">
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <smd name="1" x="-5.6134" y="3.7592" dx="0.2794" dy="1.4732" layer="1" rot="R270"/>
 <smd name="2" x="-5.6134" y="3.2512" dx="0.2794" dy="1.4732" layer="1" rot="R270"/>
 <smd name="3" x="-5.6134" y="2.7432" dx="0.2794" dy="1.4732" layer="1" rot="R270"/>
@@ -150,7 +181,6 @@
 <wire x1="5.0038" y1="5.0038" x2="4.2164" y2="5.0038" width="0.1524" layer="21"/>
 <wire x1="-5.0038" y1="5.0038" x2="-5.0038" y2="4.2164" width="0.1524" layer="21"/>
 <wire x1="-5.0038" y1="-4.2164" x2="-5.0038" y2="-5.0038" width="0.1524" layer="21"/>
-<text x="-5.6134" y="-10.4648" size="2.0828" layer="21" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-7.5692" y="3.7338" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-7.5692" y="3.7338" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-5.0038" y1="3.6068" x2="-5.0038" y2="3.7338" width="0" layer="51"/>
@@ -490,8 +520,19 @@
 <text x="-3.4544" y="8.89" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 </package>
 <package name="LQFP32-7X7">
-<description>&lt;b&gt;LQFP-32 package&lt;/b&gt; 7x7 mm case, 0.8 mm lead pitch&lt;/b&gt;&lt;p&gt;
-Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+LQFP-32 package, 7x7 mm case, 0.8 mm lead pitch
+&lt;p&gt;
+Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
@@ -629,8 +670,19 @@ Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm
 <rectangle x1="-3.45" y1="4.05" x2="-2.15" y2="4.55" layer="29" rot="R270"/>
 </package>
 <package name="LQFP48-7X7">
-<description>&lt;b&gt;48-pin low profile quad flat package (7 x 7)&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+48-pin low profile quad flat package (7 x 7)
+&lt;p&gt;
+Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <wire x1="-3.4" y1="3.1" x2="-3.1" y2="3.4" width="0.2032" layer="21"/>
 <wire x1="-3.1" y1="3.4" x2="3.1" y2="3.4" width="0.2032" layer="51"/>
 <wire x1="3.1" y1="3.4" x2="3.4" y2="3.1" width="0.2032" layer="21"/>
@@ -836,8 +888,17 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <rectangle x1="-3.125" y1="3.75" x2="-2.375" y2="3.95" layer="51" rot="R270"/>
 </package>
 <package name="UFQFPN32">
-<description>&lt;b&gt;32-lead ultra thin fine pitch quad flat no-lead package (5 x 5)&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+32-lead ultra thin fine pitch quad flat no-lead package (5 x 5)
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <wire x1="-2.4" y1="2.4" x2="2.4" y2="2.4" width="0.2032" layer="51"/>
 <wire x1="2.4" y1="2.4" x2="2.4" y2="-2.4" width="0.2032" layer="51"/>
 <wire x1="2.4" y1="-2.4" x2="-2.4" y2="-2.4" width="0.2032" layer="51"/>
@@ -959,6 +1020,15 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 </packages>
 <symbols>
 <symbol name="STM32F103RBT6">
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <pin name="VDDA" x="-40.64" y="60.96" length="middle" direction="pwr"/>
 <pin name="VDD_1" x="-40.64" y="45.72" length="middle" direction="pwr"/>
 <pin name="VDD_2" x="-40.64" y="43.18" length="middle" direction="pwr"/>
@@ -1031,6 +1101,15 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <text x="10.16" y="-38.1" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32L152RBT6">
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <pin name="VLCD" x="-30.48" y="45.72" length="middle" direction="pwr"/>
 <pin name="VDDA" x="-30.48" y="43.18" length="middle" direction="pwr"/>
 <pin name="VDD_1" x="-30.48" y="40.64" length="middle" direction="pwr"/>
@@ -1103,6 +1182,15 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <text x="-3.7846" y="-64.3128" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32F100R8T6B">
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <pin name="VDDA" x="-27.94" y="60.96" length="middle" direction="pwr"/>
 <pin name="VDD_1" x="-27.94" y="58.42" length="middle" direction="pwr"/>
 <pin name="VDD_2" x="-27.94" y="55.88" length="middle" direction="pwr"/>
@@ -1175,6 +1263,15 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <text x="-3.429" y="-79.2734" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32F051K8T6">
+<description>&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <pin name="VDDA" x="-40.64" y="60.96" length="middle" direction="pwr"/>
 <pin name="VDD_1" x="-40.64" y="45.72" length="middle" direction="pwr"/>
 <pin name="VDD_2" x="-40.64" y="43.18" length="middle" direction="pwr"/>
@@ -1217,7 +1314,20 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 </symbols>
 <devicesets>
 <deviceset name="STM32F103RBT6" prefix="U">
-<description>STM32F103RB</description>
+<description>&lt;b&gt;STM32F103RB&lt;/b&gt;
+&lt;br&gt;
+ARM CortexM-3 MCU, 256-KB Flash, timers, ADC,
+DAC and communication interfaces, 2.0-3.6 V
+&lt;p&gt;
+&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
 <gate name="STM32F103RB" symbol="STM32F103RBT6" x="0" y="0"/>
 </gates>
@@ -1292,8 +1402,6 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <technologies>
 <technology name="">
 <attribute name="MPN" value="STM32F103RBT6" constant="no"/>
-<attribute name="OC_FARNELL" value="1447640" constant="no"/>
-<attribute name="OC_NEWARK" value="59M2183" constant="no"/>
 <attribute name="PACKAGE" value="LQFP-64" constant="no"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" constant="no"/>
 </technology>
@@ -1302,7 +1410,20 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 </devices>
 </deviceset>
 <deviceset name="STM32L152RBT6" prefix="U">
-<description>Ultralow power ARM-based 32-bit MCU</description>
+<description>&lt;b&gt;STM32L152RBT6&lt;/b&gt;
+&lt;br&gt;
+ARM-based 32-bit MCU, 16 to 64-KB Flash, timers, ADC,
+DAC and communication interfaces, 2.0-3.6 V
+&lt;p&gt;
+&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
 <gate name="A" symbol="STM32L152RBT6" x="0" y="0"/>
 </gates>
@@ -1377,9 +1498,7 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <technologies>
 <technology name="">
 <attribute name="MPN" value="STM32L152RBT6" constant="no"/>
-<attribute name="OC_FARNELL" value="2060946" constant="no"/>
-<attribute name="OC_NEWARK" value="65T3806" constant="no"/>
-<attribute name="PACKAGE" value="QTP-64" constant="no"/>
+<attribute name="PACKAGE" value="QFP-64" constant="no"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" constant="no"/>
 </technology>
 </technologies>
@@ -1387,7 +1506,17 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 </devices>
 </deviceset>
 <deviceset name="STM32F100R8T6B" prefix="U">
-<description>ARM-based 32-bit MCU</description>
+<description>STM32F100R8T6B
+&lt;p&gt;
+&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
 <gate name="A" symbol="STM32F100R8T6B" x="0" y="0"/>
 </gates>
@@ -1462,8 +1591,6 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <technologies>
 <technology name="">
 <attribute name="MPN" value="STM32F100R8T6B" constant="no"/>
-<attribute name="OC_FARNELL" value="1838508" constant="no"/>
-<attribute name="OC_NEWARK" value="76R0992" constant="no"/>
 <attribute name="PACKAGE" value="QFP-64" constant="no"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" constant="no"/>
 </technology>
@@ -1472,8 +1599,20 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 </devices>
 </deviceset>
 <deviceset name="STM32F051K8T6">
-<description>&lt;B&gt;ARM-based 32-bit MCU, 16 to 64-KB Flash, timers, ADC,
-DAC and communication interfaces, 2.0-3.6 V&lt;/B&gt;</description>
+<description>&lt;b&gt;STM32F051K8T6&lt;/b&gt;
+&lt;br&gt;
+ARM CortexM-0 MCU, 16 to 64-KB Flash, timers, ADC,
+DAC and communication interfaces, 2.0-3.6 V
+&lt;p&gt;
+&lt;b&gt;PatternAgents ST Microelectronics Component Library&lt;/b&gt;
+&lt;br&gt;
+Source LBR : http://www.patternagents.com 
+&lt;br&gt;
+Github : https://github.com/patternagents 
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
+&lt;p&gt; 
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
 <gate name="G$1" symbol="STM32F051K8T6" x="0" y="0"/>
 </gates>
