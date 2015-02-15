@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -9889,46 +9889,46 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="63.627" y1="1.778" x2="62.992" y2="2.413" width="0.1524" layer="21"/>
 <wire x1="62.992" y1="50.038" x2="65.532" y2="50.038" width="0.127" layer="21"/>
 <wire x1="65.532" y1="50.038" x2="65.532" y2="52.578" width="0.127" layer="21"/>
-<pad name="41" x="64.262" y="51.308" drill="1.016" shape="square" rot="R270"/>
-<pad name="42" x="64.262" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="43" x="64.262" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="44" x="64.262" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="45" x="64.262" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="46" x="64.262" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="47" x="66.802" y="51.308" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="48" x="66.802" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="49" x="66.802" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="50" x="66.802" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="51" x="66.802" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="52" x="66.802" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="53" x="64.262" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="54" x="66.802" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="55" x="64.262" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="56" x="64.262" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="57" x="64.262" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="58" x="64.262" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="59" x="64.262" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="60" x="64.262" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="61" x="66.802" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="62" x="66.802" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="63" x="66.802" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="64" x="66.802" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="65" x="66.802" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="66" x="66.802" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="67" x="64.262" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="68" x="66.802" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="69" x="64.262" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="70" x="64.262" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="71" x="64.262" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="72" x="64.262" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="73" x="64.262" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="74" x="64.262" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="75" x="66.802" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="76" x="66.802" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="77" x="66.802" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="78" x="66.802" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="79" x="66.802" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="80" x="66.802" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="1A" x="64.262" y="51.308" drill="1.016" shape="square" rot="R270"/>
+<pad name="3A" x="64.262" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="5A" x="64.262" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="7A" x="64.262" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="9A" x="64.262" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="11A" x="64.262" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="2A" x="66.802" y="51.308" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="4A" x="66.802" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="6A" x="66.802" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="8A" x="66.802" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="10A" x="66.802" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="12A" x="66.802" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="13A" x="64.262" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="14A" x="66.802" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="15A" x="64.262" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="17A" x="64.262" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="19A" x="64.262" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="21A" x="64.262" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="23A" x="64.262" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="25A" x="64.262" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="16A" x="66.802" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="18A" x="66.802" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="20A" x="66.802" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="22A" x="66.802" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="24A" x="66.802" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="26A" x="66.802" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="27A" x="64.262" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="28A" x="66.802" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="29A" x="64.262" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="31A" x="64.262" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="33A" x="64.262" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="35A" x="64.262" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="37A" x="64.262" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="39A" x="64.262" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="30A" x="66.802" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="32A" x="66.802" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="34A" x="66.802" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="36A" x="66.802" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="38A" x="66.802" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="40A" x="66.802" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
 <rectangle x1="64.008" y1="48.514" x2="64.516" y2="49.022" layer="51" rot="R270"/>
 <rectangle x1="64.008" y1="51.054" x2="64.516" y2="51.562" layer="51" rot="R270"/>
 <rectangle x1="64.008" y1="45.974" x2="64.516" y2="46.482" layer="51" rot="R270"/>
@@ -9980,7 +9980,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="69.977" y1="1.143" x2="69.977" y2="56.134" width="0.127" layer="20"/>
 </package>
 <package name="PA_NUCLEO_LRG">
-<description>&lt;b&gt;PatternAgents Nucleo Board Pattern&lt;/b&gt;
+<description>&lt;b&gt;PatternAgents Nucleo Board Pattern (LARGE)&lt;/b&gt;
 &lt;p&gt;
 Nucleo compatible board template - large size
 (Uses more common 40 pin connector footprint - 2 extra pins per side)
@@ -9992,10 +9992,8 @@ Github : https://github.com/patternagents
 License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
 &lt;p&gt; 
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
-<wire x1="0" y1="0" x2="0" y2="82.94" width="0.127" layer="20"/>
-<wire x1="70" y1="0" x2="70" y2="82.94" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="70" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="82.94" x2="70" y2="82.94" width="0.127" layer="20"/>
+<wire x1="0" y1="1.27" x2="0" y2="81.534" width="0.127" layer="20"/>
+<wire x1="1.27" y1="0" x2="68.834" y2="0" width="0.127" layer="20"/>
 <wire x1="7.112" y1="51.943" x2="7.112" y2="50.673" width="0.1524" layer="21"/>
 <wire x1="7.112" y1="50.673" x2="6.477" y2="50.038" width="0.1524" layer="21"/>
 <wire x1="6.477" y1="50.038" x2="7.112" y2="49.403" width="0.1524" layer="21"/>
@@ -10321,46 +10319,46 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="63.627" y1="1.778" x2="62.992" y2="2.413" width="0.1524" layer="21"/>
 <wire x1="62.992" y1="50.038" x2="65.532" y2="50.038" width="0.127" layer="21"/>
 <wire x1="65.532" y1="50.038" x2="65.532" y2="52.578" width="0.127" layer="21"/>
-<pad name="41" x="64.262" y="51.308" drill="1.016" shape="square" rot="R270"/>
-<pad name="42" x="64.262" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="43" x="64.262" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="44" x="64.262" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="45" x="64.262" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="46" x="64.262" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="47" x="66.802" y="51.308" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="48" x="66.802" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="49" x="66.802" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="50" x="66.802" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="51" x="66.802" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="52" x="66.802" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="53" x="64.262" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="54" x="66.802" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="55" x="64.262" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="56" x="64.262" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="57" x="64.262" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="58" x="64.262" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="59" x="64.262" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="60" x="64.262" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="61" x="66.802" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="62" x="66.802" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="63" x="66.802" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="64" x="66.802" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="65" x="66.802" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="66" x="66.802" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="67" x="64.262" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="68" x="66.802" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="69" x="64.262" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="70" x="64.262" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="71" x="64.262" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="72" x="64.262" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="73" x="64.262" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="74" x="64.262" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="75" x="66.802" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="76" x="66.802" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="77" x="66.802" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="78" x="66.802" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="79" x="66.802" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="80" x="66.802" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="1A" x="64.262" y="51.308" drill="1.016" shape="square" rot="R270"/>
+<pad name="3A" x="64.262" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="5A" x="64.262" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="7A" x="64.262" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="9A" x="64.262" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="11A" x="64.262" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="2A" x="66.802" y="51.308" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="4A" x="66.802" y="48.768" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="6A" x="66.802" y="46.228" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="8A" x="66.802" y="43.688" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="10A" x="66.802" y="41.148" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="12A" x="66.802" y="38.608" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="13A" x="64.262" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="14A" x="66.802" y="36.068" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="15A" x="64.262" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="17A" x="64.262" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="19A" x="64.262" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="21A" x="64.262" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="23A" x="64.262" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="25A" x="64.262" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="16A" x="66.802" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="18A" x="66.802" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="20A" x="66.802" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="22A" x="66.802" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="24A" x="66.802" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="26A" x="66.802" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="27A" x="64.262" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="28A" x="66.802" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="29A" x="64.262" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="31A" x="64.262" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="33A" x="64.262" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="35A" x="64.262" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="37A" x="64.262" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="39A" x="64.262" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="30A" x="66.802" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="32A" x="66.802" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="34A" x="66.802" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="36A" x="66.802" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="38A" x="66.802" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="40A" x="66.802" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
 <rectangle x1="64.008" y1="48.514" x2="64.516" y2="49.022" layer="51" rot="R270"/>
 <rectangle x1="64.008" y1="51.054" x2="64.516" y2="51.562" layer="51" rot="R270"/>
 <rectangle x1="64.008" y1="45.974" x2="64.516" y2="46.482" layer="51" rot="R270"/>
@@ -10404,6 +10402,12 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <hole x="43.942" y="3.048" drill="3.2"/>
 <hole x="57.15" y="53.848" drill="3.2"/>
 <hole x="10.87" y="54.5" drill="3.2"/>
+<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.127" layer="20" curve="-102.680383"/>
+<wire x1="0" y1="81.534" x2="1.27" y2="82.804" width="0.127" layer="20" curve="-96.025575"/>
+<wire x1="68.707" y1="82.804" x2="1.27" y2="82.804" width="0.127" layer="20"/>
+<wire x1="68.707" y1="82.804" x2="69.977" y2="81.534" width="0.127" layer="20" curve="-84.547378"/>
+<wire x1="69.977" y1="1.143" x2="68.834" y2="0" width="0.127" layer="20" curve="-103.37444"/>
+<wire x1="69.977" y1="1.143" x2="69.977" y2="81.534" width="0.127" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -13574,7 +13578,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_RASPI_PLATE_BPLUS" prefix="PIE">
+<deviceset name="PA_RASPI_BPLUS_BRD" prefix="PIE">
 <description>&lt;b&gt;PatternAgents Raspberry Pi B+ Template&lt;/b&gt;
 &lt;br&gt;
 Source LBR : http://www.patternagents.com 
@@ -13753,7 +13757,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="PA_NUCLEO">
+<deviceset name="PA_NUCLEO_BRD">
 <description>&lt;b&gt;PatternAgents Nucleo Board Pattern &lt;/b&gt;
 &lt;br&gt;
 Source LBR : http://www.patternagents.com 
@@ -13764,52 +13768,52 @@ License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
 &lt;p&gt; 
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
-<gate name="CN7" symbol="PA_NUCLEO" x="-50.8" y="0"/>
-<gate name="CN10" symbol="PA_NUCLEO" x="50.8" y="0"/>
+<gate name="CN7" symbol="PA_NUCLEO" x="-38.1" y="0"/>
+<gate name="CN10" symbol="PA_NUCLEO" x="40.64" y="0"/>
 </gates>
 <devices>
 <device name="" package="PA_NUCLEO">
 <connects>
-<connect gate="CN10" pin="1" pad="41"/>
-<connect gate="CN10" pin="10" pad="50"/>
-<connect gate="CN10" pin="11" pad="51"/>
-<connect gate="CN10" pin="12" pad="52"/>
-<connect gate="CN10" pin="13" pad="53"/>
-<connect gate="CN10" pin="14" pad="54"/>
-<connect gate="CN10" pin="15" pad="55"/>
-<connect gate="CN10" pin="16" pad="56"/>
-<connect gate="CN10" pin="17" pad="57"/>
-<connect gate="CN10" pin="18" pad="58"/>
-<connect gate="CN10" pin="19" pad="59"/>
-<connect gate="CN10" pin="2" pad="42"/>
-<connect gate="CN10" pin="20" pad="60"/>
-<connect gate="CN10" pin="21" pad="61"/>
-<connect gate="CN10" pin="22" pad="62"/>
-<connect gate="CN10" pin="23" pad="63"/>
-<connect gate="CN10" pin="24" pad="64"/>
-<connect gate="CN10" pin="25" pad="65"/>
-<connect gate="CN10" pin="26" pad="66"/>
-<connect gate="CN10" pin="27" pad="67"/>
-<connect gate="CN10" pin="28" pad="68"/>
-<connect gate="CN10" pin="29" pad="69"/>
-<connect gate="CN10" pin="3" pad="43"/>
-<connect gate="CN10" pin="30" pad="70"/>
-<connect gate="CN10" pin="31" pad="71"/>
-<connect gate="CN10" pin="32" pad="72"/>
-<connect gate="CN10" pin="33" pad="73"/>
-<connect gate="CN10" pin="34" pad="74"/>
-<connect gate="CN10" pin="35" pad="75"/>
-<connect gate="CN10" pin="36" pad="76"/>
-<connect gate="CN10" pin="37" pad="77"/>
-<connect gate="CN10" pin="38" pad="78"/>
-<connect gate="CN10" pin="39" pad="79"/>
-<connect gate="CN10" pin="4" pad="44"/>
-<connect gate="CN10" pin="40" pad="80"/>
-<connect gate="CN10" pin="5" pad="45"/>
-<connect gate="CN10" pin="6" pad="46"/>
-<connect gate="CN10" pin="7" pad="47"/>
-<connect gate="CN10" pin="8" pad="48"/>
-<connect gate="CN10" pin="9" pad="49"/>
+<connect gate="CN10" pin="1" pad="1A"/>
+<connect gate="CN10" pin="10" pad="10A"/>
+<connect gate="CN10" pin="11" pad="11A"/>
+<connect gate="CN10" pin="12" pad="12A"/>
+<connect gate="CN10" pin="13" pad="13A"/>
+<connect gate="CN10" pin="14" pad="14A"/>
+<connect gate="CN10" pin="15" pad="15A"/>
+<connect gate="CN10" pin="16" pad="16A"/>
+<connect gate="CN10" pin="17" pad="17A"/>
+<connect gate="CN10" pin="18" pad="18A"/>
+<connect gate="CN10" pin="19" pad="19A"/>
+<connect gate="CN10" pin="2" pad="2A"/>
+<connect gate="CN10" pin="20" pad="20A"/>
+<connect gate="CN10" pin="21" pad="21A"/>
+<connect gate="CN10" pin="22" pad="22A"/>
+<connect gate="CN10" pin="23" pad="23A"/>
+<connect gate="CN10" pin="24" pad="24A"/>
+<connect gate="CN10" pin="25" pad="25A"/>
+<connect gate="CN10" pin="26" pad="26A"/>
+<connect gate="CN10" pin="27" pad="27A"/>
+<connect gate="CN10" pin="28" pad="28A"/>
+<connect gate="CN10" pin="29" pad="29A"/>
+<connect gate="CN10" pin="3" pad="3A"/>
+<connect gate="CN10" pin="30" pad="30A"/>
+<connect gate="CN10" pin="31" pad="31A"/>
+<connect gate="CN10" pin="32" pad="32A"/>
+<connect gate="CN10" pin="33" pad="33A"/>
+<connect gate="CN10" pin="34" pad="34A"/>
+<connect gate="CN10" pin="35" pad="35A"/>
+<connect gate="CN10" pin="36" pad="36A"/>
+<connect gate="CN10" pin="37" pad="37A"/>
+<connect gate="CN10" pin="38" pad="38A"/>
+<connect gate="CN10" pin="39" pad="39A"/>
+<connect gate="CN10" pin="4" pad="4A"/>
+<connect gate="CN10" pin="40" pad="40A"/>
+<connect gate="CN10" pin="5" pad="5A"/>
+<connect gate="CN10" pin="6" pad="6A"/>
+<connect gate="CN10" pin="7" pad="7A"/>
+<connect gate="CN10" pin="8" pad="8A"/>
+<connect gate="CN10" pin="9" pad="9A"/>
 <connect gate="CN7" pin="1" pad="1"/>
 <connect gate="CN7" pin="10" pad="10"/>
 <connect gate="CN7" pin="11" pad="11"/>
@@ -13857,46 +13861,46 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="LRG" package="PA_NUCLEO_LRG">
 <connects>
-<connect gate="CN10" pin="1" pad="41"/>
-<connect gate="CN10" pin="10" pad="50"/>
-<connect gate="CN10" pin="11" pad="51"/>
-<connect gate="CN10" pin="12" pad="52"/>
-<connect gate="CN10" pin="13" pad="53"/>
-<connect gate="CN10" pin="14" pad="54"/>
-<connect gate="CN10" pin="15" pad="55"/>
-<connect gate="CN10" pin="16" pad="56"/>
-<connect gate="CN10" pin="17" pad="57"/>
-<connect gate="CN10" pin="18" pad="58"/>
-<connect gate="CN10" pin="19" pad="59"/>
-<connect gate="CN10" pin="2" pad="42"/>
-<connect gate="CN10" pin="20" pad="60"/>
-<connect gate="CN10" pin="21" pad="61"/>
-<connect gate="CN10" pin="22" pad="62"/>
-<connect gate="CN10" pin="23" pad="63"/>
-<connect gate="CN10" pin="24" pad="64"/>
-<connect gate="CN10" pin="25" pad="65"/>
-<connect gate="CN10" pin="26" pad="66"/>
-<connect gate="CN10" pin="27" pad="67"/>
-<connect gate="CN10" pin="28" pad="68"/>
-<connect gate="CN10" pin="29" pad="69"/>
-<connect gate="CN10" pin="3" pad="43"/>
-<connect gate="CN10" pin="30" pad="70"/>
-<connect gate="CN10" pin="31" pad="71"/>
-<connect gate="CN10" pin="32" pad="72"/>
-<connect gate="CN10" pin="33" pad="73"/>
-<connect gate="CN10" pin="34" pad="74"/>
-<connect gate="CN10" pin="35" pad="75"/>
-<connect gate="CN10" pin="36" pad="76"/>
-<connect gate="CN10" pin="37" pad="77"/>
-<connect gate="CN10" pin="38" pad="78"/>
-<connect gate="CN10" pin="39" pad="79"/>
-<connect gate="CN10" pin="4" pad="44"/>
-<connect gate="CN10" pin="40" pad="80"/>
-<connect gate="CN10" pin="5" pad="45"/>
-<connect gate="CN10" pin="6" pad="46"/>
-<connect gate="CN10" pin="7" pad="47"/>
-<connect gate="CN10" pin="8" pad="48"/>
-<connect gate="CN10" pin="9" pad="49"/>
+<connect gate="CN10" pin="1" pad="1A"/>
+<connect gate="CN10" pin="10" pad="10A"/>
+<connect gate="CN10" pin="11" pad="11A"/>
+<connect gate="CN10" pin="12" pad="12A"/>
+<connect gate="CN10" pin="13" pad="13A"/>
+<connect gate="CN10" pin="14" pad="14A"/>
+<connect gate="CN10" pin="15" pad="15A"/>
+<connect gate="CN10" pin="16" pad="16A"/>
+<connect gate="CN10" pin="17" pad="17A"/>
+<connect gate="CN10" pin="18" pad="18A"/>
+<connect gate="CN10" pin="19" pad="19A"/>
+<connect gate="CN10" pin="2" pad="2A"/>
+<connect gate="CN10" pin="20" pad="20A"/>
+<connect gate="CN10" pin="21" pad="21A"/>
+<connect gate="CN10" pin="22" pad="22A"/>
+<connect gate="CN10" pin="23" pad="23A"/>
+<connect gate="CN10" pin="24" pad="24A"/>
+<connect gate="CN10" pin="25" pad="25A"/>
+<connect gate="CN10" pin="26" pad="26A"/>
+<connect gate="CN10" pin="27" pad="27A"/>
+<connect gate="CN10" pin="28" pad="28A"/>
+<connect gate="CN10" pin="29" pad="29A"/>
+<connect gate="CN10" pin="3" pad="3A"/>
+<connect gate="CN10" pin="30" pad="30A"/>
+<connect gate="CN10" pin="31" pad="31A"/>
+<connect gate="CN10" pin="32" pad="32A"/>
+<connect gate="CN10" pin="33" pad="33A"/>
+<connect gate="CN10" pin="34" pad="34A"/>
+<connect gate="CN10" pin="35" pad="35A"/>
+<connect gate="CN10" pin="36" pad="36A"/>
+<connect gate="CN10" pin="37" pad="37A"/>
+<connect gate="CN10" pin="38" pad="38A"/>
+<connect gate="CN10" pin="39" pad="39A"/>
+<connect gate="CN10" pin="4" pad="4A"/>
+<connect gate="CN10" pin="40" pad="40A"/>
+<connect gate="CN10" pin="5" pad="5A"/>
+<connect gate="CN10" pin="6" pad="6A"/>
+<connect gate="CN10" pin="7" pad="7A"/>
+<connect gate="CN10" pin="8" pad="8A"/>
+<connect gate="CN10" pin="9" pad="9A"/>
 <connect gate="CN7" pin="1" pad="1"/>
 <connect gate="CN7" pin="10" pad="10"/>
 <connect gate="CN7" pin="11" pad="11"/>
