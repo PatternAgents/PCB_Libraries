@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -54,6 +54,7 @@
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -78,6 +79,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -121,6 +123,9 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
@@ -9726,7 +9731,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="36" x="5.842" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
 <pad name="38" x="5.842" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
 <pad name="40" x="5.842" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
-<text x="46.99" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="46.99" y="1.143" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <rectangle x1="3.048" y1="48.514" x2="3.556" y2="49.022" layer="51" rot="R270"/>
 <rectangle x1="3.048" y1="51.054" x2="3.556" y2="51.562" layer="51" rot="R270"/>
 <rectangle x1="3.048" y1="45.974" x2="3.556" y2="46.482" layer="51" rot="R270"/>
@@ -9971,7 +9976,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <rectangle x1="66.548" y1="2.794" x2="67.056" y2="3.302" layer="51" rot="R270"/>
 <hole x="43.942" y="3.048" drill="3.2"/>
 <hole x="57.15" y="53.848" drill="3.2"/>
-<hole x="10.87" y="54.5" drill="3.2"/>
+<hole x="10.87" y="54.246" drill="3.2"/>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.127" layer="20" curve="-102.680383"/>
 <wire x1="0" y1="56.134" x2="1.27" y2="57.404" width="0.127" layer="20" curve="-96.025575"/>
 <wire x1="68.707" y1="57.404" x2="1.27" y2="57.404" width="0.127" layer="20"/>
@@ -10156,7 +10161,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="36" x="5.842" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
 <pad name="38" x="5.842" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
 <pad name="40" x="5.842" y="3.048" drill="1.016" shape="octagon" rot="R270"/>
-<text x="46.99" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="46.99" y="1.143" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <rectangle x1="3.048" y1="48.514" x2="3.556" y2="49.022" layer="51" rot="R270"/>
 <rectangle x1="3.048" y1="51.054" x2="3.556" y2="51.562" layer="51" rot="R270"/>
 <rectangle x1="3.048" y1="45.974" x2="3.556" y2="46.482" layer="51" rot="R270"/>
@@ -10401,13 +10406,65 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <rectangle x1="66.548" y1="2.794" x2="67.056" y2="3.302" layer="51" rot="R270"/>
 <hole x="43.942" y="3.048" drill="3.2"/>
 <hole x="57.15" y="53.848" drill="3.2"/>
-<hole x="10.87" y="54.5" drill="3.2"/>
+<hole x="10.87" y="54.246" drill="3.2"/>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.127" layer="20" curve="-102.680383"/>
 <wire x1="0" y1="81.534" x2="1.27" y2="82.804" width="0.127" layer="20" curve="-96.025575"/>
 <wire x1="68.707" y1="82.804" x2="1.27" y2="82.804" width="0.127" layer="20"/>
 <wire x1="68.707" y1="82.804" x2="69.977" y2="81.534" width="0.127" layer="20" curve="-84.547378"/>
 <wire x1="69.977" y1="1.143" x2="68.834" y2="0" width="0.127" layer="20" curve="-103.37444"/>
 <wire x1="69.977" y1="1.143" x2="69.977" y2="81.534" width="0.127" layer="20"/>
+</package>
+<package name="PA_ISM_STD">
+<description>&lt;b&gt;PatternAgents Industry Standard Module Board Pattern&lt;/b&gt;
+&lt;p&gt;
+Standard Size ISM Module
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="0" x2="90.2" y2="0" width="0" layer="20"/>
+<wire x1="90.2" y1="0" x2="90.2" y2="95.9" width="0" layer="20"/>
+<wire x1="90.2" y1="95.9" x2="0" y2="95.9" width="0" layer="20"/>
+<wire x1="0" y1="95.9" x2="0" y2="0" width="0" layer="20"/>
+<pad name="GND@1" x="8.9" y="90.8" drill="3.2" diameter="4"/>
+<pad name="GND@3" x="5.1" y="5.1" drill="3.2" diameter="4"/>
+<pad name="GND@4" x="85.1" y="5.1" drill="3.2" diameter="4"/>
+<pad name="GND@2" x="82.5" y="90.8" drill="3.2" diameter="4"/>
+<text x="13.76" y="94.155" size="1.27" layer="25">&gt;NAME</text>
+<text x="31.54" y="94.155" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PA_ISM_NAR">
+<description>&lt;b&gt;PatternAgents Industry Standard Module Board Pattern&lt;/b&gt;
+&lt;p&gt;
+Reduced Width ISM Module
+&lt;br&gt;
+3.45 inch X 3.75 inch
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="0" x2="87.66" y2="0" width="0" layer="20"/>
+<wire x1="87.66" y1="0" x2="87.66" y2="95.9" width="0" layer="20"/>
+<wire x1="87.66" y1="95.9" x2="0" y2="95.9" width="0" layer="21"/>
+<wire x1="0" y1="95.9" x2="0" y2="0" width="0" layer="20"/>
+<pad name="GND@1" x="7.63" y="90.8" drill="3.2" diameter="4"/>
+<pad name="GND@3" x="3.83" y="5.1" drill="3.2" diameter="4"/>
+<pad name="GND@4" x="83.83" y="5.1" drill="3.2" diameter="4"/>
+<pad name="GND@2" x="81.23" y="90.8" drill="3.2" diameter="4"/>
+<text x="11.22" y="1.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="69.64" y="1.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -11972,10 +12029,49 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pin name="37" x="-7.62" y="-22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="39" x="-7.62" y="-25.4" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="GNDX4">
+<wire x1="-13.97" y1="-2.54" x2="-11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-2.54" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-3.81" x2="-13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-2.54" x2="-7.62" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<text x="-9.525" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND1" x="-12.7" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="GND2" x="-7.62" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="GND3" x="-2.54" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="GND4" x="2.54" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="PA_ISM_LOGO">
+<description>I&lt;b&gt;PatternAgents Industry Standard Module Board Pattern&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="-15.24" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="5.08" size="1.27" layer="94">Industry Standard Module</text>
+<text x="-12.7" y="0" size="1.27" layer="94">http://www.patternagents.com</text>
+<text x="-12.7" y="2.54" size="1.27" layer="94">PCB Outline with Holes</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PA_DUE_BRD" prefix="G">
-<description>&lt;b&gt;PatternAgents Due Shield Pattern&lt;/b&gt;
+<description>&lt;b&gt;PatternAgents Due Shield Board Pattern&lt;/b&gt;
 &lt;br&gt;
 (Compatible with Arduino Due)
 &lt;p&gt;
@@ -13768,92 +13864,92 @@ License : http://creativecommons.org/licenses/by-sa/4.0/ (Creative Commons 4.0)
 &lt;p&gt; 
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <gates>
-<gate name="CN7" symbol="PA_NUCLEO" x="-38.1" y="0"/>
-<gate name="CN10" symbol="PA_NUCLEO" x="40.64" y="0"/>
+<gate name="J1" symbol="PA_NUCLEO" x="-38.1" y="0"/>
+<gate name="J2" symbol="PA_NUCLEO" x="40.64" y="0"/>
 </gates>
 <devices>
 <device name="" package="PA_NUCLEO">
 <connects>
-<connect gate="CN10" pin="1" pad="1A"/>
-<connect gate="CN10" pin="10" pad="10A"/>
-<connect gate="CN10" pin="11" pad="11A"/>
-<connect gate="CN10" pin="12" pad="12A"/>
-<connect gate="CN10" pin="13" pad="13A"/>
-<connect gate="CN10" pin="14" pad="14A"/>
-<connect gate="CN10" pin="15" pad="15A"/>
-<connect gate="CN10" pin="16" pad="16A"/>
-<connect gate="CN10" pin="17" pad="17A"/>
-<connect gate="CN10" pin="18" pad="18A"/>
-<connect gate="CN10" pin="19" pad="19A"/>
-<connect gate="CN10" pin="2" pad="2A"/>
-<connect gate="CN10" pin="20" pad="20A"/>
-<connect gate="CN10" pin="21" pad="21A"/>
-<connect gate="CN10" pin="22" pad="22A"/>
-<connect gate="CN10" pin="23" pad="23A"/>
-<connect gate="CN10" pin="24" pad="24A"/>
-<connect gate="CN10" pin="25" pad="25A"/>
-<connect gate="CN10" pin="26" pad="26A"/>
-<connect gate="CN10" pin="27" pad="27A"/>
-<connect gate="CN10" pin="28" pad="28A"/>
-<connect gate="CN10" pin="29" pad="29A"/>
-<connect gate="CN10" pin="3" pad="3A"/>
-<connect gate="CN10" pin="30" pad="30A"/>
-<connect gate="CN10" pin="31" pad="31A"/>
-<connect gate="CN10" pin="32" pad="32A"/>
-<connect gate="CN10" pin="33" pad="33A"/>
-<connect gate="CN10" pin="34" pad="34A"/>
-<connect gate="CN10" pin="35" pad="35A"/>
-<connect gate="CN10" pin="36" pad="36A"/>
-<connect gate="CN10" pin="37" pad="37A"/>
-<connect gate="CN10" pin="38" pad="38A"/>
-<connect gate="CN10" pin="39" pad="39A"/>
-<connect gate="CN10" pin="4" pad="4A"/>
-<connect gate="CN10" pin="40" pad="40A"/>
-<connect gate="CN10" pin="5" pad="5A"/>
-<connect gate="CN10" pin="6" pad="6A"/>
-<connect gate="CN10" pin="7" pad="7A"/>
-<connect gate="CN10" pin="8" pad="8A"/>
-<connect gate="CN10" pin="9" pad="9A"/>
-<connect gate="CN7" pin="1" pad="1"/>
-<connect gate="CN7" pin="10" pad="10"/>
-<connect gate="CN7" pin="11" pad="11"/>
-<connect gate="CN7" pin="12" pad="12"/>
-<connect gate="CN7" pin="13" pad="13"/>
-<connect gate="CN7" pin="14" pad="14"/>
-<connect gate="CN7" pin="15" pad="15"/>
-<connect gate="CN7" pin="16" pad="16"/>
-<connect gate="CN7" pin="17" pad="17"/>
-<connect gate="CN7" pin="18" pad="18"/>
-<connect gate="CN7" pin="19" pad="19"/>
-<connect gate="CN7" pin="2" pad="2"/>
-<connect gate="CN7" pin="20" pad="20"/>
-<connect gate="CN7" pin="21" pad="21"/>
-<connect gate="CN7" pin="22" pad="22"/>
-<connect gate="CN7" pin="23" pad="23"/>
-<connect gate="CN7" pin="24" pad="24"/>
-<connect gate="CN7" pin="25" pad="25"/>
-<connect gate="CN7" pin="26" pad="26"/>
-<connect gate="CN7" pin="27" pad="27"/>
-<connect gate="CN7" pin="28" pad="28"/>
-<connect gate="CN7" pin="29" pad="29"/>
-<connect gate="CN7" pin="3" pad="3"/>
-<connect gate="CN7" pin="30" pad="30"/>
-<connect gate="CN7" pin="31" pad="31"/>
-<connect gate="CN7" pin="32" pad="32"/>
-<connect gate="CN7" pin="33" pad="33"/>
-<connect gate="CN7" pin="34" pad="34"/>
-<connect gate="CN7" pin="35" pad="35"/>
-<connect gate="CN7" pin="36" pad="36"/>
-<connect gate="CN7" pin="37" pad="37"/>
-<connect gate="CN7" pin="38" pad="38"/>
-<connect gate="CN7" pin="39" pad="39"/>
-<connect gate="CN7" pin="4" pad="4"/>
-<connect gate="CN7" pin="40" pad="40"/>
-<connect gate="CN7" pin="5" pad="5"/>
-<connect gate="CN7" pin="6" pad="6"/>
-<connect gate="CN7" pin="7" pad="7"/>
-<connect gate="CN7" pin="8" pad="8"/>
-<connect gate="CN7" pin="9" pad="9"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="10" pad="10"/>
+<connect gate="J1" pin="11" pad="11"/>
+<connect gate="J1" pin="12" pad="12"/>
+<connect gate="J1" pin="13" pad="13"/>
+<connect gate="J1" pin="14" pad="14"/>
+<connect gate="J1" pin="15" pad="15"/>
+<connect gate="J1" pin="16" pad="16"/>
+<connect gate="J1" pin="17" pad="17"/>
+<connect gate="J1" pin="18" pad="18"/>
+<connect gate="J1" pin="19" pad="19"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="20" pad="20"/>
+<connect gate="J1" pin="21" pad="21"/>
+<connect gate="J1" pin="22" pad="22"/>
+<connect gate="J1" pin="23" pad="23"/>
+<connect gate="J1" pin="24" pad="24"/>
+<connect gate="J1" pin="25" pad="25"/>
+<connect gate="J1" pin="26" pad="26"/>
+<connect gate="J1" pin="27" pad="27"/>
+<connect gate="J1" pin="28" pad="28"/>
+<connect gate="J1" pin="29" pad="29"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="30" pad="30"/>
+<connect gate="J1" pin="31" pad="31"/>
+<connect gate="J1" pin="32" pad="32"/>
+<connect gate="J1" pin="33" pad="33"/>
+<connect gate="J1" pin="34" pad="34"/>
+<connect gate="J1" pin="35" pad="35"/>
+<connect gate="J1" pin="36" pad="36"/>
+<connect gate="J1" pin="37" pad="37"/>
+<connect gate="J1" pin="38" pad="38"/>
+<connect gate="J1" pin="39" pad="39"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="40" pad="40"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
+<connect gate="J1" pin="7" pad="7"/>
+<connect gate="J1" pin="8" pad="8"/>
+<connect gate="J1" pin="9" pad="9"/>
+<connect gate="J2" pin="1" pad="1A"/>
+<connect gate="J2" pin="10" pad="10A"/>
+<connect gate="J2" pin="11" pad="11A"/>
+<connect gate="J2" pin="12" pad="12A"/>
+<connect gate="J2" pin="13" pad="13A"/>
+<connect gate="J2" pin="14" pad="14A"/>
+<connect gate="J2" pin="15" pad="15A"/>
+<connect gate="J2" pin="16" pad="16A"/>
+<connect gate="J2" pin="17" pad="17A"/>
+<connect gate="J2" pin="18" pad="18A"/>
+<connect gate="J2" pin="19" pad="19A"/>
+<connect gate="J2" pin="2" pad="2A"/>
+<connect gate="J2" pin="20" pad="20A"/>
+<connect gate="J2" pin="21" pad="21A"/>
+<connect gate="J2" pin="22" pad="22A"/>
+<connect gate="J2" pin="23" pad="23A"/>
+<connect gate="J2" pin="24" pad="24A"/>
+<connect gate="J2" pin="25" pad="25A"/>
+<connect gate="J2" pin="26" pad="26A"/>
+<connect gate="J2" pin="27" pad="27A"/>
+<connect gate="J2" pin="28" pad="28A"/>
+<connect gate="J2" pin="29" pad="29A"/>
+<connect gate="J2" pin="3" pad="3A"/>
+<connect gate="J2" pin="30" pad="30A"/>
+<connect gate="J2" pin="31" pad="31A"/>
+<connect gate="J2" pin="32" pad="32A"/>
+<connect gate="J2" pin="33" pad="33A"/>
+<connect gate="J2" pin="34" pad="34A"/>
+<connect gate="J2" pin="35" pad="35A"/>
+<connect gate="J2" pin="36" pad="36A"/>
+<connect gate="J2" pin="37" pad="37A"/>
+<connect gate="J2" pin="38" pad="38A"/>
+<connect gate="J2" pin="39" pad="39A"/>
+<connect gate="J2" pin="4" pad="4A"/>
+<connect gate="J2" pin="40" pad="40A"/>
+<connect gate="J2" pin="5" pad="5A"/>
+<connect gate="J2" pin="6" pad="6A"/>
+<connect gate="J2" pin="7" pad="7A"/>
+<connect gate="J2" pin="8" pad="8A"/>
+<connect gate="J2" pin="9" pad="9A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13861,86 +13957,127 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 <device name="LRG" package="PA_NUCLEO_LRG">
 <connects>
-<connect gate="CN10" pin="1" pad="1A"/>
-<connect gate="CN10" pin="10" pad="10A"/>
-<connect gate="CN10" pin="11" pad="11A"/>
-<connect gate="CN10" pin="12" pad="12A"/>
-<connect gate="CN10" pin="13" pad="13A"/>
-<connect gate="CN10" pin="14" pad="14A"/>
-<connect gate="CN10" pin="15" pad="15A"/>
-<connect gate="CN10" pin="16" pad="16A"/>
-<connect gate="CN10" pin="17" pad="17A"/>
-<connect gate="CN10" pin="18" pad="18A"/>
-<connect gate="CN10" pin="19" pad="19A"/>
-<connect gate="CN10" pin="2" pad="2A"/>
-<connect gate="CN10" pin="20" pad="20A"/>
-<connect gate="CN10" pin="21" pad="21A"/>
-<connect gate="CN10" pin="22" pad="22A"/>
-<connect gate="CN10" pin="23" pad="23A"/>
-<connect gate="CN10" pin="24" pad="24A"/>
-<connect gate="CN10" pin="25" pad="25A"/>
-<connect gate="CN10" pin="26" pad="26A"/>
-<connect gate="CN10" pin="27" pad="27A"/>
-<connect gate="CN10" pin="28" pad="28A"/>
-<connect gate="CN10" pin="29" pad="29A"/>
-<connect gate="CN10" pin="3" pad="3A"/>
-<connect gate="CN10" pin="30" pad="30A"/>
-<connect gate="CN10" pin="31" pad="31A"/>
-<connect gate="CN10" pin="32" pad="32A"/>
-<connect gate="CN10" pin="33" pad="33A"/>
-<connect gate="CN10" pin="34" pad="34A"/>
-<connect gate="CN10" pin="35" pad="35A"/>
-<connect gate="CN10" pin="36" pad="36A"/>
-<connect gate="CN10" pin="37" pad="37A"/>
-<connect gate="CN10" pin="38" pad="38A"/>
-<connect gate="CN10" pin="39" pad="39A"/>
-<connect gate="CN10" pin="4" pad="4A"/>
-<connect gate="CN10" pin="40" pad="40A"/>
-<connect gate="CN10" pin="5" pad="5A"/>
-<connect gate="CN10" pin="6" pad="6A"/>
-<connect gate="CN10" pin="7" pad="7A"/>
-<connect gate="CN10" pin="8" pad="8A"/>
-<connect gate="CN10" pin="9" pad="9A"/>
-<connect gate="CN7" pin="1" pad="1"/>
-<connect gate="CN7" pin="10" pad="10"/>
-<connect gate="CN7" pin="11" pad="11"/>
-<connect gate="CN7" pin="12" pad="12"/>
-<connect gate="CN7" pin="13" pad="13"/>
-<connect gate="CN7" pin="14" pad="14"/>
-<connect gate="CN7" pin="15" pad="15"/>
-<connect gate="CN7" pin="16" pad="16"/>
-<connect gate="CN7" pin="17" pad="17"/>
-<connect gate="CN7" pin="18" pad="18"/>
-<connect gate="CN7" pin="19" pad="19"/>
-<connect gate="CN7" pin="2" pad="2"/>
-<connect gate="CN7" pin="20" pad="20"/>
-<connect gate="CN7" pin="21" pad="21"/>
-<connect gate="CN7" pin="22" pad="22"/>
-<connect gate="CN7" pin="23" pad="23"/>
-<connect gate="CN7" pin="24" pad="24"/>
-<connect gate="CN7" pin="25" pad="25"/>
-<connect gate="CN7" pin="26" pad="26"/>
-<connect gate="CN7" pin="27" pad="27"/>
-<connect gate="CN7" pin="28" pad="28"/>
-<connect gate="CN7" pin="29" pad="29"/>
-<connect gate="CN7" pin="3" pad="3"/>
-<connect gate="CN7" pin="30" pad="30"/>
-<connect gate="CN7" pin="31" pad="31"/>
-<connect gate="CN7" pin="32" pad="32"/>
-<connect gate="CN7" pin="33" pad="33"/>
-<connect gate="CN7" pin="34" pad="34"/>
-<connect gate="CN7" pin="35" pad="35"/>
-<connect gate="CN7" pin="36" pad="36"/>
-<connect gate="CN7" pin="37" pad="37"/>
-<connect gate="CN7" pin="38" pad="38"/>
-<connect gate="CN7" pin="39" pad="39"/>
-<connect gate="CN7" pin="4" pad="4"/>
-<connect gate="CN7" pin="40" pad="40"/>
-<connect gate="CN7" pin="5" pad="5"/>
-<connect gate="CN7" pin="6" pad="6"/>
-<connect gate="CN7" pin="7" pad="7"/>
-<connect gate="CN7" pin="8" pad="8"/>
-<connect gate="CN7" pin="9" pad="9"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="10" pad="10"/>
+<connect gate="J1" pin="11" pad="11"/>
+<connect gate="J1" pin="12" pad="12"/>
+<connect gate="J1" pin="13" pad="13"/>
+<connect gate="J1" pin="14" pad="14"/>
+<connect gate="J1" pin="15" pad="15"/>
+<connect gate="J1" pin="16" pad="16"/>
+<connect gate="J1" pin="17" pad="17"/>
+<connect gate="J1" pin="18" pad="18"/>
+<connect gate="J1" pin="19" pad="19"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="20" pad="20"/>
+<connect gate="J1" pin="21" pad="21"/>
+<connect gate="J1" pin="22" pad="22"/>
+<connect gate="J1" pin="23" pad="23"/>
+<connect gate="J1" pin="24" pad="24"/>
+<connect gate="J1" pin="25" pad="25"/>
+<connect gate="J1" pin="26" pad="26"/>
+<connect gate="J1" pin="27" pad="27"/>
+<connect gate="J1" pin="28" pad="28"/>
+<connect gate="J1" pin="29" pad="29"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="30" pad="30"/>
+<connect gate="J1" pin="31" pad="31"/>
+<connect gate="J1" pin="32" pad="32"/>
+<connect gate="J1" pin="33" pad="33"/>
+<connect gate="J1" pin="34" pad="34"/>
+<connect gate="J1" pin="35" pad="35"/>
+<connect gate="J1" pin="36" pad="36"/>
+<connect gate="J1" pin="37" pad="37"/>
+<connect gate="J1" pin="38" pad="38"/>
+<connect gate="J1" pin="39" pad="39"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="40" pad="40"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
+<connect gate="J1" pin="7" pad="7"/>
+<connect gate="J1" pin="8" pad="8"/>
+<connect gate="J1" pin="9" pad="9"/>
+<connect gate="J2" pin="1" pad="1A"/>
+<connect gate="J2" pin="10" pad="10A"/>
+<connect gate="J2" pin="11" pad="11A"/>
+<connect gate="J2" pin="12" pad="12A"/>
+<connect gate="J2" pin="13" pad="13A"/>
+<connect gate="J2" pin="14" pad="14A"/>
+<connect gate="J2" pin="15" pad="15A"/>
+<connect gate="J2" pin="16" pad="16A"/>
+<connect gate="J2" pin="17" pad="17A"/>
+<connect gate="J2" pin="18" pad="18A"/>
+<connect gate="J2" pin="19" pad="19A"/>
+<connect gate="J2" pin="2" pad="2A"/>
+<connect gate="J2" pin="20" pad="20A"/>
+<connect gate="J2" pin="21" pad="21A"/>
+<connect gate="J2" pin="22" pad="22A"/>
+<connect gate="J2" pin="23" pad="23A"/>
+<connect gate="J2" pin="24" pad="24A"/>
+<connect gate="J2" pin="25" pad="25A"/>
+<connect gate="J2" pin="26" pad="26A"/>
+<connect gate="J2" pin="27" pad="27A"/>
+<connect gate="J2" pin="28" pad="28A"/>
+<connect gate="J2" pin="29" pad="29A"/>
+<connect gate="J2" pin="3" pad="3A"/>
+<connect gate="J2" pin="30" pad="30A"/>
+<connect gate="J2" pin="31" pad="31A"/>
+<connect gate="J2" pin="32" pad="32A"/>
+<connect gate="J2" pin="33" pad="33A"/>
+<connect gate="J2" pin="34" pad="34A"/>
+<connect gate="J2" pin="35" pad="35A"/>
+<connect gate="J2" pin="36" pad="36A"/>
+<connect gate="J2" pin="37" pad="37A"/>
+<connect gate="J2" pin="38" pad="38A"/>
+<connect gate="J2" pin="39" pad="39A"/>
+<connect gate="J2" pin="4" pad="4A"/>
+<connect gate="J2" pin="40" pad="40A"/>
+<connect gate="J2" pin="5" pad="5A"/>
+<connect gate="J2" pin="6" pad="6A"/>
+<connect gate="J2" pin="7" pad="7A"/>
+<connect gate="J2" pin="8" pad="8A"/>
+<connect gate="J2" pin="9" pad="9A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PA_ISM_BRD" prefix="ISM" uservalue="yes">
+<description>&lt;b&gt;PatternAgents Industry Standard Module Board Pattern&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<gates>
+<gate name="G$1" symbol="GNDX4" x="0" y="0"/>
+<gate name="G$2" symbol="PA_ISM_LOGO" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="PA_ISM_STD">
+<connects>
+<connect gate="G$1" pin="GND1" pad="GND@1"/>
+<connect gate="G$1" pin="GND2" pad="GND@2"/>
+<connect gate="G$1" pin="GND3" pad="GND@3"/>
+<connect gate="G$1" pin="GND4" pad="GND@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NARROW" package="PA_ISM_NAR">
+<connects>
+<connect gate="G$1" pin="GND1" pad="GND@1"/>
+<connect gate="G$1" pin="GND2" pad="GND@2"/>
+<connect gate="G$1" pin="GND3" pad="GND@3"/>
+<connect gate="G$1" pin="GND4" pad="GND@4"/>
 </connects>
 <technologies>
 <technology name=""/>
