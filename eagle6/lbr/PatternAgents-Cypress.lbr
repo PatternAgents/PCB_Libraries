@@ -10358,7 +10358,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </device>
 </devices>
 </deviceset>
-<deviceset name="CY7C6801*A-56" prefix="IC">
+<deviceset name="CY7C68013A-56" prefix="IC">
 <description>&lt;b&gt;EZ-USB FX2LP (TM) USB Microcontroller&lt;/b&gt;&lt;p&gt;
 Source: http://www.cypress.com .. cy7c68013a_5.pdf</description>
 <gates>
