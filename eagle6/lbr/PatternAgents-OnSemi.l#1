@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1563,28 +1563,6 @@ USB ESD Protection, EMI FIlter, and Line Termination</description>
 <connect gate="U1" pin="IN" pad="2"/>
 <connect gate="U1" pin="N.C." pad="4"/>
 <connect gate="U1" pin="OUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NTZD3152P" prefix="U">
-<description>&lt;b&gt;Dual P-Channel MOSFET -20V, -430mA, SOT-563&lt;/b&gt;</description>
-<gates>
-<gate name="Q1" symbol="MOSFET-PCHANNEL" x="0" y="17.78"/>
-<gate name="Q2" symbol="MOSFET-PCHANNEL" x="0" y="-12.7"/>
-</gates>
-<devices>
-<device name="" package="SOT-563">
-<connects>
-<connect gate="Q1" pin="D" pad="6"/>
-<connect gate="Q1" pin="G" pad="2"/>
-<connect gate="Q1" pin="S" pad="1"/>
-<connect gate="Q2" pin="D" pad="3"/>
-<connect gate="Q2" pin="G" pad="5"/>
-<connect gate="Q2" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
