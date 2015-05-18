@@ -1772,6 +1772,12 @@ P/N: SWCH-08247</description>
 <text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
 </package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JMP-2-NC">
@@ -2039,6 +2045,11 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2570,13 +2581,13 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</description>
 <gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+<gate name="R" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="1206" package="1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2584,8 +2595,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="AXIAL-0.3" package="AXIAL-0.3">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2593,8 +2604,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="2010" package="R2010">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2602,8 +2613,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="0805-RES" package="0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2611,8 +2622,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="0603-RES" package="0603-RES">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2620,8 +2631,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="0603" package="0603-RES">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2629,8 +2640,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1/6W" package="1/6W-RES">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2638,8 +2649,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="2512" package="R2512">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2647,8 +2658,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1/4W" package="AXIAL-0.4">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2656,8 +2667,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1/2W" package="AXIAL-0.5">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2665,8 +2676,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1W" package="AXIAL-0.6">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2674,8 +2685,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-2W" package="AXIAL-0.8">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2683,8 +2694,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="KIT" package="AXIAL-0.3-KIT">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2692,8 +2703,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="EZ" package="AXIAL-0.3EZ">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2701,8 +2712,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1/4W-VERT-KIT" package="AXIAL-0.1EZ">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2710,8 +2721,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="PTH-1/4W-VERT" package="AXIAL-0.1">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2719,8 +2730,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 <device name="0402" package="0402-RES">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2873,6 +2884,25 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="G$1" pin="1" pad="1 2"/>
 <connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
