@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3202,10 +3202,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <smd name="18" x="11.686" y="24.74" dx="0.85" dy="1.7" layer="16" rot="R180"/>
 <smd name="19" x="9.686" y="27.74" dx="0.85" dy="1.7" layer="16" rot="R180"/>
 <smd name="20" x="7.686" y="24.74" dx="0.85" dy="1.7" layer="16" rot="R180"/>
-<wire x1="0" y1="0" x2="0" y2="30.48" width="0.254" layer="52"/>
-<wire x1="0" y1="30.48" x2="33.02" y2="30.48" width="0.254" layer="52"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="0" width="0.254" layer="52"/>
-<wire x1="33.02" y1="0" x2="0" y2="0" width="0.254" layer="52"/>
 <hole x="2.286" y="2.54" drill="3.2"/>
 <hole x="30.48" y="2.54" drill="3.2"/>
 <hole x="30.48" y="27.94" drill="3.2"/>
