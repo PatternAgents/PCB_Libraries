@@ -545,37 +545,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <hole x="92.54" y="14" drill="3.6"/>
 <hole x="92.54" y="74" drill="3.6"/>
 </package>
-<package name="RM2015S-XLRG">
-<wire x1="-59.436" y1="-43.942" x2="-60.96" y2="-42.418" width="0" layer="20"/>
-<wire x1="-60.96" y1="42.418" x2="-59.436" y2="43.942" width="0" layer="20"/>
-<wire x1="-59.436" y1="43.942" x2="59.42" y2="43.942" width="0" layer="20"/>
-<wire x1="59.42" y1="43.942" x2="60.944" y2="42.418" width="0" layer="20"/>
-<wire x1="60.944" y1="-42.418" x2="59.42" y2="-43.942" width="0" layer="20"/>
-<wire x1="59.42" y1="-43.942" x2="-59.436" y2="-43.942" width="0" layer="20"/>
-<hole x="-40.005" y="-29.9466" drill="3.6"/>
-<hole x="-40.005" y="30.0482" drill="3.6"/>
-<hole x="40.005" y="-29.9466" drill="3.6"/>
-<hole x="40.005" y="30.0482" drill="3.6"/>
-<wire x1="-60.96" y1="-42.418" x2="-60.96" y2="-4.318" width="0" layer="20"/>
-<wire x1="-60.96" y1="-4.318" x2="-60.706" y2="-4.064" width="0" layer="20"/>
-<wire x1="-60.706" y1="-4.064" x2="-50.038" y2="-4.064" width="0" layer="20"/>
-<wire x1="-50.038" y1="-4.064" x2="-49.784" y2="-3.81" width="0" layer="20"/>
-<wire x1="-49.784" y1="-3.81" x2="-49.784" y2="3.81" width="0" layer="20"/>
-<wire x1="-49.784" y1="3.81" x2="-50.038" y2="4.064" width="0" layer="20"/>
-<wire x1="-50.038" y1="4.064" x2="-60.706" y2="4.064" width="0" layer="20"/>
-<wire x1="-60.706" y1="4.064" x2="-60.96" y2="4.318" width="0" layer="20"/>
-<wire x1="-60.96" y1="4.318" x2="-60.96" y2="42.418" width="0" layer="20"/>
-<wire x1="60.96" y1="4.318" x2="60.706" y2="4.064" width="0" layer="20"/>
-<wire x1="60.706" y1="4.064" x2="50.038" y2="4.064" width="0" layer="20"/>
-<wire x1="50.038" y1="4.064" x2="49.784" y2="3.81" width="0" layer="20"/>
-<wire x1="49.784" y1="3.81" x2="49.784" y2="-3.81" width="0" layer="20"/>
-<wire x1="49.784" y1="-3.81" x2="50.038" y2="-4.064" width="0" layer="20"/>
-<wire x1="50.038" y1="-4.064" x2="60.706" y2="-4.064" width="0" layer="20"/>
-<wire x1="60.706" y1="-4.064" x2="60.96" y2="-4.318" width="0" layer="20"/>
-<wire x1="60.96" y1="-4.318" x2="60.96" y2="-42.418" width="0" layer="20"/>
-<wire x1="60.96" y1="4.318" x2="60.96" y2="42.418" width="0" layer="20"/>
-<circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="BUD">
@@ -749,16 +718,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="-2015S-MED" package="RM2015S_MED">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="RM2015S-LRG" package="RM2015S-LRG">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="RM2015S-XLRG" package="RM2015S-XLRG">
 <technologies>
 <technology name=""/>
 </technologies>
