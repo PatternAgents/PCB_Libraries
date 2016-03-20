@@ -3371,6 +3371,59 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <smd name="20" x="7.686" y="27.74" dx="0.85" dy="1.7" layer="1" rot="R180"/>
 <circle x="7.62" y="4.064" radius="0.359209375" width="0.3048" layer="51"/>
 </package>
+<package name="PA_FTDI_M5X1">
+<description>&lt;b&gt;PatternAgents FTDI Hole Pattern&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;p&gt;
+Source License : http://www.digilentinc.com/Pmods/licensing.cfm
+&lt;br&gt;
+Source Data : http://www.digilentinc.com/Pmods/Digilent-Pmod_%20Interface_Specification.pdf
+&lt;br&gt;
+The name "Pmod™" is the trademark of Digilent Inc. 
+&lt;p&gt;
+PA Pattern License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="6.985" x2="0" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="0" y1="5.715" x2="-0.635" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="5.08" x2="0" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="0" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="-0.635" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="0" y1="-3.175" x2="0" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="0" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-5.08" x2="0" y2="-5.715" width="0.1524" layer="21"/>
+<wire x1="0" y1="-5.715" x2="0" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="0" y1="-6.985" x2="-0.635" y2="-7.62" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="6.35" drill="1.016" shape="square" rot="R270"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="3" x="-1.27" y="1.27" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="4" x="-1.27" y="-1.27" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="5" x="-1.27" y="-3.81" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="6" x="-1.27" y="-6.35" drill="1.016" shape="octagon" rot="R270"/>
+<text x="-1.27" y="8.001" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="6.096" x2="-1.016" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-4.064" x2="-1.016" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-6.604" x2="-1.016" y2="-6.096" layer="51" rot="R270"/>
+<wire x1="-2.54" y1="7.62" x2="0" y2="7.62" width="0.254" layer="21"/>
+<wire x1="0" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="21"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PA_MIKROBUS">
@@ -6354,6 +6407,19 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </gates>
 <devices>
 <device name="" package="PA_PMOD_SIL_FEMALE">
+<connects>
+<connect gate="FTDI" pin="1" pad="1"/>
+<connect gate="FTDI" pin="2" pad="2"/>
+<connect gate="FTDI" pin="3" pad="3"/>
+<connect gate="FTDI" pin="4" pad="4"/>
+<connect gate="FTDI" pin="5" pad="5"/>
+<connect gate="FTDI" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-" package="PA_FTDI_M5X1">
 <connects>
 <connect gate="FTDI" pin="1" pad="1"/>
 <connect gate="FTDI" pin="2" pad="2"/>
