@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -532,18 +532,18 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="50.292" y1="-24.13" x2="-50.292" y2="-24.13" width="0.127" layer="20"/>
 </package>
 <package name="RM2015S-LRG">
-<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0" layer="20"/>
-<wire x1="0" y1="1.27" x2="0" y2="86.614" width="0" layer="20"/>
-<wire x1="0" y1="86.614" x2="1.27" y2="87.884" width="0" layer="20"/>
-<wire x1="1.27" y1="87.884" x2="102.6" y2="87.884" width="0" layer="20"/>
-<wire x1="102.6" y1="87.884" x2="103.87" y2="86.614" width="0" layer="20"/>
-<wire x1="103.87" y1="86.614" x2="103.87" y2="1.27" width="0" layer="20"/>
-<wire x1="103.87" y1="1.27" x2="102.6" y2="0" width="0" layer="20"/>
-<wire x1="102.6" y1="0" x2="1.27" y2="0" width="0" layer="20"/>
-<hole x="11.524" y="14" drill="3.6"/>
-<hole x="11.524" y="74" drill="3.6"/>
-<hole x="92.54" y="14" drill="3.6"/>
-<hole x="92.54" y="74" drill="3.6"/>
+<wire x1="1" y1="0" x2="0" y2="1" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="0" y2="87" width="0" layer="20"/>
+<wire x1="0" y1="87" x2="1" y2="88" width="0" layer="20"/>
+<wire x1="1" y1="88" x2="95" y2="88" width="0" layer="20"/>
+<wire x1="95" y1="88" x2="96" y2="87" width="0" layer="20"/>
+<wire x1="96" y1="87" x2="96" y2="1" width="0" layer="20"/>
+<wire x1="96" y1="1" x2="95" y2="0" width="0" layer="20"/>
+<wire x1="95" y1="0" x2="1" y2="0" width="0" layer="20"/>
+<hole x="7.524" y="14" drill="3.6"/>
+<hole x="7.524" y="74" drill="3.6"/>
+<hole x="88.54" y="14" drill="3.6"/>
+<hole x="88.54" y="74" drill="3.6"/>
 </package>
 <package name="RM2015S-XLRG">
 <wire x1="-59.436" y1="-43.942" x2="-60.96" y2="-42.418" width="0" layer="20"/>
@@ -576,73 +576,94 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="60.96" y1="4.318" x2="60.96" y2="42.418" width="0" layer="20"/>
 <circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
 </package>
-<package name="DIN-70MM-147MM">
-<description>&lt;b&gt;DIN Rail Mount Series Enclosures (70mmx 147mm)&lt;/b&gt;
+<package name="DIN-72MM-147MM">
+<description>&lt;b&gt;DIN Rail Mount Series Enclosures (72mm x 147mm)&lt;/b&gt;
 &lt;P&gt;
 LBR Source: http://www.patternagents.com
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
-<wire x1="-71.882" y1="-43.942" x2="-73.406" y2="-42.418" width="0" layer="20"/>
-<wire x1="-73.406" y1="42.418" x2="-71.882" y2="43.942" width="0" layer="20"/>
-<wire x1="-71.882" y1="43.942" x2="71.866" y2="43.942" width="0" layer="20"/>
-<wire x1="71.866" y1="43.942" x2="73.39" y2="42.418" width="0" layer="20"/>
-<wire x1="73.39" y1="-42.418" x2="71.866" y2="-43.942" width="0" layer="20"/>
-<wire x1="71.866" y1="-43.942" x2="-71.882" y2="-43.942" width="0" layer="20"/>
-<wire x1="-73.406" y1="-42.418" x2="-73.406" y2="42.418" width="0" layer="20"/>
-<wire x1="73.406" y1="42.418" x2="73.406" y2="-42.418" width="0" layer="20"/>
+<wire x1="-71.882" y1="-35.56" x2="-73.406" y2="-34.036" width="0" layer="20"/>
+<wire x1="-73.406" y1="34.036" x2="-71.882" y2="35.56" width="0" layer="20"/>
+<wire x1="-71.882" y1="35.56" x2="71.866" y2="35.56" width="0" layer="20"/>
+<wire x1="71.866" y1="35.56" x2="73.39" y2="34.036" width="0" layer="20"/>
+<wire x1="73.39" y1="-34.036" x2="71.866" y2="-35.56" width="0" layer="20"/>
+<wire x1="71.866" y1="-35.56" x2="-71.882" y2="-35.56" width="0" layer="20"/>
+<wire x1="-73.406" y1="-34.036" x2="-73.406" y2="34.036" width="0" layer="20"/>
+<wire x1="73.406" y1="34.036" x2="73.406" y2="-34.036" width="0" layer="20"/>
 <circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
 </package>
-<package name="DIN-70MM-147MM-HOLES">
-<description>&lt;b&gt;DIN Rail Mount Series Enclosures (70mmx 147mm)&lt;/b&gt;
+<package name="DIN-72MM-60MM">
+<description>&lt;b&gt;DIN Rail Mount Series Enclosures (72mmx 60mm)&lt;/b&gt;
 &lt;P&gt;
 LBR Source: http://www.patternagents.com
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
-<wire x1="-71.882" y1="-43.942" x2="-73.406" y2="-42.418" width="0" layer="20"/>
-<wire x1="-73.406" y1="42.418" x2="-71.882" y2="43.942" width="0" layer="20"/>
-<wire x1="-71.882" y1="43.942" x2="71.866" y2="43.942" width="0" layer="20"/>
-<wire x1="71.866" y1="43.942" x2="73.39" y2="42.418" width="0" layer="20"/>
-<wire x1="73.39" y1="-42.418" x2="71.866" y2="-43.942" width="0" layer="20"/>
-<wire x1="71.866" y1="-43.942" x2="-71.882" y2="-43.942" width="0" layer="20"/>
-<wire x1="-73.406" y1="-42.418" x2="-73.406" y2="42.418" width="0" layer="20"/>
-<wire x1="73.406" y1="42.418" x2="73.406" y2="-42.418" width="0" layer="20"/>
-<circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
-<circle x="-40.132" y="29.972" radius="1.83161875" width="0.254" layer="21"/>
-<circle x="-39.878" y="-29.972" radius="1.83161875" width="0.254" layer="21"/>
-<circle x="40.132" y="-29.972" radius="1.83161875" width="0.254" layer="21"/>
-<circle x="39.878" y="29.972" radius="1.83161875" width="0.254" layer="21"/>
-</package>
-<package name="DIN-70MM-60MM">
-<description>&lt;b&gt;DIN Rail Mount Series Enclosures (70mmx 60mm)&lt;/b&gt;
-&lt;P&gt;
-LBR Source: http://www.patternagents.com
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
-<wire x1="-28.448" y1="-43.942" x2="-29.972" y2="-42.418" width="0" layer="20"/>
-<wire x1="-29.972" y1="42.418" x2="-28.448" y2="43.942" width="0" layer="20"/>
-<wire x1="-28.448" y1="43.942" x2="28.432" y2="43.942" width="0" layer="20"/>
-<wire x1="28.432" y1="43.942" x2="29.956" y2="42.418" width="0" layer="20"/>
-<wire x1="29.956" y1="-42.418" x2="28.432" y2="-43.942" width="0" layer="20"/>
-<wire x1="28.432" y1="-43.942" x2="-28.448" y2="-43.942" width="0" layer="20"/>
-<wire x1="-29.972" y1="-42.418" x2="-29.972" y2="42.418" width="0" layer="20"/>
-<wire x1="29.972" y1="42.418" x2="29.972" y2="-42.418" width="0" layer="20"/>
+<wire x1="-28.448" y1="-35.56" x2="-29.972" y2="-34.036" width="0" layer="20"/>
+<wire x1="-29.972" y1="34.036" x2="-28.448" y2="35.56" width="0" layer="20"/>
+<wire x1="-28.448" y1="35.56" x2="28.432" y2="35.56" width="0" layer="20"/>
+<wire x1="28.432" y1="35.56" x2="29.956" y2="34.036" width="0" layer="20"/>
+<wire x1="29.956" y1="-34.036" x2="28.432" y2="-35.56" width="0" layer="20"/>
+<wire x1="28.432" y1="-35.56" x2="-28.448" y2="-35.56" width="0" layer="20"/>
+<wire x1="-29.972" y1="-34.036" x2="-29.972" y2="34.036" width="0" layer="20"/>
+<wire x1="29.972" y1="34.036" x2="29.972" y2="-34.036" width="0" layer="20"/>
 <circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
 </package>
-<package name="DIN-70MM-100MM">
-<description>&lt;b&gt;DIN Rail Mount Series Enclosures (70mmx 100mm)&lt;/b&gt;
+<package name="DIN-72MM-100MM">
+<description>&lt;b&gt;DIN Rail Mount Series Enclosures (72mm x 100mm)&lt;/b&gt;
 &lt;P&gt;
 LBR Source: http://www.patternagents.com
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
-<wire x1="-48.26" y1="-43.942" x2="-49.784" y2="-42.418" width="0" layer="20"/>
-<wire x1="-49.784" y1="42.418" x2="-48.26" y2="43.942" width="0" layer="20"/>
-<wire x1="-48.26" y1="43.942" x2="48.244" y2="43.942" width="0" layer="20"/>
-<wire x1="48.244" y1="43.942" x2="49.768" y2="42.418" width="0" layer="20"/>
-<wire x1="49.768" y1="-42.418" x2="48.244" y2="-43.942" width="0" layer="20"/>
-<wire x1="48.244" y1="-43.942" x2="-48.26" y2="-43.942" width="0" layer="20"/>
-<wire x1="-49.784" y1="-42.418" x2="-49.784" y2="42.418" width="0" layer="20"/>
-<wire x1="49.784" y1="42.418" x2="49.784" y2="-42.418" width="0" layer="20"/>
+<wire x1="-48.26" y1="-35.56" x2="-49.784" y2="-34.036" width="0" layer="20"/>
+<wire x1="-49.784" y1="34.036" x2="-48.26" y2="35.56" width="0" layer="20"/>
+<wire x1="-48.26" y1="35.56" x2="48.244" y2="35.56" width="0" layer="20"/>
+<wire x1="48.244" y1="35.56" x2="49.768" y2="34.036" width="0" layer="20"/>
+<wire x1="49.768" y1="-34.036" x2="48.244" y2="-35.56" width="0" layer="20"/>
+<wire x1="48.244" y1="-35.56" x2="-48.26" y2="-35.56" width="0" layer="20"/>
+<wire x1="-49.784" y1="-34.036" x2="-49.784" y2="34.036" width="0" layer="20"/>
+<wire x1="49.784" y1="34.036" x2="49.784" y2="-34.036" width="0" layer="20"/>
 <circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
+</package>
+<package name="DIN-72MM-72MM">
+<description>&lt;b&gt;DIN Rail Mount Series Enclosures (72mm x 72mm)&lt;/b&gt;
+&lt;P&gt;
+LBR Source: http://www.patternagents.com
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
+<wire x1="-34.036" y1="-35.56" x2="-35.56" y2="-34.036" width="0" layer="20"/>
+<wire x1="-35.56" y1="34.036" x2="-34.036" y2="35.56" width="0" layer="20"/>
+<wire x1="-34.036" y1="35.56" x2="34.02" y2="35.56" width="0" layer="20"/>
+<wire x1="34.02" y1="35.56" x2="35.544" y2="34.036" width="0" layer="20"/>
+<wire x1="35.544" y1="-34.036" x2="34.02" y2="-35.56" width="0" layer="20"/>
+<wire x1="34.02" y1="-35.56" x2="-34.036" y2="-35.56" width="0" layer="20"/>
+<wire x1="-35.56" y1="-34.036" x2="-35.56" y2="34.036" width="0" layer="20"/>
+<wire x1="35.56" y1="34.036" x2="35.56" y2="-34.036" width="0" layer="20"/>
+<circle x="0" y="0" radius="0.567959375" width="0.6096" layer="21"/>
+</package>
+<package name="1593NXX">
+<description>&lt;b&gt;Hammond 1593 Series Enclosures&lt;/b&gt;
+&lt;P&gt;
+LBR Source: http://www.patternagents.com
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
+<wire x1="0" y1="0" x2="0" y2="66" width="0" layer="20"/>
+<wire x1="102.5" y1="66" x2="102.5" y2="0" width="0" layer="20"/>
+<hole x="11" y="10" drill="3.2"/>
+<hole x="51" y="10" drill="3.2"/>
+<hole x="81" y="10" drill="3.2"/>
+<hole x="51" y="56" drill="3.2"/>
+<hole x="11" y="56" drill="3.2"/>
+<hole x="81" y="56" drill="3.2"/>
+<wire x1="0" y1="0" x2="54" y2="0" width="0" layer="20"/>
+<wire x1="57.5" y1="0" x2="102.5" y2="0" width="0" layer="20"/>
+<wire x1="54" y1="0" x2="54" y2="9" width="0" layer="20"/>
+<wire x1="57.5" y1="0" x2="57.5" y2="9" width="0" layer="20"/>
+<wire x1="54" y1="9" x2="57.5" y2="9" width="0" layer="20" curve="-180"/>
+<wire x1="0" y1="66" x2="54" y2="66" width="0" layer="20"/>
+<wire x1="57.5" y1="66" x2="102.5" y2="66" width="0" layer="20"/>
+<wire x1="54" y1="66" x2="54" y2="58" width="0" layer="20"/>
+<wire x1="57.5" y1="66" x2="57.5" y2="58" width="0" layer="20"/>
+<wire x1="54" y1="58" x2="57.5" y2="58" width="0" layer="20" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -858,6 +879,11 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
+<device name="-1593N" package="1593NXX">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SERPAC">
@@ -895,22 +921,22 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <gate name="G$1" symbol="DIN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LRG" package="DIN-70MM-147MM">
+<device name="-147" package="DIN-72MM-147MM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-LRGH" package="DIN-70MM-147MM-HOLES">
+<device name="-60" package="DIN-72MM-60MM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SMALL" package="DIN-70MM-60MM">
+<device name="-100" package="DIN-72MM-100MM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MED" package="DIN-70MM-100MM">
+<device name="-72" package="DIN-72MM-72MM">
 <technologies>
 <technology name=""/>
 </technologies>
