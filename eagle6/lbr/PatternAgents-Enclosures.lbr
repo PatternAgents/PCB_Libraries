@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -648,22 +648,49 @@ LBR Source: http://www.patternagents.com
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <wire x1="0" y1="0" x2="0" y2="66" width="0" layer="20"/>
 <wire x1="102.5" y1="66" x2="102.5" y2="0" width="0" layer="20"/>
-<hole x="11" y="10" drill="3.2"/>
-<hole x="51" y="10" drill="3.2"/>
-<hole x="81" y="10" drill="3.2"/>
-<hole x="51" y="56" drill="3.2"/>
-<hole x="11" y="56" drill="3.2"/>
-<hole x="81" y="56" drill="3.2"/>
+<hole x="11" y="10" drill="3.5719"/>
+<hole x="51" y="10" drill="3.5719"/>
+<hole x="81" y="10" drill="3.5719"/>
+<hole x="51" y="56" drill="3.5719"/>
+<hole x="11" y="56.5" drill="3.5719"/>
+<hole x="81" y="56" drill="3.5719"/>
+<wire x1="0" y1="0" x2="53.5" y2="0" width="0" layer="20"/>
+<wire x1="58.5" y1="0" x2="102.5" y2="0" width="0" layer="20"/>
+<wire x1="53.5" y1="0" x2="53.5" y2="9" width="0" layer="20"/>
+<wire x1="58.5" y1="0" x2="58.5" y2="9" width="0" layer="20"/>
+<wire x1="53.5" y1="9" x2="58.5" y2="9" width="0" layer="20" curve="-180"/>
+<wire x1="0" y1="66" x2="53.5" y2="66" width="0" layer="20"/>
+<wire x1="58.5" y1="66" x2="102.5" y2="66" width="0" layer="20"/>
+<wire x1="53.5" y1="66" x2="53.5" y2="58" width="0" layer="20"/>
+<wire x1="58.5" y1="66" x2="58.5" y2="58" width="0" layer="20"/>
+<wire x1="53.5" y1="58" x2="58.5" y2="58" width="0" layer="20" curve="180"/>
+</package>
+<package name="1593N-SMALL">
+<description>&lt;b&gt;Hammond 1593 Series Enclosures&lt;/b&gt;
+&lt;P&gt;
+(smaller height)
+&lt;P&gt;
+LBR Source: http://www.patternagents.com
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
+<wire x1="0" y1="0" x2="0" y2="52" width="0" layer="20"/>
+<wire x1="102.5" y1="52" x2="102.5" y2="0" width="0" layer="20"/>
+<hole x="11" y="3" drill="3.2"/>
+<hole x="51" y="3" drill="3.2"/>
+<hole x="81" y="3" drill="3.2"/>
+<hole x="51" y="49" drill="3.2"/>
+<hole x="11" y="49" drill="3.2"/>
+<hole x="81" y="49" drill="3.2"/>
 <wire x1="0" y1="0" x2="54" y2="0" width="0" layer="20"/>
 <wire x1="57.5" y1="0" x2="102.5" y2="0" width="0" layer="20"/>
-<wire x1="54" y1="0" x2="54" y2="9" width="0" layer="20"/>
-<wire x1="57.5" y1="0" x2="57.5" y2="9" width="0" layer="20"/>
-<wire x1="54" y1="9" x2="57.5" y2="9" width="0" layer="20" curve="-180"/>
-<wire x1="0" y1="66" x2="54" y2="66" width="0" layer="20"/>
-<wire x1="57.5" y1="66" x2="102.5" y2="66" width="0" layer="20"/>
-<wire x1="54" y1="66" x2="54" y2="58" width="0" layer="20"/>
-<wire x1="57.5" y1="66" x2="57.5" y2="58" width="0" layer="20"/>
-<wire x1="54" y1="58" x2="57.5" y2="58" width="0" layer="20" curve="180"/>
+<wire x1="54" y1="0" x2="54" y2="2" width="0" layer="20"/>
+<wire x1="57.5" y1="0" x2="57.5" y2="2" width="0" layer="20"/>
+<wire x1="54" y1="2" x2="57.5" y2="2" width="0" layer="20" curve="-180"/>
+<wire x1="0" y1="52" x2="54" y2="52" width="0" layer="20"/>
+<wire x1="57.5" y1="52" x2="102.5" y2="52" width="0" layer="20"/>
+<wire x1="54" y1="52" x2="54" y2="51" width="0" layer="20"/>
+<wire x1="57.5" y1="52" x2="57.5" y2="51" width="0" layer="20"/>
+<wire x1="54" y1="51" x2="57.5" y2="51" width="0" layer="20" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -880,6 +907,11 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="-1593N" package="1593NXX">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1593N-SMALL" package="1593N-SMALL">
 <technologies>
 <technology name=""/>
 </technologies>
