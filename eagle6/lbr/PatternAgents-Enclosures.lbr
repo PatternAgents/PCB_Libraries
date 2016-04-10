@@ -648,22 +648,22 @@ LBR Source: http://www.patternagents.com
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</description>
 <wire x1="0" y1="0" x2="0" y2="66" width="0" layer="20"/>
 <wire x1="102.5" y1="66" x2="102.5" y2="0" width="0" layer="20"/>
-<hole x="11" y="10" drill="3.5719"/>
-<hole x="51" y="10" drill="3.5719"/>
-<hole x="81" y="10" drill="3.5719"/>
-<hole x="51" y="56" drill="3.5719"/>
-<hole x="11" y="56.5" drill="3.5719"/>
-<hole x="81" y="56" drill="3.5719"/>
+<hole x="10" y="10" drill="3.5719"/>
+<hole x="50" y="10" drill="3.5719"/>
+<hole x="80" y="10" drill="3.5719"/>
+<hole x="50" y="56" drill="3.5719"/>
+<hole x="10" y="56" drill="3.5719"/>
+<hole x="80" y="56" drill="3.5719"/>
 <wire x1="0" y1="0" x2="53.5" y2="0" width="0" layer="20"/>
-<wire x1="58.5" y1="0" x2="102.5" y2="0" width="0" layer="20"/>
-<wire x1="53.5" y1="0" x2="53.5" y2="9" width="0" layer="20"/>
-<wire x1="58.5" y1="0" x2="58.5" y2="9" width="0" layer="20"/>
-<wire x1="53.5" y1="9" x2="58.5" y2="9" width="0" layer="20" curve="-180"/>
+<wire x1="59.5" y1="0" x2="102.5" y2="0" width="0" layer="20"/>
+<wire x1="53.5" y1="0" x2="53.5" y2="7" width="0" layer="20"/>
+<wire x1="59.5" y1="0" x2="59.5" y2="7" width="0" layer="20"/>
+<wire x1="53.5" y1="7" x2="59.5" y2="7" width="0" layer="20" curve="-180"/>
 <wire x1="0" y1="66" x2="53.5" y2="66" width="0" layer="20"/>
-<wire x1="58.5" y1="66" x2="102.5" y2="66" width="0" layer="20"/>
-<wire x1="53.5" y1="66" x2="53.5" y2="58" width="0" layer="20"/>
-<wire x1="58.5" y1="66" x2="58.5" y2="58" width="0" layer="20"/>
-<wire x1="53.5" y1="58" x2="58.5" y2="58" width="0" layer="20" curve="180"/>
+<wire x1="59.5" y1="66" x2="102.5" y2="66" width="0" layer="20"/>
+<wire x1="53.5" y1="66" x2="53.5" y2="59" width="0" layer="20"/>
+<wire x1="59.5" y1="66" x2="59.5" y2="59" width="0" layer="20"/>
+<wire x1="53.5" y1="59" x2="59.5" y2="59" width="0" layer="20" curve="180"/>
 </package>
 <package name="1593N-SMALL">
 <description>&lt;b&gt;Hammond 1593 Series Enclosures&lt;/b&gt;
