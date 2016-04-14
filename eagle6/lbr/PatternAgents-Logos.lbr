@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8143,8 +8143,8 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="-20.32" y="5.08" size="1.778" layer="27" font="vector" ratio="15">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27" font="vector" ratio="15">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="-20.32" y="5.08" size="1.778" layer="27" font="vector" ratio="15">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="27" font="vector" ratio="15">http://creativecommons.org/licenses/by-sa/4.0</text>
 <text x="11.43" y="0" size="1.778" layer="27" font="vector" ratio="15">Designed by:</text>
 </package>
 <package name="FIRST_ROBOTICS_SYM">
@@ -21867,8 +21867,8 @@ Source : http://wiki.creativecommons.org/CC_markers
 &lt;BR&gt;
 Github : https://github.com/PatternAgents/PCB_Libraries
 &lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
@@ -21877,8 +21877,8 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="0" y="5.08" size="1.778" layer="95" font="vector" ratio="15">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95" font="vector" ratio="15">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="0" y="5.08" size="1.778" layer="95" font="vector" ratio="15">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="95" font="vector" ratio="15">http://creativecommons.org/licenses/by-sa/4.0</text>
 <text x="0" y="0" size="1.778" layer="95" font="vector" ratio="15">Design by:</text>
 </symbol>
 <symbol name="FIRST_ROBOTICS_TEXT">
@@ -21912,8 +21912,8 @@ Source : http://wiki.creativecommons.org/CC_markers
 &lt;BR&gt;
 Github : https://github.com/PatternAgents/PCB_Libraries
 &lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
@@ -22618,8 +22618,8 @@ Source : http://wiki.creativecommons.org/CC_markers
 &lt;BR&gt;
 Github : https://github.com/PatternAgents/PCB_Libraries
 &lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
@@ -22661,8 +22661,8 @@ Source : http://wiki.creativecommons.org/CC_markers
 &lt;BR&gt;
 Github : https://github.com/PatternAgents/PCB_Libraries
 &lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
 &lt;P&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -485,7 +485,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <circle x="9.5" y="41.25" radius="2.250553125" width="0.127" layer="42"/>
 <circle x="34.5" y="2.75" radius="2.250553125" width="0.127" layer="42"/>
 </package>
-<package name="RM2015S_MED">
+<package name="RM2015S-MED">
 <description>&lt;b&gt;PatternAgents Hammond Manufacturing RM2015S (Medium) Template&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.patternagents.com
@@ -692,6 +692,56 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="57.5" y1="52" x2="57.5" y2="51" width="0" layer="20"/>
 <wire x1="54" y1="51" x2="57.5" y2="51" width="0" layer="20" curve="180"/>
 </package>
+<package name="RM2015S-72MM">
+<description>&lt;b&gt;PatternAgents Hammond Manufacturing RM2015S (72mm DIN compatible) Template&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="-47.23" y1="-36" x2="-48.5" y2="-34.73" width="0" layer="20"/>
+<wire x1="-48.5" y1="-34.73" x2="-48.5" y2="34.76" width="0" layer="20"/>
+<wire x1="-48.5" y1="34.76" x2="-47.23" y2="36.03" width="0" layer="20"/>
+<wire x1="-47.23" y1="36.03" x2="47.19" y2="36.03" width="0" layer="20"/>
+<wire x1="47.19" y1="36.03" x2="48.46" y2="34.76" width="0" layer="20"/>
+<wire x1="48.46" y1="34.76" x2="48.46" y2="-34.73" width="0" layer="20"/>
+<wire x1="48.46" y1="-34.73" x2="47.19" y2="-36" width="0" layer="20"/>
+<wire x1="47.19" y1="-36" x2="-47.23" y2="-36" width="0" layer="20"/>
+<hole x="-40" y="-30" drill="3.6"/>
+<hole x="-40" y="30" drill="3.6"/>
+<hole x="40" y="-30" drill="3.6"/>
+<hole x="40" y="30" drill="3.6"/>
+</package>
+<package name="RM2015S-SMALL">
+<description>&lt;b&gt;PatternAgents Hammond Manufacturing RM2015S (SMALL) Template&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.patternagents.com
+&lt;br&gt;
+Github : https://github.com/patternagents
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="-41.73" y1="-43.16" x2="-43" y2="-41.89" width="0" layer="20"/>
+<wire x1="-43" y1="-41.89" x2="-43" y2="41.92" width="0" layer="20"/>
+<wire x1="-43" y1="41.92" x2="-41.73" y2="43.19" width="0" layer="20"/>
+<wire x1="-41.73" y1="43.19" x2="41.69" y2="43.19" width="0" layer="20"/>
+<wire x1="41.69" y1="43.19" x2="42.96" y2="41.92" width="0" layer="20"/>
+<wire x1="42.96" y1="41.92" x2="42.96" y2="-41.89" width="0" layer="20"/>
+<wire x1="42.96" y1="-41.89" x2="41.69" y2="-43.16" width="0" layer="20"/>
+<wire x1="41.69" y1="-43.16" x2="-41.73" y2="-43.16" width="0" layer="20"/>
+<hole x="-40" y="-30" drill="3.6"/>
+<hole x="-40" y="30" drill="3.6"/>
+<hole x="40" y="-30" drill="3.6"/>
+<hole x="40" y="30" drill="3.6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BUD">
@@ -891,17 +941,17 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="-2015S-MED" package="RM2015S_MED">
+<device name="-2015S-MED" package="RM2015S-MED">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="RM2015S-LRG" package="RM2015S-LRG">
+<device name="-2015S-LRG" package="RM2015S-LRG">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="RM2015S-XLRG" package="RM2015S-XLRG">
+<device name="-2015S-XLRG" package="RM2015S-XLRG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -912,6 +962,16 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="-1593N-SMALL" package="1593N-SMALL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2015S-72MM" package="RM2015S-72MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2015S-SMALL" package="RM2015S-SMALL">
 <technologies>
 <technology name=""/>
 </technologies>
