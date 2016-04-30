@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -497,18 +497,18 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0" layer="20"/>
-<wire x1="0" y1="1.27" x2="0" y2="86.36" width="0" layer="20"/>
-<wire x1="0" y1="86.36" x2="1.27" y2="87.63" width="0" layer="20"/>
-<wire x1="1.27" y1="87.63" x2="98.79" y2="87.63" width="0" layer="20"/>
-<wire x1="98.79" y1="87.63" x2="100.06" y2="86.36" width="0" layer="20"/>
-<wire x1="100.06" y1="86.36" x2="100.06" y2="1.27" width="0" layer="20"/>
-<wire x1="100.06" y1="1.27" x2="98.79" y2="0" width="0" layer="20"/>
-<wire x1="98.79" y1="0" x2="1.27" y2="0" width="0" layer="20"/>
-<hole x="10" y="14" drill="3.6"/>
-<hole x="10" y="74" drill="3.6"/>
-<hole x="90" y="14" drill="3.6"/>
-<hole x="90" y="74" drill="3.6"/>
+<wire x1="47.73395" y1="-44.45" x2="-47.73395" y2="-44.45" width="0" layer="20"/>
+<wire x1="-47.73395" y1="-44.45" x2="-49.53" y2="-42.65395" width="0" layer="20" curve="-90"/>
+<wire x1="-49.53" y1="-42.65395" x2="-49.53" y2="42.65395" width="0" layer="20"/>
+<wire x1="-49.53" y1="42.65395" x2="-47.73395" y2="44.45" width="0" layer="20" curve="-90"/>
+<wire x1="-47.73395" y1="44.45" x2="47.73395" y2="44.45" width="0" layer="20"/>
+<wire x1="47.73395" y1="44.45" x2="49.53" y2="42.65395" width="0" layer="20" curve="-90"/>
+<wire x1="49.53" y1="42.65395" x2="49.53" y2="-42.65395" width="0" layer="20"/>
+<wire x1="49.53" y1="-42.65395" x2="47.73395" y2="-44.45" width="0" layer="20" curve="-90"/>
+<hole x="-40" y="-30" drill="3.6"/>
+<hole x="-40" y="30" drill="3.6"/>
+<hole x="40" y="-30" drill="3.6"/>
+<hole x="40" y="30" drill="3.6"/>
 </package>
 <package name="SERPAC-A-21">
 <description>&lt;b&gt;SERPAC A-21-BLACK&lt;/b&gt;
@@ -729,14 +729,14 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-41.73" y1="-43.16" x2="-43" y2="-41.89" width="0" layer="20"/>
-<wire x1="-43" y1="-41.89" x2="-43" y2="41.92" width="0" layer="20"/>
-<wire x1="-43" y1="41.92" x2="-41.73" y2="43.19" width="0" layer="20"/>
-<wire x1="-41.73" y1="43.19" x2="41.69" y2="43.19" width="0" layer="20"/>
-<wire x1="41.69" y1="43.19" x2="42.96" y2="41.92" width="0" layer="20"/>
-<wire x1="42.96" y1="41.92" x2="42.96" y2="-41.89" width="0" layer="20"/>
-<wire x1="42.96" y1="-41.89" x2="41.69" y2="-43.16" width="0" layer="20"/>
-<wire x1="41.69" y1="-43.16" x2="-41.73" y2="-43.16" width="0" layer="20"/>
+<wire x1="43.18" y1="42.65395" x2="43.18" y2="-42.65395" width="0" layer="20"/>
+<wire x1="43.18" y1="-42.65395" x2="41.38395" y2="-44.45" width="0" layer="20" curve="-90"/>
+<wire x1="41.38395" y1="-44.45" x2="-41.38395" y2="-44.45" width="0" layer="20"/>
+<wire x1="-41.38395" y1="-44.45" x2="-43.18" y2="-42.65395" width="0" layer="20" curve="-90"/>
+<wire x1="-43.18" y1="-42.65395" x2="-43.18" y2="42.65395" width="0" layer="20"/>
+<wire x1="-43.18" y1="42.65395" x2="-41.38395" y2="44.45" width="0" layer="20" curve="-90"/>
+<wire x1="-41.38395" y1="44.45" x2="41.38395" y2="44.45" width="0" layer="20"/>
+<wire x1="41.38395" y1="44.45" x2="43.18" y2="42.65395" width="0" layer="20" curve="-90"/>
 <hole x="-40" y="-30" drill="3.6"/>
 <hole x="-40" y="30" drill="3.6"/>
 <hole x="40" y="-30" drill="3.6"/>
