@@ -3555,6 +3555,316 @@ P/N: SWCH-08247</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="FEATHERWING">
+<description>Adafruit FeatherWing Board Template
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<wire x1="2.54" y1="0" x2="48.26" y2="0" width="0" layer="20"/>
+<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0" layer="20" curve="90"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="0" layer="20"/>
+<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="0" layer="20" curve="90"/>
+<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="0" layer="20"/>
+<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="20.32" x2="0" y2="2.54" width="0" layer="20"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
+<hole x="48.26" y="20.32" drill="2.54"/>
+<hole x="48.26" y="2.54" drill="2.54"/>
+<pad name="P$1" x="2.54" y="20.32" drill="2.5" diameter="3.81"/>
+<pad name="P$2" x="2.54" y="2.54" drill="2.5" diameter="3.81"/>
+<pad name="28" x="16.51" y="21.59" drill="1" shape="octagon"/>
+<pad name="27" x="19.05" y="21.59" drill="1" shape="octagon"/>
+<pad name="26" x="21.59" y="21.59" drill="1" shape="octagon"/>
+<pad name="25" x="24.13" y="21.59" drill="1" shape="octagon"/>
+<pad name="24" x="26.67" y="21.59" drill="1" shape="octagon"/>
+<pad name="23" x="29.21" y="21.59" drill="1" shape="octagon"/>
+<pad name="22" x="31.75" y="21.59" drill="1" shape="octagon"/>
+<pad name="21" x="34.29" y="21.59" drill="1" shape="octagon"/>
+<pad name="20" x="36.83" y="21.59" drill="1" shape="octagon"/>
+<pad name="19" x="39.37" y="21.59" drill="1" shape="octagon"/>
+<pad name="18" x="41.91" y="21.59" drill="1" shape="octagon"/>
+<pad name="17" x="44.45" y="21.59" drill="1" shape="octagon"/>
+<pad name="5" x="16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="6" x="19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="7" x="21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="8" x="24.13" y="1.27" drill="1" shape="octagon"/>
+<pad name="9" x="26.67" y="1.27" drill="1" shape="octagon"/>
+<pad name="10" x="29.21" y="1.27" drill="1" shape="octagon"/>
+<pad name="11" x="31.75" y="1.27" drill="1" shape="octagon"/>
+<pad name="12" x="34.29" y="1.27" drill="1" shape="octagon"/>
+<pad name="13" x="36.83" y="1.27" drill="1" shape="octagon"/>
+<pad name="14" x="39.37" y="1.27" drill="1" shape="octagon"/>
+<pad name="15" x="41.91" y="1.27" drill="1" shape="octagon"/>
+<pad name="16" x="44.45" y="1.27" drill="1" shape="octagon"/>
+<pad name="4" x="13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="2" x="8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="1" x="6.35" y="1.27" drill="1" shape="octagon"/>
+</package>
+<package name="FEATHERWING_NODIM">
+<description>Adafruit FeatherWing Template - No Dimension Layer
+
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<wire x1="2.54" y1="0" x2="48.26" y2="0" width="0" layer="21"/>
+<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0" layer="21" curve="90"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="0" layer="21"/>
+<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="0" layer="21" curve="90"/>
+<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="0" layer="21"/>
+<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="0" layer="21" curve="90"/>
+<wire x1="0" y1="20.32" x2="0" y2="13.716" width="0" layer="21"/>
+<wire x1="0" y1="13.716" x2="0.508" y2="13.208" width="0" layer="21"/>
+<wire x1="0.508" y1="13.208" x2="0.508" y2="9.652" width="0" layer="21"/>
+<wire x1="0.508" y1="9.652" x2="0" y2="9.144" width="0" layer="21"/>
+<wire x1="0" y1="9.144" x2="0" y2="2.54" width="0" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="21" curve="90"/>
+<hole x="48.26" y="20.32" drill="2.54"/>
+<hole x="48.26" y="2.54" drill="2.54"/>
+<pad name="P$1" x="2.54" y="20.32" drill="2.5" diameter="3.81"/>
+<pad name="P$2" x="2.54" y="2.54" drill="2.5" diameter="3.81"/>
+<pad name="28" x="16.51" y="21.59" drill="1" shape="octagon"/>
+<pad name="27" x="19.05" y="21.59" drill="1" shape="octagon"/>
+<pad name="26" x="21.59" y="21.59" drill="1" shape="octagon"/>
+<pad name="25" x="24.13" y="21.59" drill="1" shape="octagon"/>
+<pad name="24" x="26.67" y="21.59" drill="1" shape="octagon"/>
+<pad name="23" x="29.21" y="21.59" drill="1" shape="octagon"/>
+<pad name="22" x="31.75" y="21.59" drill="1" shape="octagon"/>
+<pad name="21" x="34.29" y="21.59" drill="1" shape="octagon"/>
+<pad name="20" x="36.83" y="21.59" drill="1" shape="octagon"/>
+<pad name="19" x="39.37" y="21.59" drill="1" shape="octagon"/>
+<pad name="18" x="41.91" y="21.59" drill="1" shape="octagon"/>
+<pad name="17" x="44.45" y="21.59" drill="1" shape="octagon"/>
+<pad name="5" x="16.51" y="1.27" drill="1" shape="octagon"/>
+<pad name="6" x="19.05" y="1.27" drill="1" shape="octagon"/>
+<pad name="7" x="21.59" y="1.27" drill="1" shape="octagon"/>
+<pad name="8" x="24.13" y="1.27" drill="1" shape="octagon"/>
+<pad name="9" x="26.67" y="1.27" drill="1" shape="octagon"/>
+<pad name="10" x="29.21" y="1.27" drill="1" shape="octagon"/>
+<pad name="11" x="31.75" y="1.27" drill="1" shape="octagon"/>
+<pad name="12" x="34.29" y="1.27" drill="1" shape="octagon"/>
+<pad name="13" x="36.83" y="1.27" drill="1" shape="octagon"/>
+<pad name="14" x="39.37" y="1.27" drill="1" shape="octagon"/>
+<pad name="15" x="41.91" y="1.27" drill="1" shape="octagon"/>
+<pad name="16" x="44.45" y="1.27" drill="1" shape="octagon"/>
+<pad name="4" x="13.97" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="11.43" y="1.27" drill="1" shape="octagon"/>
+<pad name="2" x="8.89" y="1.27" drill="1" shape="octagon"/>
+<pad name="1" x="6.35" y="1.27" drill="1" shape="octagon"/>
+</package>
+<package name="FEATHERWING_SMD_NODIM">
+<description>Adafruit FeatherWing Template - SMD connectors, No Dimension layer (only tplace)
+
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<wire x1="1.27" y1="-2.54" x2="49.53" y2="-2.54" width="0" layer="21"/>
+<wire x1="49.53" y1="-2.54" x2="50.8" y2="-1.27" width="0" layer="21" curve="90"/>
+<wire x1="50.8" y1="-1.27" x2="50.8" y2="24.13" width="0" layer="21"/>
+<wire x1="50.8" y1="24.13" x2="49.53" y2="25.4" width="0" layer="21" curve="90"/>
+<wire x1="49.53" y1="25.4" x2="1.27" y2="25.4" width="0" layer="21"/>
+<wire x1="1.27" y1="25.4" x2="0" y2="24.13" width="0" layer="21" curve="90"/>
+<wire x1="0" y1="24.13" x2="0" y2="13.716" width="0" layer="21"/>
+<wire x1="0" y1="13.716" x2="0.508" y2="13.208" width="0" layer="21"/>
+<wire x1="0.508" y1="13.208" x2="0.508" y2="9.652" width="0" layer="21"/>
+<wire x1="0.508" y1="9.652" x2="0" y2="9.144" width="0" layer="21"/>
+<wire x1="0" y1="9.144" x2="0" y2="-1.27" width="0" layer="21"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0" layer="21" curve="90"/>
+<hole x="48.26" y="20.32" drill="2.54"/>
+<hole x="48.26" y="2.54" drill="2.54"/>
+<pad name="P$1" x="2.54" y="20.32" drill="2.5" diameter="3.81"/>
+<pad name="P$2" x="2.54" y="2.54" drill="2.5" diameter="3.81"/>
+<circle x="6.35" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="6.03" y1="1.27" x2="6.67" y2="4.02" layer="51"/>
+<smd name="1" x="6.35" y="1.27" dx="1.02" dy="6" layer="1"/>
+<circle x="8.89" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="8.57" y1="-1.48" x2="9.21" y2="1.27" layer="51" rot="R180"/>
+<smd name="2" x="8.89" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="9.652" y1="2.52" x2="10.668" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="10.668" y1="0.02" x2="9.652" y2="0.02" width="0.1778" layer="21"/>
+<circle x="13.97" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="13.65" y1="-1.48" x2="14.29" y2="1.27" layer="51" rot="R180"/>
+<smd name="4" x="13.97" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="14.732" y1="2.52" x2="15.748" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="15.748" y1="0.02" x2="14.732" y2="0.02" width="0.1778" layer="21"/>
+<circle x="19.05" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="18.73" y1="-1.48" x2="19.37" y2="1.27" layer="51" rot="R180"/>
+<smd name="6" x="19.05" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="19.812" y1="2.52" x2="20.828" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="20.828" y1="0.02" x2="19.812" y2="0.02" width="0.1778" layer="21"/>
+<circle x="24.13" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="23.81" y1="-1.48" x2="24.45" y2="1.27" layer="51" rot="R180"/>
+<smd name="8" x="24.13" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="24.892" y1="2.52" x2="25.908" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="25.908" y1="0.02" x2="24.892" y2="0.02" width="0.1778" layer="21"/>
+<circle x="29.21" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="28.89" y1="-1.48" x2="29.53" y2="1.27" layer="51" rot="R180"/>
+<smd name="10" x="29.21" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="29.972" y1="2.52" x2="30.988" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="30.988" y1="0.02" x2="29.972" y2="0.02" width="0.1778" layer="21"/>
+<circle x="34.29" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="33.97" y1="-1.48" x2="34.61" y2="1.27" layer="51" rot="R180"/>
+<smd name="12" x="34.29" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="35.052" y1="2.52" x2="36.068" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="36.068" y1="0.02" x2="35.052" y2="0.02" width="0.1778" layer="21"/>
+<circle x="39.37" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="39.05" y1="-1.48" x2="39.69" y2="1.27" layer="51" rot="R180"/>
+<smd name="14" x="39.37" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="40.132" y1="2.52" x2="41.148" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="41.148" y1="0.02" x2="40.132" y2="0.02" width="0.1778" layer="21"/>
+<circle x="44.45" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="44.13" y1="-1.48" x2="44.77" y2="1.27" layer="51" rot="R180"/>
+<smd name="16" x="44.45" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="7.112" y1="2.52" x2="8.128" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="8.128" y1="0.02" x2="7.112" y2="0.02" width="0.1778" layer="21"/>
+<circle x="11.43" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="11.11" y1="1.27" x2="11.75" y2="4.02" layer="51"/>
+<smd name="3" x="11.43" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="12.192" y1="2.52" x2="13.208" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="13.208" y1="0.02" x2="12.192" y2="0.02" width="0.1778" layer="21"/>
+<circle x="16.51" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="16.19" y1="1.27" x2="16.83" y2="4.02" layer="51"/>
+<smd name="5" x="16.51" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="17.272" y1="2.52" x2="18.288" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="18.288" y1="0.02" x2="17.272" y2="0.02" width="0.1778" layer="21"/>
+<circle x="21.59" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="21.27" y1="1.27" x2="21.91" y2="4.02" layer="51"/>
+<smd name="7" x="21.59" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="22.352" y1="2.52" x2="23.368" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="23.368" y1="0.02" x2="22.352" y2="0.02" width="0.1778" layer="21"/>
+<circle x="26.67" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="26.35" y1="1.27" x2="26.99" y2="4.02" layer="51"/>
+<smd name="9" x="26.67" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="27.432" y1="2.52" x2="28.448" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="28.448" y1="0.02" x2="27.432" y2="0.02" width="0.1778" layer="21"/>
+<circle x="31.75" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="31.43" y1="1.27" x2="32.07" y2="4.02" layer="51"/>
+<smd name="11" x="31.75" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="32.512" y1="2.52" x2="33.528" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="33.528" y1="0.02" x2="32.512" y2="0.02" width="0.1778" layer="21"/>
+<circle x="36.83" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="36.51" y1="1.27" x2="37.15" y2="4.02" layer="51"/>
+<smd name="13" x="36.83" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="37.592" y1="2.52" x2="38.608" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="38.608" y1="0.02" x2="37.592" y2="0.02" width="0.1778" layer="21"/>
+<circle x="41.91" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="41.59" y1="1.27" x2="42.23" y2="4.02" layer="51"/>
+<smd name="15" x="41.91" y="1.27" dx="1.02" dy="6" layer="1"/>
+<wire x1="42.672" y1="2.52" x2="43.688" y2="2.52" width="0.1778" layer="21"/>
+<wire x1="43.688" y1="0.02" x2="42.672" y2="0.02" width="0.1778" layer="21"/>
+<circle x="16.51" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="16.19" y1="21.59" x2="16.83" y2="24.34" layer="51"/>
+<smd name="28" x="16.51" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="17.272" y1="22.84" x2="18.288" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="18.288" y1="20.34" x2="17.272" y2="20.34" width="0.1778" layer="21"/>
+<circle x="21.59" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="21.27" y1="21.59" x2="21.91" y2="24.34" layer="51"/>
+<smd name="26" x="21.59" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="22.352" y1="22.84" x2="23.368" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="23.368" y1="20.34" x2="22.352" y2="20.34" width="0.1778" layer="21"/>
+<circle x="26.67" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="26.35" y1="21.59" x2="26.99" y2="24.34" layer="51"/>
+<smd name="24" x="26.67" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="27.432" y1="22.84" x2="28.448" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="28.448" y1="20.34" x2="27.432" y2="20.34" width="0.1778" layer="21"/>
+<circle x="31.75" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="31.43" y1="21.59" x2="32.07" y2="24.34" layer="51"/>
+<smd name="22" x="31.75" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="32.512" y1="22.84" x2="33.528" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="33.528" y1="20.34" x2="32.512" y2="20.34" width="0.1778" layer="21"/>
+<circle x="36.83" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="36.51" y1="21.59" x2="37.15" y2="24.34" layer="51"/>
+<smd name="20" x="36.83" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="37.592" y1="22.84" x2="38.608" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="38.608" y1="20.34" x2="37.592" y2="20.34" width="0.1778" layer="21"/>
+<circle x="41.91" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="41.59" y1="21.59" x2="42.23" y2="24.34" layer="51"/>
+<smd name="18" x="41.91" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="42.672" y1="22.84" x2="43.688" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="43.688" y1="20.34" x2="42.672" y2="20.34" width="0.1778" layer="21"/>
+<circle x="19.05" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="18.73" y1="18.84" x2="19.37" y2="21.59" layer="51" rot="R180"/>
+<smd name="27" x="19.05" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="19.812" y1="22.84" x2="20.828" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="20.828" y1="20.34" x2="19.812" y2="20.34" width="0.1778" layer="21"/>
+<circle x="24.13" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="23.81" y1="18.84" x2="24.45" y2="21.59" layer="51" rot="R180"/>
+<smd name="25" x="24.13" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="24.892" y1="22.84" x2="25.908" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="25.908" y1="20.34" x2="24.892" y2="20.34" width="0.1778" layer="21"/>
+<circle x="29.21" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="28.89" y1="18.84" x2="29.53" y2="21.59" layer="51" rot="R180"/>
+<smd name="23" x="29.21" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="29.972" y1="22.84" x2="30.988" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="30.988" y1="20.34" x2="29.972" y2="20.34" width="0.1778" layer="21"/>
+<circle x="34.29" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="33.97" y1="18.84" x2="34.61" y2="21.59" layer="51" rot="R180"/>
+<smd name="21" x="34.29" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="35.052" y1="22.84" x2="36.068" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="36.068" y1="20.34" x2="35.052" y2="20.34" width="0.1778" layer="21"/>
+<circle x="39.37" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="39.05" y1="18.84" x2="39.69" y2="21.59" layer="51" rot="R180"/>
+<smd name="19" x="39.37" y="21.59" dx="1.02" dy="6" layer="1"/>
+<wire x1="40.132" y1="22.84" x2="41.148" y2="22.84" width="0.1778" layer="21"/>
+<wire x1="41.148" y1="20.34" x2="40.132" y2="20.34" width="0.1778" layer="21"/>
+<circle x="44.45" y="21.59" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="44.13" y1="18.84" x2="44.77" y2="21.59" layer="51" rot="R180"/>
+<smd name="17" x="44.45" y="21.59" dx="1.02" dy="6" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JMP-2-NC">
@@ -4284,6 +4594,58 @@ Renamed DAT2 from NC to RSV to remove the implication that you should leave it n
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="MICROSHIELD">
+<wire x1="0" y1="33.02" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="48.26" y2="0" width="0.254" layer="94"/>
+<wire x1="48.26" y1="0" x2="48.26" y2="33.02" width="0.254" layer="94"/>
+<wire x1="48.26" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
+<pin name="!RESET" x="5.08" y="-5.08" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="7.62" y="-5.08" length="middle" direction="sup" rot="R90"/>
+<pin name="AREF" x="10.16" y="-5.08" length="middle" direction="pas" rot="R90"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<pin name="GPIOA0" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOA1" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOA2" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOA3" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOA4" x="25.4" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOA5" x="27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOSCK" x="30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOMOSI" x="33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOMISO" x="35.56" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIORX" x="38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOTX" x="40.64" y="-5.08" length="middle" rot="R90"/>
+<pin name="NC" x="43.18" y="-5.08" length="middle" direction="pas" rot="R90"/>
+<pin name="GPIOSDA" x="43.18" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIOSCL" x="40.64" y="38.1" length="middle" rot="R270"/>
+<circle x="45.72" y="30.48" radius="1.27" width="0.254" layer="94"/>
+<circle x="45.72" y="2.54" radius="1.27" width="0.254" layer="94"/>
+<pin name="GPIO5" x="38.1" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO9" x="33.02" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO6" x="35.56" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO10" x="30.48" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO11" x="27.94" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO12" x="25.4" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO13" x="22.86" y="38.1" length="middle" rot="R270"/>
+<pin name="EN" x="17.78" y="38.1" length="middle" direction="pas" rot="R270"/>
+<pin name="USB" x="20.32" y="38.1" length="middle" direction="sup" rot="R270"/>
+<pin name="VBAT" x="15.24" y="38.1" length="middle" direction="sup" rot="R270"/>
+<wire x1="12.7" y1="33.02" x2="5.08" y2="33.02" width="0.254" layer="94"/>
+<wire x1="5.08" y1="33.02" x2="0" y2="33.02" width="0.254" layer="94"/>
+<wire x1="5.08" y1="33.02" x2="5.08" y2="25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="7.62" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="30.48" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5885,6 +6247,146 @@ Standard 8-pin 0.1" header</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADAFRUIT_FEATHER" prefix="MS">
+<description>Adafruit FeatherWing (PatternAgents version)
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix DRC violations in original PTH version
+&lt;li&gt;Add SMT version
+&lt;/ul&gt;
+
+&lt;P&gt;
+PatternAgents ProtoPads Library
+&lt;P&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;BR&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 4.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;P&gt;</description>
+<gates>
+<gate name="G$1" symbol="MICROSHIELD" x="-25.4" y="-15.24"/>
+</gates>
+<devices>
+<device name="_PTH" package="FEATHERWING">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="1"/>
+<connect gate="G$1" pin="3V" pad="2"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GPIO10" pad="22"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="24"/>
+<connect gate="G$1" pin="GPIO13" pad="25"/>
+<connect gate="G$1" pin="GPIO5" pad="19"/>
+<connect gate="G$1" pin="GPIO6" pad="20"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="GPIOA0" pad="5"/>
+<connect gate="G$1" pin="GPIOA1" pad="6"/>
+<connect gate="G$1" pin="GPIOA2" pad="7"/>
+<connect gate="G$1" pin="GPIOA3" pad="8"/>
+<connect gate="G$1" pin="GPIOA4" pad="9"/>
+<connect gate="G$1" pin="GPIOA5" pad="10"/>
+<connect gate="G$1" pin="GPIOMISO" pad="13"/>
+<connect gate="G$1" pin="GPIOMOSI" pad="12"/>
+<connect gate="G$1" pin="GPIORX" pad="14"/>
+<connect gate="G$1" pin="GPIOSCK" pad="11"/>
+<connect gate="G$1" pin="GPIOSCL" pad="18"/>
+<connect gate="G$1" pin="GPIOSDA" pad="17"/>
+<connect gate="G$1" pin="GPIOTX" pad="15"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="USB" pad="26"/>
+<connect gate="G$1" pin="VBAT" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_PTH_NODIM" package="FEATHERWING_NODIM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="1"/>
+<connect gate="G$1" pin="3V" pad="2"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GPIO10" pad="22"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="24"/>
+<connect gate="G$1" pin="GPIO13" pad="25"/>
+<connect gate="G$1" pin="GPIO5" pad="19"/>
+<connect gate="G$1" pin="GPIO6" pad="20"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="GPIOA0" pad="5"/>
+<connect gate="G$1" pin="GPIOA1" pad="6"/>
+<connect gate="G$1" pin="GPIOA2" pad="7"/>
+<connect gate="G$1" pin="GPIOA3" pad="8"/>
+<connect gate="G$1" pin="GPIOA4" pad="9"/>
+<connect gate="G$1" pin="GPIOA5" pad="10"/>
+<connect gate="G$1" pin="GPIOMISO" pad="13"/>
+<connect gate="G$1" pin="GPIOMOSI" pad="12"/>
+<connect gate="G$1" pin="GPIORX" pad="14"/>
+<connect gate="G$1" pin="GPIOSCK" pad="11"/>
+<connect gate="G$1" pin="GPIOSCL" pad="18"/>
+<connect gate="G$1" pin="GPIOSDA" pad="17"/>
+<connect gate="G$1" pin="GPIOTX" pad="15"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="USB" pad="26"/>
+<connect gate="G$1" pin="VBAT" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SMD_NODIM" package="FEATHERWING_SMD_NODIM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="1"/>
+<connect gate="G$1" pin="3V" pad="2"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GPIO10" pad="22"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="24"/>
+<connect gate="G$1" pin="GPIO13" pad="25"/>
+<connect gate="G$1" pin="GPIO5" pad="19"/>
+<connect gate="G$1" pin="GPIO6" pad="20"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="GPIOA0" pad="5"/>
+<connect gate="G$1" pin="GPIOA1" pad="6"/>
+<connect gate="G$1" pin="GPIOA2" pad="7"/>
+<connect gate="G$1" pin="GPIOA3" pad="8"/>
+<connect gate="G$1" pin="GPIOA4" pad="9"/>
+<connect gate="G$1" pin="GPIOA5" pad="10"/>
+<connect gate="G$1" pin="GPIOMISO" pad="13"/>
+<connect gate="G$1" pin="GPIOMOSI" pad="12"/>
+<connect gate="G$1" pin="GPIORX" pad="14"/>
+<connect gate="G$1" pin="GPIOSCK" pad="11"/>
+<connect gate="G$1" pin="GPIOSCL" pad="18"/>
+<connect gate="G$1" pin="GPIOSDA" pad="17"/>
+<connect gate="G$1" pin="GPIOTX" pad="15"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="USB" pad="26"/>
+<connect gate="G$1" pin="VBAT" pad="28"/>
 </connects>
 <technologies>
 <technology name=""/>
