@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -153,6 +153,28 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;B&gt;PatternAgents Various RF Modules  Library&lt;/B&gt;
+&lt;P&gt;
+Symbols and Footprints for Various RF Module Products.
+&lt;BR&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;P&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Source : http://www.cypress.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/ 
+(Creative Commons 3.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
 <packages>
 <package name="ESP8266-07W">
 <description>&lt;B&gt;Pattern Agents ESP2866 Type7W&lt;/B&gt;
@@ -220,71 +242,75 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <smd name="GND" x="8.936" y="8.126" dx="2.5" dy="1" layer="1" rot="R270"/>
 <text x="9.017" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">GND</text>
 </package>
-<package name="ESP8266-12W">
-<description>&lt;B&gt;Pattern Agents ESP2866 Type-12W&lt;/B&gt;
-&lt;P&gt;
-Extra Wide for Hand-Soldering space
-&lt;P&gt;
-PatternAgents Prototyping/Pads Library
-&lt;BR&gt;
-Schematic &amp; PCB Layout Symbols for Prototyping Boards.
-&lt;BR&gt;
-Pads in this library have been lengthened for hand soldering &amp; prototyping.
-&lt;BR&gt;
-Schematic and PCB layout libraries for design patterns by PatternAgents.
-&lt;P&gt;
-For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
-&lt;P&gt;
-Github : https://github.com/PatternAgents
-&lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/4.0/ 
-(Creative Commons 4.0)
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<wire x1="10.542" y1="9.66" x2="10.542" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="10.542" y1="-10.16" x2="-11.43" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-10.16" x2="-11.43" y2="9.66" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="9.66" x2="10.542" y2="9.66" width="0.127" layer="21"/>
-<smd name="G15" x="6.904" y="8.126" dx="2.5" dy="1" layer="1" rot="R270"/>
-<smd name="G2" x="4.856" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G0" x="2.856" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G4" x="0.856" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G5" x="-1.144" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G3" x="-3.144" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G1" x="-5.144" y="8.082" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="!RST" x="-5.144" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="ADC" x="-3.144" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="CH_PD" x="-1.144" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G16" x="0.856" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G14" x="2.856" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G12" x="4.856" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="G13" x="6.856" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<text x="-5.08" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G1</text>
-<text x="-3.048" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G3</text>
-<text x="1.016" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G4</text>
-<text x="2.921" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G0</text>
-<text x="4.953" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G2</text>
-<text x="6.985" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G15</text>
-<text x="-1.143" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">G5</text>
-<text x="-5.08" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">!RST</text>
-<text x="-3.048" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">ADC</text>
-<text x="-1.016" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">CH_PD</text>
-<text x="0.889" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">G16</text>
-<text x="2.921" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">G14</text>
-<text x="4.953" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">G12</text>
-<text x="6.985" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">G13</text>
-<text x="11.8364" y="-10.16" size="1.016" layer="25" rot="R90">&gt;NAME</text>
-<text x="11.938" y="3.048" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
-<smd name="3V3" x="8.888" y="-8.582" dx="2.5" dy="1" layer="1" rot="R90"/>
-<text x="9.017" y="-6.82" size="1.016" layer="21" rot="R270" align="center-right">3V3</text>
-<smd name="GND" x="8.936" y="8.126" dx="2.5" dy="1" layer="1" rot="R270"/>
-<text x="9.017" y="6.52" size="1.016" layer="21" rot="R270" align="center-left">GND</text>
+<package name="ESP01">
+<description>ESP8266 Module 01</description>
+<pad name="GND" x="-3.825" y="-5.6375" drill="0.8" shape="square" rot="R270"/>
+<pad name="RX" x="3.795" y="-5.6375" drill="0.8" shape="square" rot="R270"/>
+<pad name="GPIO2" x="-1.285" y="-5.6375" drill="0.8" rot="R270"/>
+<pad name="GPIO0" x="1.255" y="-5.6375" drill="0.8" rot="R270"/>
+<pad name="RST" x="1.255" y="-8.1775" drill="0.8" rot="R270"/>
+<pad name="CH_PD" x="-1.285" y="-8.1775" drill="0.8" rot="R270"/>
+<pad name="TX" x="-3.825" y="-8.1775" drill="0.8" rot="R270"/>
+<pad name="VCC" x="3.795" y="-8.1775" drill="0.8" rot="R270"/>
+<wire x1="-7" y1="15" x2="-7" y2="7.38" width="0.127" layer="21"/>
+<wire x1="-7" y1="7.38" x2="-7" y2="-9.765" width="0.127" layer="21"/>
+<wire x1="-7" y1="-9.765" x2="7.2875" y2="-9.765" width="0.127" layer="21"/>
+<wire x1="7.2875" y1="-9.765" x2="7.2875" y2="7.38" width="0.127" layer="21"/>
+<wire x1="7.2875" y1="7.38" x2="7.2875" y2="15" width="0.127" layer="21"/>
+<wire x1="7.2875" y1="15" x2="-7" y2="15" width="0.127" layer="21"/>
+<wire x1="-7" y1="7.38" x2="7.2875" y2="7.38" width="0.127" layer="21"/>
+<text x="-5.73" y="9.92" size="2.54" layer="21">ESP-01</text>
+<text x="-7" y="16" size="1.27" layer="25">&gt;Name</text>
+<text x="-7" y="-11" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="ESP12E-SMD">
+<description>ESP8266 Module 12E</description>
+<wire x1="7.9" y1="14.2" x2="7.9" y2="6.9" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="6.9" x2="-8.1" y2="14.2" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="14.2" x2="7.9" y2="14.2" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="8.6" x2="-4.9" y2="13.5" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="13.5" x2="-4" y2="13.5" width="0.6096" layer="21"/>
+<wire x1="-4" y1="13.5" x2="-4" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-4" y1="9.8" x2="-3" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-3" y1="9.8" x2="-3" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-3" y1="13.4" x2="-1.8" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-1.8" y1="13.4" x2="-1.8" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-1.8" y1="9.8" x2="-0.6" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-0.6" y1="9.8" x2="-0.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-0.6" y1="13.4" x2="0.5" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="0.5" y1="13.4" x2="0.5" y2="9.9" width="0.6096" layer="21"/>
+<wire x1="0.5" y1="9.9" x2="1.6" y2="9.9" width="0.6096" layer="21"/>
+<wire x1="1.6" y1="9.9" x2="1.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="1.6" y1="13.4" x2="5.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="8.5" x2="-4.9" y2="7.9" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="7.9" x2="1.6" y2="7.9" width="0.6096" layer="21"/>
+<text x="0" y="3" size="1.4224" layer="21" align="bottom-center">ESP - 12E</text>
+<text x="-7.7" y="-11.9" size="1.4224" layer="27">&gt;Value</text>
+<text x="-7.7" y="15.1" size="1.4224" layer="25">&gt;Name</text>
+<smd name="RESET" x="-8.3" y="5.8" dx="3" dy="1.2" layer="1"/>
+<smd name="ADC" x="-8.3" y="3.8" dx="3" dy="1.2" layer="1"/>
+<smd name="CH_PD" x="-8.3" y="1.8" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO16" x="-8.3" y="-0.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO14" x="-8.3" y="-2.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO12" x="-8.3" y="-4.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO13" x="-8.3" y="-6.2" dx="3" dy="1.2" layer="1"/>
+<smd name="VCC" x="-8.3" y="-8.2" dx="3" dy="1.2" layer="1"/>
+<smd name="TXD0" x="8.1" y="5.8" dx="3" dy="1.2" layer="1"/>
+<smd name="RXD0" x="8.1" y="3.8" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO4" x="8.1" y="-0.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO5" x="8.1" y="1.8" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO0" x="8.1" y="-2.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO2" x="8.1" y="-4.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO15" x="8.1" y="-6.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GND" x="8.1" y="-8.2" dx="3" dy="1.2" layer="1"/>
+<smd name="MOSI" x="3.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO10" x="1.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO9" x="-0.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="MISO" x="-2.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="CS0" x="-4.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="SCLK" x="5.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-5.8" y1="-9.8" x2="-8.1" y2="-9.8" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-9.8" x2="6.2" y2="-9.8" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -384,6 +410,56 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <pin name="G3" x="12.7" y="7.62" length="short" rot="R180"/>
 <pin name="G1" x="12.7" y="10.16" length="short" rot="R180"/>
 </symbol>
+<symbol name="ESP01">
+<description>ESP8266 Wifi module 01</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="GND" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="GPIO2" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="GPIO0" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="RXD" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="TXD" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="CH_PD" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="RST" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-5.08" size="1.778" layer="95">&gt;Value</text>
+</symbol>
+<symbol name="ESP12E">
+<description>ESP8266-12E Module</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="RESET" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="ADC" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="CH_PD" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="GPIO16" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="GPIO14" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="GPIO12" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="GPIO13" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="VCC" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="GND" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="7.62" y="-25.4" size="1.778" layer="96">&gt;Value</text>
+<pin name="CS0" x="-7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MISO" x="-5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="*GPIO9" x="-2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="*GPIO10" x="0" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="SCLK" x="5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<text x="12.7" y="-20.32" size="1.27" layer="97">* Can only be used on the ESP12-D
+(Untested. Info from esp8266 wiki)</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ESP8266-07">
@@ -440,53 +516,59 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP8266-12">
-<description>&lt;B&gt;Pattern Agents ESP8266 (Type12 : 16 Pins)&lt;/B&gt;
-&lt;P&gt;
-PatternAgents Prototyping/Pads Library
-&lt;BR&gt;
-Schematic &amp; PCB Layout Symbols for Prototyping Boards.
-&lt;BR&gt;
-Pads in this library have been lengthened for hand soldering &amp; prototyping.
-&lt;BR&gt;
-Schematic and PCB layout libraries for design patterns by PatternAgents.
-&lt;P&gt;
-For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
-&lt;P&gt;
-Github : https://github.com/PatternAgents
-&lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/4.0/ 
-(Creative Commons 4.0)
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
+<deviceset name="ESP01">
+<description>ESP8266 Wifi module 01</description>
 <gates>
-<gate name="U1" symbol="ESP8266-12" x="0" y="0"/>
+<gate name="G$1" symbol="ESP01" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-12W" package="ESP8266-12W">
+<device name="" package="ESP01">
 <connects>
-<connect gate="U1" pin="!RST" pad="!RST"/>
-<connect gate="U1" pin="3V3" pad="3V3"/>
-<connect gate="U1" pin="ADC" pad="ADC"/>
-<connect gate="U1" pin="CH_PD" pad="CH_PD"/>
-<connect gate="U1" pin="G0" pad="G0"/>
-<connect gate="U1" pin="G1" pad="G1"/>
-<connect gate="U1" pin="G12" pad="G12"/>
-<connect gate="U1" pin="G13" pad="G13"/>
-<connect gate="U1" pin="G14" pad="G14"/>
-<connect gate="U1" pin="G15" pad="G15"/>
-<connect gate="U1" pin="G16" pad="G16"/>
-<connect gate="U1" pin="G2" pad="G2"/>
-<connect gate="U1" pin="G3" pad="G3"/>
-<connect gate="U1" pin="G4" pad="G4"/>
-<connect gate="U1" pin="G5" pad="G5"/>
-<connect gate="U1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RX"/>
+<connect gate="G$1" pin="TXD" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP12E" prefix="U" uservalue="yes">
+<description>ESP12E Module</description>
+<gates>
+<gate name="G$1" symbol="ESP12E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="ESP12E-SMD">
+<connects>
+<connect gate="G$1" pin="*GPIO10" pad="GPIO10"/>
+<connect gate="G$1" pin="*GPIO9" pad="GPIO9"/>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="CS0" pad="CS0"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RX" pad="RXD0"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="TX" pad="TXD0"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -497,4 +579,10 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
