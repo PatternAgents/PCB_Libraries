@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8266,7 +8266,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="-2.54" y="2.54" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="1.27" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
-<package name="TQFP64-10X10">
+<package name="TQFP-10X10-64">
 <description>&lt;b&gt;Thin Quad Flat Pack&lt;/b&gt;&lt;p&gt;
 package type TQ</description>
 <wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
@@ -8479,6 +8479,124 @@ Source: http://www.cypress.com .. CY8C21345.pdf</description>
 <rectangle x1="-5.9649" y1="3.7801" x2="-5.4651" y2="5.2" layer="51"/>
 <rectangle x1="-7.2349" y1="3.7801" x2="-6.7351" y2="5.2" layer="51"/>
 <rectangle x1="-8.5049" y1="3.7801" x2="-8.0051" y2="5.2" layer="51"/>
+</package>
+<package name="TQFP-7X7-48">
+<description>&lt;b&gt;TQFP-S-7X7-44&lt;/b&gt;
+&lt;p&gt;
+Thin Plastic Quad Flatpack with 48 pins
+&lt;p&gt;
+Square 7mm x 7mm x 1.4mm
+&lt;p&gt;
+Data Source: http://www.cypress.com/file/68171/download
+&lt;p&gt;
+LBR Source:  http://www.patternagents.com
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<circle x="-2.2499" y="2.2499" radius="0.508" width="0.2032" layer="21"/>
+<smd name="1" x="-4.1" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="2" x="-4.1" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="3" x="-4.1" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="4" x="-4.1" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="5" x="-4.1" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="6" x="-4.1" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="7" x="-4.1" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="8" x="-4.1" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="9" x="-4.1" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="10" x="-4.1" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="11" x="-4.1" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="12" x="-4.1" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="13" x="-2.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="-2.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="-1.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-1.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="17" x="-0.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="18" x="-0.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="19" x="0.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="0.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="1.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="1.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="2.25" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="2.75" y="-4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="25" x="4.1" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="26" x="4.1" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="27" x="4.1" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="28" x="4.1" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="29" x="4.1" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="30" x="4.1" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="31" x="4.1" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="32" x="4.1" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="33" x="4.1" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="34" x="4.1" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="35" x="4.1" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="36" x="4.1" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="37" x="2.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="38" x="2.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="39" x="1.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="40" x="1.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="41" x="0.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="42" x="0.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="43" x="-0.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="44" x="-0.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="45" x="-1.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="46" x="-1.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="47" x="-2.25" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<smd name="48" x="-2.75" y="4.1" dx="1.6" dy="0.3" layer="1" rot="R270"/>
+<text x="-2.54" y="-2.667" size="0.6096" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<text x="-2.54" y="0.635" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="-4.175" y1="2.175" x2="-3.875" y2="3.3248" layer="51" rot="R270"/>
+<rectangle x1="-4.17495" y1="1.67515" x2="-3.87505" y2="2.82495" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="1.175" x2="-3.875" y2="2.3248" layer="51" rot="R270"/>
+<rectangle x1="-4.17495" y1="0.67515" x2="-3.87505" y2="1.82495" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="0.175" x2="-3.875" y2="1.3248" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="-0.3248" x2="-3.875" y2="0.825" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="-0.825" x2="-3.875" y2="0.3248" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="-1.3248" x2="-3.875" y2="-0.175" layer="51" rot="R270"/>
+<rectangle x1="-4.17495" y1="-1.82495" x2="-3.87505" y2="-0.67515" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="-2.3248" x2="-3.875" y2="-1.175" layer="51" rot="R270"/>
+<rectangle x1="-4.17495" y1="-2.82495" x2="-3.87505" y2="-1.67515" layer="51" rot="R270"/>
+<rectangle x1="-4.175" y1="-3.3248" x2="-3.875" y2="-2.175" layer="51" rot="R270"/>
+<rectangle x1="-3.3248" y1="-4.175" x2="-2.175" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="-2.82495" y1="-4.17495" x2="-1.67515" y2="-3.87505" layer="51" rot="R270"/>
+<rectangle x1="-2.3248" y1="-4.175" x2="-1.175" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="-1.82495" y1="-4.17495" x2="-0.67515" y2="-3.87505" layer="51" rot="R270"/>
+<rectangle x1="-1.3248" y1="-4.175" x2="-0.175" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="-0.825" y1="-4.175" x2="0.3248" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="-0.3248" y1="-4.175" x2="0.825" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="0.175" y1="-4.175" x2="1.3248" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="0.67515" y1="-4.17495" x2="1.82495" y2="-3.87505" layer="51" rot="R270"/>
+<rectangle x1="1.175" y1="-4.175" x2="2.3248" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="1.67515" y1="-4.17495" x2="2.82495" y2="-3.87505" layer="51" rot="R270"/>
+<rectangle x1="2.175" y1="-4.175" x2="3.3248" y2="-3.875" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="-3.3248" x2="4.175" y2="-2.175" layer="51" rot="R270"/>
+<rectangle x1="3.87505" y1="-2.82495" x2="4.17495" y2="-1.67515" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="-2.3248" x2="4.175" y2="-1.175" layer="51" rot="R270"/>
+<rectangle x1="3.87505" y1="-1.82495" x2="4.17495" y2="-0.67515" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="-1.3248" x2="4.175" y2="-0.175" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="-0.825" x2="4.175" y2="0.3248" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="-0.3248" x2="4.175" y2="0.825" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="0.175" x2="4.175" y2="1.3248" layer="51" rot="R270"/>
+<rectangle x1="3.87505" y1="0.67515" x2="4.17495" y2="1.82495" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="1.175" x2="4.175" y2="2.3248" layer="51" rot="R270"/>
+<rectangle x1="3.87505" y1="1.67515" x2="4.17495" y2="2.82495" layer="51" rot="R270"/>
+<rectangle x1="3.875" y1="2.175" x2="4.175" y2="3.3248" layer="51" rot="R270"/>
+<rectangle x1="2.175" y1="3.875" x2="3.3248" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="1.67515" y1="3.87505" x2="2.82495" y2="4.17495" layer="51" rot="R270"/>
+<rectangle x1="1.175" y1="3.875" x2="2.3248" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="0.67515" y1="3.87505" x2="1.82495" y2="4.17495" layer="51" rot="R270"/>
+<rectangle x1="0.175" y1="3.875" x2="1.3248" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="-0.3248" y1="3.875" x2="0.825" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="-0.825" y1="3.875" x2="0.3248" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="-1.3248" y1="3.875" x2="-0.175" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="-1.82495" y1="3.87505" x2="-0.67515" y2="4.17495" layer="51" rot="R270"/>
+<rectangle x1="-2.3248" y1="3.875" x2="-1.175" y2="4.175" layer="51" rot="R270"/>
+<rectangle x1="-2.82495" y1="3.87505" x2="-1.67515" y2="4.17495" layer="51" rot="R270"/>
+<rectangle x1="-3.3248" y1="3.875" x2="-2.175" y2="4.175" layer="51" rot="R270"/>
+<wire x1="-3.175" y1="2.667" x2="-2.667" y2="3.175" width="0.2032" layer="51"/>
+<wire x1="-2.667" y1="3.175" x2="3.175" y2="3.175" width="0.2032" layer="51"/>
+<wire x1="3.175" y1="3.175" x2="3.175" y2="-3.175" width="0.2032" layer="51"/>
+<wire x1="3.175" y1="-3.175" x2="-3.175" y2="-3.175" width="0.2032" layer="51"/>
+<wire x1="-3.175" y1="-3.175" x2="-3.175" y2="2.667" width="0.2032" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -10624,6 +10742,70 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="1.778" layer="94">&gt;Name</text>
 <text x="-10.16" y="23.495" size="1.778" layer="94">&gt;Value</text>
+</symbol>
+<symbol name="CY8C4247AZI-L433">
+<description>&lt;b&gt;Cypress PSoC® 4 - Programmable System on Chip,  Cortex-M0 Based &lt;/b&gt;
+&lt;p&gt;
+http://www.cypress.com/?mpn=CY8C4247AZI-L433   (48 TQFP USB!)
+&lt;p&gt;
+LBR Source:  http://www.patternagents.com
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="-25.4" y1="30.48" x2="25.4" y2="30.48" width="0.254" layer="94"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-27.94" x2="-25.4" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-27.94" x2="-25.4" y2="30.48" width="0.254" layer="94"/>
+<text x="-25.4" y="36.83" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="15.24" y="-30.48" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="P2_0" x="-27.94" y="10.16" length="short"/>
+<pin name="P2_1" x="-27.94" y="7.62" length="short"/>
+<pin name="P2_3" x="-27.94" y="2.54" length="short"/>
+<pin name="P2_4" x="-27.94" y="0" length="short"/>
+<pin name="P2_5" x="-27.94" y="-2.54" length="short"/>
+<pin name="P2_7" x="-27.94" y="-7.62" length="short"/>
+<pin name="VSSD@10" x="-27.94" y="-10.16" length="short"/>
+<pin name="P3_0" x="-27.94" y="-15.24" length="short"/>
+<pin name="P3_1" x="-15.24" y="-30.48" length="short" rot="R90"/>
+<pin name="P3_2_SWD" x="-12.7" y="-30.48" length="short" rot="R90"/>
+<pin name="P3_3_SWC" x="-7.62" y="-30.48" length="short" rot="R90"/>
+<pin name="P3_4" x="-5.08" y="-30.48" length="short" rot="R90"/>
+<pin name="P3_5" x="-2.54" y="-30.48" length="short" rot="R90"/>
+<pin name="P3_7" x="2.54" y="-30.48" length="short" rot="R90"/>
+<pin name="VDDIO@21" x="5.08" y="-30.48" length="short" rot="R90"/>
+<pin name="P4_0" x="7.62" y="-30.48" length="short" rot="R90"/>
+<pin name="USBDP_P13_0" x="10.16" y="-30.48" length="short" rot="R90"/>
+<pin name="USBDN_P13_1" x="12.7" y="-30.48" length="short" rot="R90"/>
+<pin name="P7_0" x="27.94" y="-12.7" length="short" rot="R180"/>
+<pin name="P0_0" x="27.94" y="-7.62" length="short" rot="R180"/>
+<pin name="P0_1" x="27.94" y="-5.08" length="short" rot="R180"/>
+<pin name="P0_3" x="27.94" y="0" length="short" rot="R180"/>
+<pin name="P0_4" x="27.94" y="2.54" length="short" rot="R180"/>
+<pin name="P0_5" x="27.94" y="5.08" length="short" rot="R180"/>
+<pin name="P0_7" x="27.94" y="10.16" length="short" rot="R180"/>
+<pin name="!XRES" x="27.94" y="12.7" length="short" function="dot" rot="R180"/>
+<pin name="VCCD@37" x="12.7" y="33.02" length="short" rot="R270"/>
+<pin name="VSSD@38" x="10.16" y="33.02" length="short" rot="R270"/>
+<pin name="VDDD@39" x="7.62" y="33.02" length="short" rot="R270"/>
+<pin name="VSSA@41" x="2.54" y="33.02" length="short" rot="R270"/>
+<pin name="P1_0" x="0" y="33.02" length="short" rot="R270"/>
+<pin name="P1_1" x="-2.54" y="33.02" length="short" rot="R270"/>
+<pin name="P1_3" x="-7.62" y="33.02" length="short" rot="R270"/>
+<pin name="P1_4" x="-10.16" y="33.02" length="short" rot="R270"/>
+<pin name="P1_5" x="-12.7" y="33.02" length="short" rot="R270"/>
+<pin name="P1_6" x="-15.24" y="33.02" length="short" rot="R270"/>
+<pin name="P1_7/VREF" x="-27.94" y="12.7" length="short"/>
+<pin name="P2_2" x="-27.94" y="5.08" length="short" direction="pwr"/>
+<pin name="P2_6" x="-27.94" y="-5.08" length="short" direction="pwr"/>
+<pin name="P3_6" x="0" y="-30.48" length="short" direction="pwr" rot="R90"/>
+<pin name="P0_6" x="27.94" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="P1_2" x="-5.08" y="33.02" length="short" direction="pwr" rot="R270"/>
+<pin name="P0_2" x="27.94" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="NC@11" x="-27.94" y="-12.7" length="short"/>
+<pin name="NC@15" x="-10.16" y="-30.48" length="short" rot="R90"/>
+<pin name="VBUS" x="27.94" y="-15.24" length="short" rot="R180"/>
+<pin name="P7_1" x="27.94" y="-10.16" length="short" rot="R180"/>
+<pin name="VDDA@40" x="5.08" y="33.02" length="short" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13454,7 +13636,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <gate name="U1" symbol="CY8C4247AZ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TQFP64-10X10">
+<device name="" package="TQFP-10X10-64">
 <connects>
 <connect gate="U1" pin="NC1" pad="34"/>
 <connect gate="U1" pin="NC2" pad="35"/>
@@ -13520,6 +13702,76 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="U1" pin="VSSD" pad="49"/>
 <connect gate="U1" pin="VSSIO" pad="17"/>
 <connect gate="U1" pin="XRES" pad="47"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CY8C4247AZI-L433">
+<description>&lt;b&gt;Cypress PSoC® 4 - Programmable System on Chip,  Cortex-M0 Based : USB Version!&lt;/b&gt;
+&lt;p&gt;
+http://www.cypress.com/?mpn=CY8C4247AZI-L433
+&lt;p&gt;
+LBR Source:  http://www.patternagents.com
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<gates>
+<gate name="U1" symbol="CY8C4247AZI-L433" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP-7X7-48">
+<connects>
+<connect gate="U1" pin="!XRES" pad="36"/>
+<connect gate="U1" pin="NC@11" pad="11"/>
+<connect gate="U1" pin="NC@15" pad="15"/>
+<connect gate="U1" pin="P0_0" pad="28"/>
+<connect gate="U1" pin="P0_1" pad="29"/>
+<connect gate="U1" pin="P0_2" pad="30"/>
+<connect gate="U1" pin="P0_3" pad="31"/>
+<connect gate="U1" pin="P0_4" pad="32"/>
+<connect gate="U1" pin="P0_5" pad="33"/>
+<connect gate="U1" pin="P0_6" pad="34"/>
+<connect gate="U1" pin="P0_7" pad="35"/>
+<connect gate="U1" pin="P1_0" pad="42"/>
+<connect gate="U1" pin="P1_1" pad="43"/>
+<connect gate="U1" pin="P1_2" pad="44"/>
+<connect gate="U1" pin="P1_3" pad="45"/>
+<connect gate="U1" pin="P1_4" pad="46"/>
+<connect gate="U1" pin="P1_5" pad="47"/>
+<connect gate="U1" pin="P1_6" pad="48"/>
+<connect gate="U1" pin="P1_7/VREF" pad="1"/>
+<connect gate="U1" pin="P2_0" pad="2"/>
+<connect gate="U1" pin="P2_1" pad="3"/>
+<connect gate="U1" pin="P2_2" pad="4"/>
+<connect gate="U1" pin="P2_3" pad="5"/>
+<connect gate="U1" pin="P2_4" pad="6"/>
+<connect gate="U1" pin="P2_5" pad="7"/>
+<connect gate="U1" pin="P2_6" pad="8"/>
+<connect gate="U1" pin="P2_7" pad="9"/>
+<connect gate="U1" pin="P3_0" pad="12"/>
+<connect gate="U1" pin="P3_1" pad="13"/>
+<connect gate="U1" pin="P3_2_SWD" pad="14"/>
+<connect gate="U1" pin="P3_3_SWC" pad="16"/>
+<connect gate="U1" pin="P3_4" pad="17"/>
+<connect gate="U1" pin="P3_5" pad="18"/>
+<connect gate="U1" pin="P3_6" pad="19"/>
+<connect gate="U1" pin="P3_7" pad="20"/>
+<connect gate="U1" pin="P4_0" pad="22"/>
+<connect gate="U1" pin="P7_0" pad="26"/>
+<connect gate="U1" pin="P7_1" pad="27"/>
+<connect gate="U1" pin="USBDN_P13_1" pad="24"/>
+<connect gate="U1" pin="USBDP_P13_0" pad="23"/>
+<connect gate="U1" pin="VBUS" pad="25"/>
+<connect gate="U1" pin="VCCD@37" pad="37"/>
+<connect gate="U1" pin="VDDA@40" pad="40"/>
+<connect gate="U1" pin="VDDD@39" pad="39"/>
+<connect gate="U1" pin="VDDIO@21" pad="21"/>
+<connect gate="U1" pin="VSSA@41" pad="41"/>
+<connect gate="U1" pin="VSSD@10" pad="10"/>
+<connect gate="U1" pin="VSSD@38" pad="38"/>
 </connects>
 <technologies>
 <technology name=""/>
