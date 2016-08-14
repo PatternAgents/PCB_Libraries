@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8493,57 +8493,56 @@ LBR Source:  http://www.patternagents.com
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<circle x="-2.2499" y="2.2499" radius="0.508" width="0.2032" layer="21"/>
-<smd name="1" x="-4.1" y="2.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="2" x="-4.1" y="2.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="3" x="-4.1" y="1.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="4" x="-4.1" y="1.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="5" x="-4.1" y="0.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="6" x="-4.1" y="0.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="7" x="-4.1" y="-0.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="8" x="-4.1" y="-0.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="9" x="-4.1" y="-1.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="10" x="-4.1" y="-1.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="11" x="-4.1" y="-2.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="12" x="-4.1" y="-2.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="13" x="-2.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="14" x="-2.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="15" x="-1.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="16" x="-1.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="17" x="-0.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="18" x="-0.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="19" x="0.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="20" x="0.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="21" x="1.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="22" x="1.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="23" x="2.25" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="24" x="2.75" y="-4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="25" x="4.1" y="-2.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="26" x="4.1" y="-2.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="27" x="4.1" y="-1.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="28" x="4.1" y="-1.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="29" x="4.1" y="-0.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="30" x="4.1" y="-0.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="31" x="4.1" y="0.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="32" x="4.1" y="0.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="33" x="4.1" y="1.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="34" x="4.1" y="1.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="35" x="4.1" y="2.25" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="36" x="4.1" y="2.75" dx="0.25" dy="1.6" layer="1" rot="R270"/>
-<smd name="37" x="2.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="38" x="2.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="39" x="1.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="40" x="1.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="41" x="0.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="42" x="0.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="43" x="-0.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="44" x="-0.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="45" x="-1.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="46" x="-1.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="47" x="-2.25" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="48" x="-2.75" y="4.1" dx="1.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="1" x="-4.4" y="2.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="2" x="-4.4" y="2.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="3" x="-4.4" y="1.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="4" x="-4.4" y="1.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="5" x="-4.4" y="0.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="6" x="-4.4" y="0.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="7" x="-4.4" y="-0.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="8" x="-4.4" y="-0.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="9" x="-4.4" y="-1.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="10" x="-4.4" y="-1.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="11" x="-4.4" y="-2.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="12" x="-4.4" y="-2.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="13" x="-2.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="14" x="-2.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="15" x="-1.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="16" x="-1.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="17" x="-0.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="18" x="-0.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="19" x="0.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="20" x="0.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="21" x="1.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="22" x="1.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="23" x="2.25" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="24" x="2.75" y="-4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="25" x="4.4" y="-2.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="26" x="4.4" y="-2.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="27" x="4.4" y="-1.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="28" x="4.4" y="-1.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="29" x="4.4" y="-0.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="30" x="4.4" y="-0.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="31" x="4.4" y="0.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="32" x="4.4" y="0.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="33" x="4.4" y="1.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="34" x="4.4" y="1.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="35" x="4.4" y="2.25" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="36" x="4.4" y="2.75" dx="0.21" dy="1.3" layer="1" rot="R270"/>
+<smd name="37" x="2.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="38" x="2.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="39" x="1.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="40" x="1.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="41" x="0.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="42" x="0.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="43" x="-0.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="44" x="-0.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="45" x="-1.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="46" x="-1.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="47" x="-2.25" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
+<smd name="48" x="-2.75" y="4.4" dx="1.3" dy="0.21" layer="1" rot="R270"/>
 <text x="-2.54" y="-2.667" size="0.6096" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<text x="-2.54" y="0.635" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.54" y="-1.765" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <rectangle x1="-4.175" y1="2.175" x2="-3.875" y2="3.3248" layer="51" rot="R270"/>
 <rectangle x1="-4.17495" y1="1.67515" x2="-3.87505" y2="2.82495" layer="51" rot="R270"/>
 <rectangle x1="-4.175" y1="1.175" x2="-3.875" y2="2.3248" layer="51" rot="R270"/>
@@ -8597,6 +8596,57 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="3.175" y1="3.175" x2="3.175" y2="-3.175" width="0.2032" layer="51"/>
 <wire x1="3.175" y1="-3.175" x2="-3.175" y2="-3.175" width="0.2032" layer="51"/>
 <wire x1="-3.175" y1="-3.175" x2="-3.175" y2="2.667" width="0.2032" layer="51"/>
+<circle x="-3.4" y="3.4" radius="0.15" width="0.2" layer="21"/>
+<circle x="-2.4" y="2.4" radius="0.360553125" width="0.2" layer="21"/>
+</package>
+<package name="PSOC_JTAG_MINSILK">
+<description>&lt;B&gt;PSOC1 ISSP Programming Header (Min Width Silkscreen)&lt;/B&gt;
+&lt;P&gt;
+LBR Source:  http://www.patternagents.com
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-6.35" y2="1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-7.1882" y="1.3208" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="2.794" y="1.651" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -13219,6 +13269,18 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </gates>
 <devices>
 <device name="" package="PSOC1-ISSP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MIN" package="PSOC_JTAG_MINSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
