@@ -368,6 +368,28 @@ Dual N-Channel PowerTrench® MOSFET
 </device>
 </devices>
 </deviceset>
+<deviceset name="FDC6420C">
+<description>&lt;B&gt;N and P Channel Power Trench MOSFETs&lt;/B&gt;</description>
+<gates>
+<gate name="N-CH" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
+<gate name="P-CH" symbol="MOSFET-PCHANNEL" x="0" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X110-6N">
+<connects>
+<connect gate="N-CH" pin="D" pad="6"/>
+<connect gate="N-CH" pin="G" pad="1"/>
+<connect gate="N-CH" pin="S" pad="5"/>
+<connect gate="P-CH" pin="D" pad="4"/>
+<connect gate="P-CH" pin="G" pad="3"/>
+<connect gate="P-CH" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
