@@ -222,6 +222,28 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <text x="-1.524" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="0.6096" layer="27" font="vector" ratio="15" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="SOT-363">
+<description>&lt;b&gt;SOT-363 Small Outline Transistor; 6 leads&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="0.55" y1="1" x2="0.55" y2="-1" width="0.2032" layer="51"/>
+<wire x1="0.55" y1="-1" x2="-0.55" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-0.55" y1="-1" x2="-0.55" y2="1" width="0.2032" layer="51"/>
+<wire x1="-0.55" y1="1" x2="0.55" y2="1" width="0.2032" layer="21"/>
+<circle x="-0.25" y="0.7" radius="0.15" width="0" layer="21"/>
+<smd name="1" x="-0.8" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<smd name="2" x="-0.8" y="0" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<smd name="3" x="-0.8" y="-0.65" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<smd name="4" x="0.8" y="-0.65" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<smd name="5" x="0.8" y="0" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<smd name="6" x="0.8" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R270"/>
+<text x="-1.1" y="1.45" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.1" y="2.38" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<rectangle x1="-1" y1="0.4" x2="-0.7" y2="0.9" layer="51" rot="R270"/>
+<rectangle x1="-1" y1="-0.25" x2="-0.7" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="-1" y1="-0.9" x2="-0.7" y2="-0.4" layer="51" rot="R270"/>
+<rectangle x1="0.7" y1="-0.9" x2="1" y2="-0.4" layer="51" rot="R270"/>
+<rectangle x1="0.7" y1="-0.25" x2="1" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="0.7" y1="0.4" x2="1" y2="0.9" layer="51" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FDC6329L">
@@ -354,6 +376,19 @@ Dual N-Channel PowerTrench® MOSFET
 </gates>
 <devices>
 <device name="" package="SOT95P280X110-6N">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SC70" package="SOT-363">
 <connects>
 <connect gate="A" pin="D" pad="6"/>
 <connect gate="A" pin="G" pad="2"/>

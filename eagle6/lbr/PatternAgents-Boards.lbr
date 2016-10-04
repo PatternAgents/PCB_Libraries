@@ -6,11 +6,21 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -10466,6 +10476,86 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="11.22" y="1.445" size="1.27" layer="25">&gt;NAME</text>
 <text x="69.64" y="1.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TEENSY_3.5_PTH">
+<description>Teensy 3.5 by PJRC
+(PTH Holes Only Version)</description>
+<pad name="GND" x="-7.62" y="16.51" drill="0.9652"/>
+<pad name="0" x="-7.62" y="13.97" drill="0.9652"/>
+<pad name="1" x="-7.62" y="11.43" drill="0.9652"/>
+<pad name="2" x="-7.62" y="8.89" drill="0.9652"/>
+<pad name="3" x="-7.62" y="6.35" drill="0.9652"/>
+<pad name="4" x="-7.62" y="3.81" drill="0.9652"/>
+<pad name="5" x="-7.62" y="1.27" drill="0.9652"/>
+<pad name="6" x="-7.62" y="-1.27" drill="0.9652"/>
+<pad name="7" x="-7.62" y="-3.81" drill="0.9652"/>
+<pad name="8" x="-7.62" y="-6.35" drill="0.9652"/>
+<pad name="9" x="-7.62" y="-8.89" drill="0.9652"/>
+<pad name="10" x="-7.62" y="-11.43" drill="0.9652"/>
+<pad name="11" x="-7.62" y="-13.97" drill="0.9652"/>
+<pad name="12" x="-7.62" y="-16.51" drill="0.9652"/>
+<pad name="VBAT" x="-5.08" y="-29.21" drill="0.9652"/>
+<pad name="3V3P" x="-2.54" y="-29.21" drill="0.9652"/>
+<pad name="GNDP" x="0" y="-29.21" drill="0.9652"/>
+<pad name="PGM" x="2.54" y="-29.21" drill="0.9652"/>
+<pad name="RESET" x="5.08" y="-29.21" drill="0.9652"/>
+<pad name="13" x="7.62" y="-16.51" drill="0.9652"/>
+<pad name="14" x="7.62" y="-13.97" drill="0.9652"/>
+<pad name="15" x="7.62" y="-11.43" drill="0.9652"/>
+<pad name="16" x="7.62" y="-8.89" drill="0.9652"/>
+<pad name="17" x="7.62" y="-6.35" drill="0.9652"/>
+<pad name="18" x="7.62" y="-3.81" drill="0.9652"/>
+<pad name="19" x="7.62" y="-1.27" drill="0.9652"/>
+<pad name="20" x="7.62" y="1.27" drill="0.9652"/>
+<pad name="21" x="7.62" y="3.81" drill="0.9652"/>
+<pad name="22" x="7.62" y="6.35" drill="0.9652"/>
+<pad name="23" x="7.62" y="8.89" drill="0.9652"/>
+<pad name="3V3" x="7.62" y="11.43" drill="0.9652"/>
+<pad name="AGND" x="7.62" y="13.97" drill="0.9652"/>
+<pad name="VIN" x="7.62" y="16.51" drill="0.9652"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-43.18" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-43.18" x2="-8.89" y2="-43.18" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-43.18" x2="-8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="16.51" x2="1.27" y2="16.51" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="16.51" x2="1.27" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="17.78" x2="8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-43.18" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-43.18" x2="-8.89" y2="-43.18" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-43.18" x2="-8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="17.78" x2="-1.27" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="17.78" x2="-1.27" y2="16.51" width="0.2032" layer="21"/>
+<text x="-3.81" y="13.97" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-13.97" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="VUSB" x="5.08" y="13.97" drill="0.9652"/>
+<pad name="AREF" x="5.08" y="8.89" drill="0.9652"/>
+<pad name="A10" x="5.08" y="6.35" drill="0.9652"/>
+<pad name="A11" x="5.08" y="3.81" drill="0.9652"/>
+<pad name="3V3X" x="-7.62" y="-19.05" drill="0.9652"/>
+<pad name="24" x="-7.62" y="-21.59" drill="0.9652"/>
+<pad name="25" x="-7.62" y="-24.13" drill="0.9652"/>
+<pad name="26" x="-7.62" y="-26.67" drill="0.9652"/>
+<pad name="27" x="-7.62" y="-29.21" drill="0.9652"/>
+<pad name="28" x="-7.62" y="-31.75" drill="0.9652"/>
+<pad name="29" x="-7.62" y="-34.29" drill="0.9652"/>
+<pad name="30" x="-7.62" y="-36.83" drill="0.9652"/>
+<pad name="31" x="-7.62" y="-39.37" drill="0.9652"/>
+<pad name="32" x="-7.62" y="-41.91" drill="0.9652"/>
+<pad name="GNDX" x="7.62" y="-19.05" drill="0.9652"/>
+<pad name="A22" x="7.62" y="-21.59" drill="0.9652"/>
+<pad name="A21" x="7.62" y="-24.13" drill="0.9652"/>
+<pad name="39" x="7.62" y="-26.67" drill="0.9652"/>
+<pad name="38" x="7.62" y="-29.21" drill="0.9652"/>
+<pad name="37" x="7.62" y="-31.75" drill="0.9652"/>
+<pad name="36" x="7.62" y="-34.29" drill="0.9652"/>
+<pad name="35" x="7.62" y="-36.83" drill="0.9652"/>
+<pad name="34" x="7.62" y="-39.37" drill="0.9652"/>
+<pad name="33" x="7.62" y="-41.91" drill="0.9652"/>
+<pad name="NC" x="-3.81" y="10.16" drill="0.9652"/>
+<pad name="A26" x="-3.81" y="7.62" drill="0.9652"/>
+<pad name="A25" x="-3.81" y="5.08" drill="0.9652"/>
+<pad name="GNDY" x="-3.81" y="2.54" drill="0.9652"/>
+<pad name="GNDZ" x="-3.81" y="0" drill="0.9652"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PA_DUE">
@@ -12067,6 +12157,78 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="-12.7" y="5.08" size="1.27" layer="94">Industry Standard Module</text>
 <text x="-12.7" y="0" size="1.27" layer="94">http://www.patternagents.com</text>
 <text x="-12.7" y="2.54" size="1.27" layer="94">PCB Outline with Holes</text>
+</symbol>
+<symbol name="TEENSY_3.5_PTH">
+<description>Teensy3.5 by PJRC
+Pin THu Hole Only Version</description>
+<wire x1="-17.78" y1="-38.1" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-38.1" x2="17.78" y2="43.18" width="0.254" layer="94"/>
+<wire x1="17.78" y1="43.18" x2="-17.78" y2="43.18" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="43.18" x2="-17.78" y2="-38.1" width="0.254" layer="94"/>
+<pin name="12" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="11" x="-22.86" y="-7.62" visible="pin" length="middle"/>
+<pin name="10" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="9" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="8" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="7" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="6" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="5" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="4" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="3" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="2" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="1" x="-22.86" y="17.78" visible="pin" length="middle"/>
+<pin name="0" x="-22.86" y="20.32" visible="pin" length="middle"/>
+<pin name="GND" x="-22.86" y="22.86" visible="pin" length="middle" direction="pwr"/>
+<pin name="VIN" x="22.86" y="22.86" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND" x="22.86" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3" x="22.86" y="17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="23" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="22" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="21" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="20" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="19" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="18" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="17" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="16" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="15" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="14" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="13" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="RESET" x="-5.08" y="-43.18" visible="pin" length="middle" rot="R90"/>
+<pin name="PGM" x="-2.54" y="-43.18" visible="pin" length="middle" rot="R90"/>
+<pin name="VBAT" x="5.08" y="-43.18" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<text x="-15.748" y="44.45" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-15.494" y="48.26" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+<pin name="A10" x="22.86" y="33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="A11" x="22.86" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="AREF" x="22.86" y="35.56" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VUSB" x="-22.86" y="40.64" visible="pin" length="middle" direction="pwr"/>
+<pin name="3V3X" x="-22.86" y="-12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="GNDX" x="22.86" y="-12.7" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="24" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="25" x="-22.86" y="-17.78" visible="pin" length="middle"/>
+<pin name="26" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="27" x="-22.86" y="-22.86" visible="pin" length="middle"/>
+<pin name="28" x="-22.86" y="-25.4" visible="pin" length="middle"/>
+<pin name="29" x="-22.86" y="-27.94" visible="pin" length="middle"/>
+<pin name="30" x="-22.86" y="-30.48" visible="pin" length="middle"/>
+<pin name="31" x="-22.86" y="-33.02" visible="pin" length="middle"/>
+<pin name="32" x="-22.86" y="-35.56" visible="pin" length="middle"/>
+<pin name="33" x="22.86" y="-35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="34" x="22.86" y="-33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="35" x="22.86" y="-30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="36" x="22.86" y="-27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="37" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="38" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="39" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="A21" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="A22" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="NC" x="-22.86" y="38.1" visible="pin" length="middle"/>
+<pin name="A26" x="-22.86" y="35.56" visible="pin" length="middle"/>
+<pin name="A25" x="-22.86" y="33.02" visible="pin" length="middle"/>
+<pin name="GNDY" x="-22.86" y="30.48" visible="pin" length="middle"/>
+<pin name="GNDZ" x="-22.86" y="27.94" visible="pin" length="middle"/>
+<pin name="GNDP" x="0" y="-43.18" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="3V3P" x="2.54" y="-43.18" visible="pin" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14078,6 +14240,83 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="G$1" pin="GND2" pad="GND@2"/>
 <connect gate="G$1" pin="GND3" pad="GND@3"/>
 <connect gate="G$1" pin="GND4" pad="GND@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEENSY_3.5_PTH">
+<description>Teensy 3.5 board, showing all pins that are "thru hole".</description>
+<gates>
+<gate name="G$1" symbol="TEENSY_3.5_PTH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY_3.5_PTH">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="3V3P" pad="3V3P"/>
+<connect gate="G$1" pin="3V3X" pad="3V3X"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A21" pad="A21"/>
+<connect gate="G$1" pin="A22" pad="A22"/>
+<connect gate="G$1" pin="A25" pad="A25"/>
+<connect gate="G$1" pin="A26" pad="A26"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GNDP" pad="GNDP"/>
+<connect gate="G$1" pin="GNDX" pad="GNDX"/>
+<connect gate="G$1" pin="GNDY" pad="GNDY"/>
+<connect gate="G$1" pin="GNDZ" pad="GNDZ"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="PGM" pad="PGM"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
 </connects>
 <technologies>
 <technology name=""/>
