@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -13713,38 +13713,38 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <devices>
 <device name="" package="PSOC-BLE-11MM-32">
 <connects>
-<connect gate="U1" pin="GND1" pad="32"/>
-<connect gate="U1" pin="GND2" pad="1"/>
-<connect gate="U1" pin="P0.1" pad="28"/>
-<connect gate="U1" pin="P0.4/SDA0" pad="24"/>
-<connect gate="U1" pin="P0.5/SCL0" pad="23"/>
-<connect gate="U1" pin="P0.6/SWDIO" pad="22"/>
-<connect gate="U1" pin="P0.7/SWDCLK" pad="27"/>
-<connect gate="U1" pin="P1.0" pad="30"/>
-<connect gate="U1" pin="P1.1" pad="31"/>
-<connect gate="U1" pin="P1.2" pad="21"/>
-<connect gate="U1" pin="P1.3" pad="18"/>
-<connect gate="U1" pin="P1.4" pad="25"/>
-<connect gate="U1" pin="P1.5" pad="29"/>
-<connect gate="U1" pin="P2.1" pad="16"/>
-<connect gate="U1" pin="P2.2" pad="15"/>
-<connect gate="U1" pin="P2.3" pad="14"/>
-<connect gate="U1" pin="P2.4" pad="3"/>
-<connect gate="U1" pin="P2.5" pad="2"/>
-<connect gate="U1" pin="P2.6" pad="19"/>
-<connect gate="U1" pin="P3.0" pad="17"/>
-<connect gate="U1" pin="P3.1" pad="11"/>
-<connect gate="U1" pin="P3.2" pad="6"/>
-<connect gate="U1" pin="P3.3" pad="8"/>
-<connect gate="U1" pin="P3.4" pad="12"/>
-<connect gate="U1" pin="P3.5" pad="9"/>
-<connect gate="U1" pin="P3.6" pad="5"/>
-<connect gate="U1" pin="P3.7" pad="10"/>
-<connect gate="U1" pin="VDD" pad="26"/>
-<connect gate="U1" pin="VDDA" pad="13"/>
-<connect gate="U1" pin="VDDR" pad="20"/>
-<connect gate="U1" pin="VREF" pad="7"/>
-<connect gate="U1" pin="XRES" pad="4"/>
+<connect gate="U1" pin="GND1" pad="1"/>
+<connect gate="U1" pin="GND2" pad="32"/>
+<connect gate="U1" pin="P0.1" pad="5"/>
+<connect gate="U1" pin="P0.4/SDA0" pad="9"/>
+<connect gate="U1" pin="P0.5/SCL0" pad="10"/>
+<connect gate="U1" pin="P0.6/SWDIO" pad="11"/>
+<connect gate="U1" pin="P0.7/SWDCLK" pad="6"/>
+<connect gate="U1" pin="P1.0" pad="3"/>
+<connect gate="U1" pin="P1.1" pad="2"/>
+<connect gate="U1" pin="P1.2" pad="12"/>
+<connect gate="U1" pin="P1.3" pad="15"/>
+<connect gate="U1" pin="P1.4" pad="8"/>
+<connect gate="U1" pin="P1.5" pad="4"/>
+<connect gate="U1" pin="P2.1" pad="17"/>
+<connect gate="U1" pin="P2.2" pad="18"/>
+<connect gate="U1" pin="P2.3" pad="19"/>
+<connect gate="U1" pin="P2.4" pad="30"/>
+<connect gate="U1" pin="P2.5" pad="31"/>
+<connect gate="U1" pin="P2.6" pad="14"/>
+<connect gate="U1" pin="P3.0" pad="16"/>
+<connect gate="U1" pin="P3.1" pad="22"/>
+<connect gate="U1" pin="P3.2" pad="27"/>
+<connect gate="U1" pin="P3.3" pad="25"/>
+<connect gate="U1" pin="P3.4" pad="21"/>
+<connect gate="U1" pin="P3.5" pad="24"/>
+<connect gate="U1" pin="P3.6" pad="28"/>
+<connect gate="U1" pin="P3.7" pad="23"/>
+<connect gate="U1" pin="VDD" pad="7"/>
+<connect gate="U1" pin="VDDA" pad="20"/>
+<connect gate="U1" pin="VDDR" pad="13"/>
+<connect gate="U1" pin="VREF" pad="26"/>
+<connect gate="U1" pin="XRES" pad="29"/>
 </connects>
 <technologies>
 <technology name=""/>
