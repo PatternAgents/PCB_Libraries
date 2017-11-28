@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -53,6 +53,8 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -61,6 +63,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -74,7 +77,9 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -86,8 +91,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -32585,6 +32594,43 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <circle x="0" y="0" radius="8.636" width="0.762" layer="21"/>
 <circle x="0" y="0" radius="25.4" width="0.762" layer="21"/>
 </package>
+<package name="BUTTON_PASSIVE_6MM_TRANS">
+<description>Untested Layout - Experimental!</description>
+<pad name="BUTTON" x="0" y="3.048" drill="0.3556" stop="no" thermals="no"/>
+<polygon width="0.6096" layer="1">
+<vertex x="-3" y="0" curve="-90"/>
+<vertex x="0" y="3" curve="-90"/>
+<vertex x="3" y="0" curve="-90"/>
+<vertex x="0" y="-3" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="43" spacing="0.254">
+<vertex x="0" y="5" curve="90"/>
+<vertex x="-5" y="0" curve="90"/>
+<vertex x="0" y="-5" curve="90"/>
+<vertex x="5" y="0" curve="90"/>
+</polygon>
+<circle x="0" y="0" radius="4.123103125" width="1.4224" layer="29"/>
+<circle x="0" y="0" radius="3.60555" width="1.4224" layer="30"/>
+<polygon width="1.6764" layer="42" spacing="0.254">
+<vertex x="-1.524" y="2.54" curve="90"/>
+<vertex x="-2.794" y="-0.762"/>
+<vertex x="-3.048" y="-0.254" curve="90"/>
+<vertex x="0.254" y="-3.048"/>
+<vertex x="-0.762" y="-3.302" curve="90"/>
+<vertex x="3.048" y="-0.508"/>
+<vertex x="3.048" y="0" curve="90"/>
+<vertex x="1.524" y="2.54"/>
+<vertex x="1.524" y="3.937" curve="-90"/>
+<vertex x="4.191" y="0.254"/>
+<vertex x="4.191" y="-0.254" curve="-90"/>
+<vertex x="-0.254" y="-4.445" curve="-90"/>
+<vertex x="-4.191" y="-0.254"/>
+<vertex x="-4.191" y="-1.016" curve="-90"/>
+<vertex x="-1.524" y="3.937"/>
+</polygon>
+<circle x="0" y="0" radius="4.318" width="1.905" layer="41"/>
+<circle x="0" y="0" radius="1.2192" width="2.286" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BUTTON_ACTIVE_DUAL">
@@ -33304,6 +33350,14 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="10MM" package="BUTTON_PASSIVE_10MM">
+<connects>
+<connect gate="B1" pin="BUTTON" pad="BUTTON"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6MM" package="BUTTON_PASSIVE_6MM_TRANS">
 <connects>
 <connect gate="B1" pin="BUTTON" pad="BUTTON"/>
 </connects>
