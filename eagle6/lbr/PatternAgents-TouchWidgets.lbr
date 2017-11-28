@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -32594,9 +32594,9 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <circle x="0" y="0" radius="8.636" width="0.762" layer="21"/>
 <circle x="0" y="0" radius="25.4" width="0.762" layer="21"/>
 </package>
-<package name="BUTTON_PASSIVE_6MM_TRANS">
+<package name="BUTTON_PASSIVE_6MM">
 <description>Untested Layout - Experimental!</description>
-<pad name="BUTTON" x="0" y="3.048" drill="0.3556" stop="no" thermals="no"/>
+<pad name="BUTTON" x="0" y="2.032" drill="0.3556" stop="no" thermals="no"/>
 <polygon width="0.6096" layer="1">
 <vertex x="-3" y="0" curve="-90"/>
 <vertex x="0" y="3" curve="-90"/>
@@ -33357,7 +33357,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="6MM" package="BUTTON_PASSIVE_6MM_TRANS">
+<device name="6MM" package="BUTTON_PASSIVE_6MM">
 <connects>
 <connect gate="B1" pin="BUTTON" pad="BUTTON"/>
 </connects>
