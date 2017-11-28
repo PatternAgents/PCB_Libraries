@@ -411,11 +411,11 @@ License : http://creativecommons.org/licenses/by-sa/3.1/ (Creative Commons 3.1)
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;p&gt;</description>
 <text x="-4.986" y="-12.289" size="0.6096" layer="22" font="vector" ratio="15" rot="R45">&gt;NAME</text>
-<pad name="SL1" x="-4.572" y="-15.621" drill="0.3556"/>
-<pad name="SL2" x="-4.572" y="-8.001" drill="0.3556"/>
+<pad name="SL1" x="-4.572" y="-15.621" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL2" x="-4.572" y="-8.001" drill="0.3556" stop="no" thermals="no"/>
 <pad name="SL3" x="-4.572" y="-0.381" drill="0.3556"/>
-<pad name="SL4" x="-4.572" y="7.112" drill="0.3556"/>
-<pad name="SL5" x="-4.572" y="14.605" drill="0.3556"/>
+<pad name="SL4" x="-4.572" y="7.112" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL5" x="-4.572" y="14.605" drill="0.3556" stop="no" thermals="no"/>
 <polygon width="0.6096" layer="1" spacing="0.254">
 <vertex x="0.254" y="1.02"/>
 <vertex x="3.254" y="3.77"/>
@@ -559,11 +559,11 @@ License : http://creativecommons.org/licenses/by-sa/3.1/ (Creative Commons 3.1)
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;p&gt;</description>
 <text x="-5.24" y="-11.781" size="0.6096" layer="22" font="vector" ratio="15" rot="R45">&gt;NAME</text>
-<pad name="SL1" x="-4.826" y="-15.113" drill="0.3556"/>
-<pad name="SL2" x="-4.826" y="-7.493" drill="0.3556"/>
-<pad name="SL3" x="-4.826" y="0.127" drill="0.3556"/>
-<pad name="SL4" x="-4.826" y="7.62" drill="0.3556"/>
-<pad name="SL5" x="-4.826" y="15.113" drill="0.3556"/>
+<pad name="SL1" x="-4.826" y="-15.113" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL2" x="-4.826" y="-7.493" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL3" x="-4.826" y="0.127" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL4" x="-4.826" y="7.62" drill="0.3556" stop="no" thermals="no"/>
+<pad name="SL5" x="-4.826" y="15.113" drill="0.3556" stop="no" thermals="no"/>
 <polygon width="0.6096" layer="1" spacing="0.254">
 <vertex x="0" y="1.528"/>
 <vertex x="3" y="4.278"/>
