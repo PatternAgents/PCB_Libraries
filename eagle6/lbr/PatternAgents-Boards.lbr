@@ -10556,6 +10556,65 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="GNDY" x="-3.81" y="2.54" drill="0.9652"/>
 <pad name="GNDZ" x="-3.81" y="0" drill="0.9652"/>
 </package>
+<package name="AUDIOSHIELD">
+<hole x="1.905" y="-14.605" drill="2.921"/>
+<hole x="-14.605" y="15.875" drill="2.921"/>
+<hole x="14.605" y="15.875" drill="2.921"/>
+<pad name="GND" x="-16.51" y="-5.08" drill="1" diameter="1.778" shape="octagon" first="yes"/>
+<pad name="GND_MIC" x="-16.51" y="2.54" drill="1" diameter="1.778"/>
+<pad name="MIC" x="-16.51" y="5.08" drill="1" diameter="1.778"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="21"/>
+<wire x1="17.78" y1="19.05" x2="17.78" y2="-17.78" width="0.127" layer="21"/>
+<pad name="INL" x="-5.08" y="13.97" drill="1" diameter="1.778"/>
+<pad name="INR" x="-2.54" y="13.97" drill="1" diameter="1.778"/>
+<pad name="INGND1" x="-5.08" y="16.51" drill="1" diameter="1.778"/>
+<pad name="INGND2" x="-2.54" y="16.51" drill="1" diameter="1.778"/>
+<pad name="OUTR" x="0" y="13.97" drill="1" diameter="1.778"/>
+<pad name="OUTGND" x="2.54" y="13.97" drill="1" diameter="1.778"/>
+<pad name="OUTL" x="5.08" y="13.97" drill="1" diameter="1.778"/>
+<pad name="UNUSED1" x="0" y="16.51" drill="1" diameter="1.778"/>
+<pad name="UNUSED2" x="5.08" y="16.51" drill="1" diameter="1.778"/>
+<pad name="0" x="-13.97" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="1" x="-11.43" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="2" x="-8.89" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="3" x="-6.35" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="4" x="-3.81" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="5" x="-1.27" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="6" x="1.27" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="7" x="3.81" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="8" x="6.35" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="9" x="8.89" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="10" x="11.43" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="11" x="13.97" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="12" x="16.51" y="-5.08" drill="1" diameter="1.778"/>
+<pad name="5V" x="-16.51" y="10.16" drill="1" diameter="1.778" rot="R180"/>
+<pad name="G" x="-13.97" y="10.16" drill="1" diameter="1.778"/>
+<pad name="3V" x="-11.43" y="10.16" drill="1" diameter="1.778"/>
+<pad name="23" x="-8.89" y="10.16" drill="1" diameter="1.778"/>
+<pad name="22" x="-6.35" y="10.16" drill="1" diameter="1.778"/>
+<pad name="21" x="-3.81" y="10.16" drill="1" diameter="1.778"/>
+<pad name="20" x="-1.27" y="10.16" drill="1" diameter="1.778"/>
+<pad name="19" x="1.27" y="10.16" drill="1" diameter="1.778"/>
+<pad name="18" x="3.81" y="10.16" drill="1" diameter="1.778"/>
+<pad name="17" x="6.35" y="10.16" drill="1" diameter="1.778"/>
+<pad name="16" x="8.89" y="10.16" drill="1" diameter="1.778"/>
+<pad name="15" x="11.43" y="10.16" drill="1" diameter="1.778"/>
+<pad name="14" x="13.97" y="10.16" drill="1" diameter="1.778"/>
+<pad name="13" x="16.51" y="10.16" drill="1" diameter="1.778"/>
+<text x="-4.445" y="2.54" size="1.4224" layer="21" font="vector" ratio="1">Audio Shield</text>
+<pad name="VOL_3.3V" x="8.255" y="-15.875" drill="1" diameter="1.778"/>
+<pad name="VOL" x="8.255" y="-13.335" drill="1" diameter="1.778" rot="R90"/>
+<pad name="VOL_GND" x="8.255" y="-10.795" drill="1" diameter="1.778" rot="R90"/>
+<wire x1="-17.399" y1="-12.7" x2="-2.399" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-17.399" y1="-9.7" x2="-2.399" y2="-9.7" width="0.127" layer="48"/>
+<wire x1="-17.399" y1="-15.7" x2="-2.399" y2="-15.7" width="0.127" layer="48"/>
+<wire x1="-2.399" y1="-9.7" x2="-2.399" y2="-15.7" width="0.127" layer="48"/>
+<wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="51"/>
+<wire x1="17.78" y1="19.05" x2="17.78" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="19.05" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PA_DUE">
@@ -12229,6 +12288,52 @@ Pin THu Hole Only Version</description>
 <pin name="GNDZ" x="-22.86" y="27.94" visible="pin" length="middle"/>
 <pin name="GNDP" x="0" y="-43.18" visible="pin" length="middle" direction="pwr" rot="R90"/>
 <pin name="3V3P" x="2.54" y="-43.18" visible="pin" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="AUDIOSHIELD">
+<wire x1="-12.7" y1="38.1" x2="12.7" y2="38.1" width="0.254" layer="94"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-35.56" x2="-12.7" y2="38.1" width="0.254" layer="94"/>
+<pin name="INGND1" x="17.78" y="35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="INGND2" x="17.78" y="33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="INL" x="17.78" y="30.48" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="INR" x="17.78" y="27.94" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="OUTGND" x="17.78" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTL" x="17.78" y="22.86" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="MIC_GND" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="MIC" x="17.78" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="VOL_GND" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="VOL" x="17.78" y="-15.24" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="VOL_3.3V" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTR" x="17.78" y="20.32" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-17.78" y="35.56" visible="pin" length="middle"/>
+<pin name="5V" x="-17.78" y="33.02" visible="pin" length="middle"/>
+<pin name="G" x="-17.78" y="30.48" visible="pin" length="middle"/>
+<pin name="3V" x="-17.78" y="27.94" visible="pin" length="middle"/>
+<pin name="0" x="-17.78" y="25.4" visible="pin" length="middle"/>
+<pin name="1" x="-17.78" y="22.86" visible="pin" length="middle"/>
+<pin name="2" x="-17.78" y="20.32" visible="pin" length="middle"/>
+<pin name="3" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="4" x="-17.78" y="15.24" visible="pin" length="middle"/>
+<pin name="5" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="6" x="-17.78" y="10.16" visible="pin" length="middle"/>
+<pin name="7" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="8" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="9" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="10" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="11" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="12" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="13" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="14" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="15" x="-17.78" y="-12.7" visible="pin" length="middle"/>
+<pin name="16" x="-17.78" y="-15.24" visible="pin" length="middle"/>
+<pin name="17" x="-17.78" y="-17.78" visible="pin" length="middle"/>
+<pin name="18" x="-17.78" y="-20.32" visible="pin" length="middle"/>
+<pin name="19" x="-17.78" y="-22.86" visible="pin" length="middle"/>
+<pin name="20" x="-17.78" y="-25.4" visible="pin" length="middle"/>
+<pin name="21" x="-17.78" y="-27.94" visible="pin" length="middle"/>
+<pin name="22" x="-17.78" y="-30.48" visible="pin" length="middle"/>
+<pin name="23" x="-17.78" y="-33.02" visible="pin" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14317,6 +14422,61 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIOSHIELD" uservalue="yes">
+<description>Teensy 3 Audioshield by PJRC.COM</description>
+<gates>
+<gate name="AUDIO$1" symbol="AUDIOSHIELD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AUDIOSHIELD">
+<connects>
+<connect gate="AUDIO$1" pin="0" pad="0"/>
+<connect gate="AUDIO$1" pin="1" pad="1"/>
+<connect gate="AUDIO$1" pin="10" pad="10"/>
+<connect gate="AUDIO$1" pin="11" pad="11"/>
+<connect gate="AUDIO$1" pin="12" pad="12"/>
+<connect gate="AUDIO$1" pin="13" pad="13"/>
+<connect gate="AUDIO$1" pin="14" pad="14"/>
+<connect gate="AUDIO$1" pin="15" pad="15"/>
+<connect gate="AUDIO$1" pin="16" pad="16"/>
+<connect gate="AUDIO$1" pin="17" pad="17"/>
+<connect gate="AUDIO$1" pin="18" pad="18"/>
+<connect gate="AUDIO$1" pin="19" pad="19"/>
+<connect gate="AUDIO$1" pin="2" pad="2"/>
+<connect gate="AUDIO$1" pin="20" pad="20"/>
+<connect gate="AUDIO$1" pin="21" pad="21"/>
+<connect gate="AUDIO$1" pin="22" pad="22"/>
+<connect gate="AUDIO$1" pin="23" pad="23"/>
+<connect gate="AUDIO$1" pin="3" pad="3"/>
+<connect gate="AUDIO$1" pin="3V" pad="3V"/>
+<connect gate="AUDIO$1" pin="4" pad="4"/>
+<connect gate="AUDIO$1" pin="5" pad="5"/>
+<connect gate="AUDIO$1" pin="5V" pad="5V"/>
+<connect gate="AUDIO$1" pin="6" pad="6"/>
+<connect gate="AUDIO$1" pin="7" pad="7"/>
+<connect gate="AUDIO$1" pin="8" pad="8"/>
+<connect gate="AUDIO$1" pin="9" pad="9"/>
+<connect gate="AUDIO$1" pin="G" pad="G"/>
+<connect gate="AUDIO$1" pin="GND" pad="GND"/>
+<connect gate="AUDIO$1" pin="INGND1" pad="INGND1"/>
+<connect gate="AUDIO$1" pin="INGND2" pad="INGND2"/>
+<connect gate="AUDIO$1" pin="INL" pad="INL"/>
+<connect gate="AUDIO$1" pin="INR" pad="INR"/>
+<connect gate="AUDIO$1" pin="MIC" pad="MIC"/>
+<connect gate="AUDIO$1" pin="MIC_GND" pad="GND_MIC"/>
+<connect gate="AUDIO$1" pin="OUTGND" pad="OUTGND"/>
+<connect gate="AUDIO$1" pin="OUTL" pad="OUTL"/>
+<connect gate="AUDIO$1" pin="OUTR" pad="OUTR"/>
+<connect gate="AUDIO$1" pin="VOL" pad="VOL"/>
+<connect gate="AUDIO$1" pin="VOL_3.3V" pad="VOL_3.3V"/>
+<connect gate="AUDIO$1" pin="VOL_GND" pad="VOL_GND"/>
 </connects>
 <technologies>
 <technology name=""/>
