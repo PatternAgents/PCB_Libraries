@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="5" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -554,18 +554,17 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="50.292" y1="-24.13" x2="-50.292" y2="-24.13" width="0.127" layer="20"/>
 </package>
 <package name="RM2015S-LRG">
-<wire x1="1" y1="0" x2="0" y2="1" width="0" layer="20"/>
-<wire x1="0" y1="1" x2="0" y2="87" width="0" layer="20"/>
-<wire x1="0" y1="87" x2="1" y2="88" width="0" layer="20"/>
-<wire x1="1" y1="88" x2="95" y2="88" width="0" layer="20"/>
-<wire x1="95" y1="88" x2="96" y2="87" width="0" layer="20"/>
-<wire x1="96" y1="87" x2="96" y2="1" width="0" layer="20"/>
-<wire x1="96" y1="1" x2="95" y2="0" width="0" layer="20"/>
-<wire x1="95" y1="0" x2="1" y2="0" width="0" layer="20"/>
-<hole x="7.524" y="14" drill="3.6"/>
-<hole x="7.524" y="74" drill="3.6"/>
-<hole x="88.54" y="14" drill="3.6"/>
-<hole x="88.54" y="74" drill="3.6"/>
+<description>Source : http://www.hammondmfg.com/pdf/RM2015S.pdf
+
+Larger Size PCB 100mm x 88mm</description>
+<wire x1="0" y1="0" x2="0" y2="88" width="0" layer="20"/>
+<wire x1="0" y1="88" x2="100" y2="88" width="0" layer="20"/>
+<wire x1="100" y1="88" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="100" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<hole x="10" y="14" drill="3.6"/>
+<hole x="10" y="74" drill="3.6"/>
+<hole x="90" y="14" drill="3.6"/>
+<hole x="90" y="74" drill="3.6"/>
 </package>
 <package name="RM2015S-XLRG">
 <wire x1="-59.436" y1="-43.942" x2="-60.96" y2="-42.418" width="0" layer="20"/>
